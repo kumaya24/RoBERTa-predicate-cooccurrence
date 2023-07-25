@@ -3,6 +3,7 @@ from nltk.stem import WordNetLemmatizer
 
 COLLAPSE_UNARY = False
 
+# TODO add prepositions
 target_pos = sys.argv[1]
 assert target_pos in ["adj", "noun", "vtrans", "vintrans"]
 lemmatizer = WordNetLemmatizer()
