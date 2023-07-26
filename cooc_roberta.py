@@ -1,17 +1,49 @@
 import torch, sys, math, argparse
+from collections import defaultdict
+from scipy.stats import entropy as KL
 from torch.nn.functional import softmax
 from transformers import AutoTokenizer, RobertaForMaskedLM
-from scipy.stats import entropy as KL
 
 # https://github.com/huggingface/transformers/issues/18104#issuecomment-1465329549
 
 VOCAB_SIZE = 50265
 MASK_ID = 50264
 
-DEBUG = False
+DEBUG = True
 def eprint(*args, **kwargs):
     if DEBUG:
         print(*args, file=sys.stderr, **kwargs)
+
+# TODO someone instead of something?
+# TODO deal with "an" for vowel-initial nouns
+# TODO whoever instead of whatever?
+TEMPLATES = {
+    "adj": {
+        "adj": "They are very <1> and <2>.",
+        "noun": "This is a very <1> <2>.",
+        "vintrans": "Something very <1> will <2>.",
+        "vtransObj": "They will <2> something very <1>.",
+        "vtransSubj": "Something very <1> will <2> them."
+    },
+    "noun": {
+        "noun": "A <1> is a <2>.",
+        "vintrans": "The <1> will <2>.",
+        "vtransObj": "They will <2> the <1>.",
+        "vtransSubj": "The <1> will <2> them."
+    },
+    "vintrans": {
+        "vintrans": "They will <1> and <2>.",
+        "vtransObj": "They will <2> whatever will <1>.",
+        "vtransSubj": "They will <2> them and <1>."
+    },
+    "vtransObj": {
+        "vtransObj": "Someone will <1> them and someone will <2> them.",
+        "vtransSubj": "They will <2> it and the others will <1> them."
+    },
+    "vtransSubj": {
+        "vtransSubj": "They will <1> them and <2> the others."
+    }
+}
 
 
 def find_index(short_seq, long_seq):
@@ -27,225 +59,142 @@ def find_index(short_seq, long_seq):
     return index
 
 
-def populate_template(template, word1, word2, masks1, masks2):
-    mask_mask = template.replace("<1>", masks1).replace("<2>", masks2)
-    w1_mask = template.replace("<1>", word1).replace("<2>", masks2)
-    mask_w2 = template.replace("<1>", masks1).replace("<2>", word2)
-    w1_w2 = template.replace("<1>", word1).replace("<2>", word2)
-    eprint("word1:", word1)
-    eprint("word2:", word2)
-    eprint(mask_mask)
-    eprint(w1_mask)
-    eprint(mask_w2)
-    eprint(w1_w2)
-    return mask_mask, w1_mask, mask_w2, w1_w2
+def prob_from_template(template, w1, w2, target, tokenizer, model):
+    assert "<1>" in template and "<2>" in template
+
+    if target == 1:
+        target_ids = tokenizer(" "+w1, return_tensors="pt").input_ids[0][1:-1].tolist()
+        masks = " ".join(["<mask>"]*len(target_ids))
+        masked_sent = template.replace("<1>", masks).replace("<2>", w2)
+    elif target == 2:
+        target_ids = tokenizer(" "+w2, return_tensors="pt").input_ids[0][1:-1].tolist()
+        masks = " ".join(["<mask>"]*len(target_ids))
+        masked_sent = template.replace("<1>", w1).replace("<2>", masks)
+    else:
+        raise ValueError("Target must be 1 (word 1) or 2 (word 2)")
+
+    # unmasked sentence is used to find the location of the target word
+    # in the sequence of token ids
+    unmasked_sent = template.replace("<1>", w1).replace("<2>", w2)
+    unmasked_input = tokenizer(unmasked_sent, return_tensors="pt")
+    unmasked_ids = unmasked_input.input_ids[0].tolist()
+    target_start_ix = find_index(target_ids, unmasked_ids)
+
+    masked_input = tokenizer(masked_sent, return_tensors="pt")
+    logits = model(**masked_input).logits
+    probs = softmax(logits, dim=-1).detach().numpy()
+    target_word_prob = 1
+    for i, tok in enumerate(target_ids):
+        ix = target_start_ix + i
+        target_word_prob *= probs[0, ix, tok]
+    return target_word_prob
 
 
-def _calculate_ratio(mask_mask_str, w1_mask_str, w2ids, w2ix, tokenizer, model):
-    mask_mask_inputs = tokenizer(mask_mask_str, return_tensors="pt")
-    mask_mask_ids = mask_mask_inputs.input_ids[0].tolist()
-    mask_mask_logits = model(**mask_mask_inputs).logits
-    mask_mask_probs = softmax(mask_mask_logits, dim=-1).detach().numpy()
-    #mask_mask_prob = 0
-    mask_mask_prob = 1
-    for i, tok in enumerate(w2ids):
-        ix = w2ix + i
-        #mask_mask_prob = mask_mask_probs[0, ix, tok]
-        mask_mask_prob *= mask_mask_probs[0, ix, tok]
-
-    w1_mask_inputs = tokenizer(w1_mask_str, return_tensors="pt")
-    w1_mask_ids = w1_mask_inputs.input_ids[0].tolist()
-    w1_mask_logits = model(**w1_mask_inputs).logits
-    w1_mask_probs = softmax(w1_mask_logits, dim=-1).detach().numpy()
-    #w1_mask_prob = 0
-    w1_mask_prob = 1
-    for i, tok in enumerate(w2ids):
-        ix = w2ix + i
-        #w1_mask_prob = w1_mask_probs[0, ix, tok]
-        w1_mask_prob *= w1_mask_probs[0, ix, tok]
-
-    return w1_mask_prob / mask_mask_prob
-
-
-def quasi_pmi(
-        mask_mask, w1_mask, mask_w2, w1_w2,
-        w1ids, w2ids, tokenizer, model
+def batch_probabilities(
+        template, words1, words1_tok_count, words2, words2_tok_count,
+        target, tokenizer, model
     ):
-    w1_w2_input = tokenizer(w1_w2, return_tensors="pt")
-    w1_w2_ids = w1_w2_input.input_ids[0].tolist()
-    w1ix = find_index(w1ids, w1_w2_ids)
-    w2ix = find_index(w2ids, w1_w2_ids)
+    if target == 1:
+        tok_input = [" "+w for w in words1]
+        target_ids = tokenizer(tok_input, return_tensors="pt").input_ids[:, 1:-1]
+        target_ids = target_ids.repeat_interleave(len(words2), 0)
+        mask = " ".join(["<mask>"]*words1_tok_count)
+        masked_sents = list()
+        for _ in words1:
+            for w2 in words2:
+                sent = template.replace("<1>", mask).replace("<2>", w2)
+                masked_sents.append(sent)
+        # reverse-masked sentence is used to find the location of the target
+        # word (word 1) in the sequence of token ids.  word2 is masked so that
+        # won't be found if word1 and word2 are the same
+        w2_mask = " ".join(["<mask>"]*words2_tok_count)
+        reverse_masked_sent = template.replace("<1>", words1[0]).replace("<2>", w2_mask)
+        reverse_masked_input = tokenizer(reverse_masked_sent, return_tensors="pt")
+        reverse_masked_ids = reverse_masked_input.input_ids[0].tolist()
+        target_start_ix = find_index(target_ids[0].tolist(), reverse_masked_ids)
 
-    mask_mask_inputs = tokenizer(mask_mask, return_tensors="pt")
-    mask_mask_logits = model(**mask_mask_inputs).logits
-    mask_mask_probs = softmax(mask_mask_logits, dim=-1).detach().numpy()
-    pr_w1_given_mask = 1
-    for i, tok in enumerate(w1ids):
-        ix = w1ix + i
-        pr_w1_given_mask *= mask_mask_probs[0, ix, tok]
-    pr_w2_given_mask = 1
-    for i, tok in enumerate(w2ids):
-        ix = w2ix + i
-        pr_w2_given_mask *= mask_mask_probs[0, ix, tok]
+    elif target == 2:
+        tok_input = [" "+w for w in words2]
+        target_ids = tokenizer(tok_input, return_tensors="pt").input_ids[:, 1:-1]
+        # this is different from target=1 so that the results will still be
+        # ordered by word1 and then word2
+        target_ids = target_ids.tile(len(words1), 1)
+        mask = " ".join(["<mask>"]*words2_tok_count)
+        masked_sents = list()
+        for w1 in words1:
+            for _ in words2:
+                sent = template.replace("<1>", w1).replace("<2>", mask)
+                masked_sents.append(sent)
+        # reverse-masked sentence is used to find the location of the target
+        # word (word 2) in the sequence of token ids.  word1 is masked so that
+        # won't be found if word1 and word2 are the same
+        w1_mask = " ".join(["<mask>"]*words1_tok_count)
+        reverse_masked_sent = template.replace("<1>", w1_mask).replace("<2>", words2[0])
+        reverse_masked_input = tokenizer(reverse_masked_sent, return_tensors="pt")
+        reverse_masked_ids = reverse_masked_input.input_ids[0].tolist()
+        target_start_ix = find_index(target_ids[0].tolist(), reverse_masked_ids)
 
-    mask_w2_inputs = tokenizer(mask_w2, return_tensors="pt")
-    mask_w2_logits = model(**mask_w2_inputs).logits
-    mask_w2_probs = softmax(mask_w2_logits, dim=-1).detach().numpy()
-    pr_w1_given_w2 = 1
-    for i, tok in enumerate(w1ids):
-        ix = w1ix + i
-        pr_w1_given_w2 *= mask_w2_probs[0, ix, tok]
+    else:
+        raise ValueError("Target must be 1 (word 1) or 2 (word 2)")
 
-    w1_mask_inputs = tokenizer(w1_mask, return_tensors="pt")
-    w1_mask_logits = model(**w1_mask_inputs).logits
-    w1_mask_probs = softmax(w1_mask_logits, dim=-1).detach().numpy()
-    pr_w2_given_w1 = 1
-    for i, tok in enumerate(w2ids):
-        ix = w2ix + i
-        pr_w2_given_w1 *= w1_mask_probs[0, ix, tok]
-
-    eprint("w1 ix", w1ix)
-    eprint("w2 ix", w2ix)
-    eprint("w1 ids", w1ids)
-    eprint("w2 ids", w2ids)
-    eprint("w1 | w2", pr_w1_given_w2)
-    eprint("w1 | mask", pr_w1_given_mask)
-    eprint("w2 | w1", pr_w2_given_w1)
-    eprint("w2 | mask", pr_w2_given_mask)
-
-    pmi_w1 = math.log(pr_w1_given_w2 / pr_w1_given_mask)
-    eprint("pmi w1", pmi_w1)
-    pmi_w2 = math.log(pr_w2_given_w1 / pr_w2_given_mask)
-    eprint("pmi w2", pmi_w2)
-
-    # could also take the mean and/or not include floor value of 0
-    return max([pmi_w1, pmi_w2, 0])
-
+    masked_input = tokenizer(masked_sents, return_tensors="pt")
+    logits = model(**masked_input).logits
+    probs = softmax(logits, dim=-1) #.detach().numpy()
+    target_word_probs = torch.ones(len(masked_sents))
+    for i in range(target_ids.shape[1]):
+        ix = target_start_ix + i
+        target_id_slice = target_ids[:, i].unsqueeze(dim=-1)
+        probs_slice = probs[:, ix, :]
+        cur_tok_probs = torch.gather(probs_slice, 1, target_id_slice).squeeze()
+        target_word_probs *= cur_tok_probs
+    # shape: len(words1) x len(words2)
+    target_word_probs = target_word_probs.reshape([len(words1), len(words2)])
+    return target_word_probs.detach().numpy()
     
 
 
-def get_association(word1, word1type, word2, word2type, tokenizer, model):
-    # reorganize so word1type is never alphabetically after word2type
-    # (reduces number of cases below)
-    if word2type < word1type:
-        temp = word1
-        temptype = word1type
-        word1 = word2
-        word1type = word2type
-        word2 = temp
-        word2type = temptype
-
-    w1ids = tokenizer(" "+word1, return_tensors="pt").input_ids[0][1:-1].tolist()
-    w2ids = tokenizer(" "+word2, return_tensors="pt").input_ids[0][1:-1].tolist()
-    masks1 = " ".join(["<mask>"]*len(w1ids))
-    masks2 = " ".join(["<mask>"]*len(w2ids))
-
-    # TODO change to match-case statements?
-    if word1type == "adj":
-        if word2type == "adj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They are very <1> and <2>.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "noun":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "This is a very <1> <2>.",
-                word1, word2, masks1, masks2
-            )
-        # TODO someone instead of something?
-        elif word2type == "vintrans":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "Something very <1> will <2>.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "vtransObj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They will <2> something very <1>.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "vtransSubj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "Something very <1> will <2> them.",
-                word1, word2, masks1, masks2
-            )
-        else: raise
-
-    elif word1type == "noun":
-        # TODO deal with "an" for vowel-initial nouns
-        if word2type == "noun":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "A <1> is a <2>.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "vintrans":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "The <1> will <2>.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "vtransObj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They will <2> the <1>.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "vtransSubj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "The <1> will <2> them.",
-                word1, word2, masks1, masks2
-            )
-        else: raise
-
-    elif word1type == "vintrans":
-        if word2type == "vintrans":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They will <1> and <2>.",
-                word1, word2, masks1, masks2
-            )
-        # TODO whoever instead of whatever?
-        elif word2type == "vtransObj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They will <2> whatever will <1>.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "vtransSubj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They will <2> them and <1>.",
-                word1, word2, masks1, masks2
-            )
-        else: raise
-
-    elif word1type == "vtransObj":
-        if word2type == "vtransObj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "Someone will <1> them and someone will <2> them.",
-                word1, word2, masks1, masks2
-            )
-        elif word2type == "vtransSubj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They will <2> it and the others will <1> them.",
-                word1, word2, masks1, masks2
-            )
-        else: raise
-
-    elif word1type == "vtransSubj":
-        if word2type == "vtransSubj":
-            mask_mask, w1_mask, mask_w2, w1_w2 = populate_template(
-                "They will <1> them and <2> the others.",
-                word1, word2, masks1, masks2
-            )
-        else: raise
-
-    else: raise
-
-    w1_w2_input = tokenizer(w1_w2, return_tensors="pt")
-    w1_w2_ids = w1_w2_input.input_ids[0].tolist()
-    w1ix = find_index(w1ids, w1_w2_ids)
-    w2ix = find_index(w2ids, w1_w2_ids)
-
-    #return _calculate_ratio(mask_mask, w1_mask, w2ids, w2ix, tokenizer, model)
-    return quasi_pmi(
-        mask_mask, w1_mask, mask_w2, w1_w2,
-        w1ids, w2ids, tokenizer, model
-    )
+#def quasi_pmi(
+#        mask_mask, w1_mask, mask_w2, w1_w2,
+#        w1ids, w2ids, tokenizer, model
+#    ):
+#    w1_w2_input = tokenizer(w1_w2, return_tensors="pt")
+#    w1_w2_ids = w1_w2_input.input_ids[0].tolist()
+#    w1ix = find_index(w1ids, w1_w2_ids)
+#    w2ix = find_index(w2ids, w1_w2_ids)
+#
+#    mask_mask_inputs = tokenizer(mask_mask, return_tensors="pt")
+#    mask_mask_logits = model(**mask_mask_inputs).logits
+#    mask_mask_probs = softmax(mask_mask_logits, dim=-1).detach().numpy()
+#    pr_w1_given_mask = 1
+#    for i, tok in enumerate(w1ids):
+#        ix = w1ix + i
+#        pr_w1_given_mask *= mask_mask_probs[0, ix, tok]
+#    pr_w2_given_mask = 1
+#    for i, tok in enumerate(w2ids):
+#        ix = w2ix + i
+#        pr_w2_given_mask *= mask_mask_probs[0, ix, tok]
+#
+#    mask_w2_inputs = tokenizer(mask_w2, return_tensors="pt")
+#    mask_w2_logits = model(**mask_w2_inputs).logits
+#    mask_w2_probs = softmax(mask_w2_logits, dim=-1).detach().numpy()
+#    pr_w1_given_w2 = 1
+#    for i, tok in enumerate(w1ids):
+#        ix = w1ix + i
+#        pr_w1_given_w2 *= mask_w2_probs[0, ix, tok]
+#
+#    w1_mask_inputs = tokenizer(w1_mask, return_tensors="pt")
+#    w1_mask_logits = model(**w1_mask_inputs).logits
+#    w1_mask_probs = softmax(w1_mask_logits, dim=-1).detach().numpy()
+#    pr_w2_given_w1 = 1
+#    for i, tok in enumerate(w2ids):
+#        ix = w2ix + i
+#        pr_w2_given_w1 *= w1_mask_probs[0, ix, tok]
+#
+#    pmi_w1 = math.log(pr_w1_given_w2 / pr_w1_given_mask)
+#    pmi_w2 = math.log(pr_w2_given_w1 / pr_w2_given_mask)
+#
+#    # could also take the mean and/or not include floor value of 0
+#    return max([pmi_w1, pmi_w2, 0])
 
 
 
@@ -287,22 +236,92 @@ def main():
     words2 = [w.strip() for w in words2]
     words2type = args.words2type
 
-    print("word1\word2\t" + "\t".join(words2))
-    #print("w1type\tw2type\ttemplate\tw1\tw2\tfixed\tvalue")
+    if words1type < words2type:
+        template = TEMPLATES[words1type][words2type]
+    else:
+        template = TEMPLATES[words2type][words1type]
 
-    for w1 in words1:
-        row = w1
-        for w2 in words2:
-            assoc = get_association(
-                w1, words1type, w2, words2type, tokenizer, model
+    eprint("Sorting words by token count...")
+    words1_by_tok_count = defaultdict(list)
+    for w in words1:
+        toks = tokenizer(" "+w, return_tensors="pt").input_ids[0][1:-1]
+        words1_by_tok_count[len(toks)].append(w)
+    words1_tok_counts = list(sorted(words1_by_tok_count.keys()))
+
+    words2_by_tok_count = defaultdict(list)
+    for w in words2:
+        toks = tokenizer(" "+w, return_tensors="pt").input_ids[0][1:-1]
+        words2_by_tok_count[len(toks)].append(w)
+    words2_tok_counts = list(sorted(words2_by_tok_count.keys()))
+
+
+    eprint("Computing cooccurrence probabilities...")
+    print("w1type\tw2type\ttemplate\tw1\tw2\ttarget\tvalue")
+
+    target = 1
+    for i in words1_tok_counts:
+        words1_leni = words1_by_tok_count[i]
+        for j in words2_tok_counts:
+            print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
+            words2_lenj = words2_by_tok_count[j][:]
+            words2_lenj.insert(0, " ".join(["<mask>"]*j))
+            probs = batch_probabilities(
+                template, words1_leni, i, words2_lenj, j, 
+                target, tokenizer, model
             )
-            row += "\t" + str(round(assoc, 2))
-            #print("\t".join(
-            #    [words1type, words2type, "TODO", w1, w2, "TODO", str(assoc)]
-            #))
-        print(row)
-        
-            
+            for k, w1 in enumerate(words1_leni):
+                for l, w2 in enumerate(words2_lenj):
+                    prob = probs[k, l]
+                    print("\t".join(
+                        [words1type, words2type, template, 
+                         w1, w2, str(target), str(prob)]
+                    ))
+
+    target = 2
+    for i in words1_tok_counts:
+        words1_leni = words1_by_tok_count[i]
+        words1_leni.insert(0, " ".join(["<mask>"]*i))
+        for j in words2_tok_counts:
+            print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
+            words2_lenj = words2_by_tok_count[j][:]
+            probs = batch_probabilities(
+                template, words1_leni, i, words2_lenj, j, 
+                target, tokenizer, model
+            )
+            for k, w1 in enumerate(words1_leni):
+                for l, w2 in enumerate(words2_lenj):
+                    prob = probs[k, l]
+                    print("\t".join(
+                        [words1type, words2type, template, 
+                         w1, w2, str(target), str(prob)]
+                    ))
+                    
+#            for w1 in words1_leni:
+#                for w2 in words2_lenj:
+#                    prob = prob_from_template(
+#                        template, w1, w2, target, tokenizer, model
+#                    )
+#                    print("\t".join(
+#                        [words1type, words2type, template, 
+#                         w1, w2, str(target), str(prob)]
+#                    ))
+
+#    target = 2
+#    for i in words2_tok_counts:
+#        words2_leni = words2_by_tok_count[i]
+#        for j in words1_tok_counts:
+#            words1_lenj = words1_by_tok_count[j][:]
+#            words1_lenj.insert(0, " ".join(["<mask>"]*j))
+#            for w2 in words2_leni:
+#                for w1 in words1_lenj:
+#                    prob = prob_from_template(
+#                        template, w1, w2, target, tokenizer, model
+#                    )
+#                    print("\t".join(
+#                        [words1type, words2type, template, 
+#                         w1, w2, str(target), str(prob)]
+#                    ))
+
 
 if __name__ == "__main__":
     main()
