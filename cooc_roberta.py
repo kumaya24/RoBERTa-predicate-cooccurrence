@@ -256,13 +256,14 @@ def main():
 
 
     eprint("Computing cooccurrence probabilities...")
-    print("w1type\tw2type\ttemplate\tw1\tw2\ttarget\tvalue")
+    #print("w1type\tw2type\ttemplate\tw1\tw2\ttarget\tvalue")
+    print("w1\tw1type\tw1tokLen\tw2\tw2type\tw2tokLen\ttemplate\ttarget\tvalue")
 
     target = 1
     for i in words1_tok_counts:
         words1_leni = words1_by_tok_count[i]
         for j in words2_tok_counts:
-            print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
+            #print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
             words2_lenj = words2_by_tok_count[j][:]
             words2_lenj.insert(0, " ".join(["<mask>"]*j))
             probs = batch_probabilities(
@@ -273,16 +274,20 @@ def main():
                 for l, w2 in enumerate(words2_lenj):
                     prob = probs[k, l]
                     print("\t".join(
-                        [words1type, words2type, template, 
-                         w1, w2, str(target), str(prob)]
+                        [w1, words1type, str(i), w2, words2type, str(j),
+                        template, str(target), str(prob)]
                     ))
+                    #print("\t".join(
+                    #    [words1type, words2type, template, 
+                    #     w1, w2, str(target), str(prob)]
+                    #))
 
     target = 2
     for i in words1_tok_counts:
         words1_leni = words1_by_tok_count[i]
         words1_leni.insert(0, " ".join(["<mask>"]*i))
         for j in words2_tok_counts:
-            print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
+            #print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
             words2_lenj = words2_by_tok_count[j][:]
             probs = batch_probabilities(
                 template, words1_leni, i, words2_lenj, j, 
@@ -292,36 +297,14 @@ def main():
                 for l, w2 in enumerate(words2_lenj):
                     prob = probs[k, l]
                     print("\t".join(
-                        [words1type, words2type, template, 
-                         w1, w2, str(target), str(prob)]
+                        [w1, words1type, str(i), w2, words2type, str(j),
+                        template, str(target), str(prob)]
                     ))
+                    #print("\t".join(
+                    #    [words1type, words2type, template, 
+                    #     w1, w2, str(target), str(prob)]
+                    #))
                     
-#            for w1 in words1_leni:
-#                for w2 in words2_lenj:
-#                    prob = prob_from_template(
-#                        template, w1, w2, target, tokenizer, model
-#                    )
-#                    print("\t".join(
-#                        [words1type, words2type, template, 
-#                         w1, w2, str(target), str(prob)]
-#                    ))
-
-#    target = 2
-#    for i in words2_tok_counts:
-#        words2_leni = words2_by_tok_count[i]
-#        for j in words1_tok_counts:
-#            words1_lenj = words1_by_tok_count[j][:]
-#            words1_lenj.insert(0, " ".join(["<mask>"]*j))
-#            for w2 in words2_leni:
-#                for w1 in words1_lenj:
-#                    prob = prob_from_template(
-#                        template, w1, w2, target, tokenizer, model
-#                    )
-#                    print("\t".join(
-#                        [words1type, words2type, template, 
-#                         w1, w2, str(target), str(prob)]
-#                    ))
-
 
 if __name__ == "__main__":
     main()
