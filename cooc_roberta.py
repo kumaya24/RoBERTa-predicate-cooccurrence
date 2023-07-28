@@ -59,42 +59,29 @@ def find_index(short_seq, long_seq):
     return index
 
 
-def prob_from_template(template, w1, w2, target, tokenizer, model):
-    assert "<1>" in template and "<2>" in template
-
-    if target == 1:
-        target_ids = tokenizer(" "+w1, return_tensors="pt").input_ids[0][1:-1].tolist()
-        masks = " ".join(["<mask>"]*len(target_ids))
-        masked_sent = template.replace("<1>", masks).replace("<2>", w2)
-    elif target == 2:
-        target_ids = tokenizer(" "+w2, return_tensors="pt").input_ids[0][1:-1].tolist()
-        masks = " ".join(["<mask>"]*len(target_ids))
-        masked_sent = template.replace("<1>", w1).replace("<2>", masks)
-    else:
-        raise ValueError("Target must be 1 (word 1) or 2 (word 2)")
-
-    # unmasked sentence is used to find the location of the target word
-    # in the sequence of token ids
-    unmasked_sent = template.replace("<1>", w1).replace("<2>", w2)
-    unmasked_input = tokenizer(unmasked_sent, return_tensors="pt")
-    unmasked_ids = unmasked_input.input_ids[0].tolist()
-    target_start_ix = find_index(target_ids, unmasked_ids)
-
-    masked_input = tokenizer(masked_sent, return_tensors="pt")
-    logits = model(**masked_input).logits
-    probs = softmax(logits, dim=-1).detach().numpy()
-    target_word_prob = 1
-    for i, tok in enumerate(target_ids):
+def single_batch_probability(
+        sents, target_ids, target_start_ix, tokenizer, model
+    ):
+    model_input = tokenizer(sents, return_tensors="pt")
+    logits = model(**model_input).logits
+    probs = softmax(logits, dim=-1) #.detach().numpy()
+    target_probs = torch.ones(len(sents))
+    tok_count = target_ids.shape[1]
+    for i in range(tok_count):
         ix = target_start_ix + i
-        target_word_prob *= probs[0, ix, tok]
-    return target_word_prob
+        target_id_slice = target_ids[:, i].unsqueeze(dim=-1)
+        probs_slice = probs[:, ix, :]
+        cur_tok_probs = torch.gather(probs_slice, 1, target_id_slice).squeeze()
+        target_probs *= cur_tok_probs
+
+    return target_probs.detach().numpy()
 
 
-def batch_probabilities(
-        template, words1, words1_tok_count, words2, words2_tok_count,
+def print_probabilities(
+        template, words1, words1type, words1_tok_count,
+        words2, words2type, words2_tok_count,
         target, tokenizer, model, batch_size=50
     ):
-    logging.info("test message")
     if target == 1:
         tok_input = [" "+w for w in words1]
         target_ids = tokenizer(tok_input, return_tensors="pt").input_ids[:, 1:-1]
@@ -138,34 +125,68 @@ def batch_probabilities(
     else:
         raise ValueError("Target must be 1 (word 1) or 2 (word 2)")
 
-    target_word_probs = list()
-    num_batches = (len(masked_sents)+batch_size-1) // batch_size
-    for b in range(num_batches):
-        logging.info("Batch {}/{}".format(b+1, num_batches))
-        start_ix = b * batch_size
-        end_ix = (b+1) * batch_size
-        cur_sents = masked_sents[start_ix:end_ix]
-        masked_input = tokenizer(cur_sents, return_tensors="pt")
-        logits = model(**masked_input).logits
-        probs = softmax(logits, dim=-1) #.detach().numpy()
-        cur_target_word_probs = torch.ones(len(cur_sents))
-        for i in range(target_ids.shape[1]):
-            ix = target_start_ix + i
-            target_id_slice = target_ids[start_ix:end_ix, i].unsqueeze(dim=-1)
-            probs_slice = probs[:, ix, :]
-            cur_tok_probs = torch.gather(probs_slice, 1, target_id_slice).squeeze()
-            cur_target_word_probs *= cur_tok_probs
-        target_word_probs.append(cur_target_word_probs)
+    # case 1: each batch is a single w1 paired with a subset of w2s
+    if len(words2) > batch_size:
+        logging.info("words2 is bigger than batch size")
+        batches_per_w1 = 1 + (len(words2)-1) // batch_size
+        for i, w1 in enumerate(words1):
+            logging.info("word1: {}".format(w1))
+            masked_sents_w1 = masked_sents[i*len(words2):(i+1)*len(words2)]
+            target_ids_w1 = target_ids[i*len(words2):(i+1)*len(words2)]
+            for b in range(batches_per_w1):
+                logging.info("Batch {}/{}".format(b+1, batches_per_w1))
+                start_ix = b * batch_size
+                end_ix = (b+1) * batch_size
+                batch_words2 = words2[start_ix:end_ix]
+                batch_masked_sents = masked_sents_w1[start_ix:end_ix]
+                batch_target_ids = target_ids_w1[start_ix:end_ix]
+                batch_probs = single_batch_probability(
+                    batch_masked_sents, batch_target_ids, target_start_ix,
+                    tokenizer, model
+                )
+                for j, w2 in enumerate(batch_words2):
+                    prob = batch_probs[j]
+                    print("\t".join(
+                        [w1, words1type, str(words1_tok_count),
+                        w2, words2type, str(words2_tok_count),
+                        template, str(target), str(prob)]
+                    ))
 
-    # TODO concat all target word probs
-    target_word_probs = torch.concat(target_word_probs)
-    # shape: len(words1) x len(words2)
-    target_word_probs = target_word_probs.reshape([len(words1), len(words2)])
-    return target_word_probs.detach().numpy()
+    # case 2: each batch is one or more w1s, each paired with every possible w2
+    else:
+        logging.info("words2 fits into a batch")
+        w1s_per_batch = batch_size // len(words2)
+        actual_batch_size = w1s_per_batch * len(words2)
+        assert w1s_per_batch >= 1
+        num_batches = 1 + (len(words1)-1) // w1s_per_batch
+        for b in range(num_batches):
+            batch_words1 = words1[b*w1s_per_batch:(b+1)*w1s_per_batch]
+            logging.info("Batch {}/{}".format(b+1, num_batches))
+            logging.info("words1 batch: {}".format(batch_words1))
+
+            start_ix = b * actual_batch_size
+            end_ix = (b+1) * actual_batch_size
+            batch_masked_sents = masked_sents[start_ix:end_ix]
+            batch_target_ids = target_ids[start_ix:end_ix]
+            batch_probs = single_batch_probability(
+                batch_masked_sents, batch_target_ids, target_start_ix,
+                tokenizer, model
+            )
+            for i, prob in enumerate(batch_probs):
+                w1_ix = i // len(words2)
+                w1 = batch_words1[w1_ix]
+                w2_ix = i % len(words2)
+                w2 = words2[w2_ix]
+                print("\t".join(
+                    [w1, words1type, str(words1_tok_count),
+                    w2, words2type, str(words2_tok_count),
+                    template, str(target), str(prob)]
+                ))
+
 
 
 def main():
-    logging.basicConfig(filename="logging.txt", level=logging.DEBUG)
+    logging.basicConfig(filename="python_logging.txt", level=logging.DEBUG)
     logging.info("letsa go!")
     argparser = argparse.ArgumentParser(
         """
@@ -236,17 +257,11 @@ def main():
             #print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
             words2_lenj = words2_by_tok_count[j][:]
             words2_lenj.insert(0, " ".join(["<mask>"]*j))
-            probs = batch_probabilities(
-                template, words1_leni, i, words2_lenj, j, 
+            print_probabilities(
+                template, words1_leni, words1type, i,
+                words2_lenj, words2type, j, 
                 target, tokenizer, model, batch_size
             )
-            for k, w1 in enumerate(words1_leni):
-                for l, w2 in enumerate(words2_lenj):
-                    prob = probs[k, l]
-                    print("\t".join(
-                        [w1, words1type, str(i), w2, words2type, str(j),
-                        template, str(target), str(prob)]
-                    ))
 
     target = 2
     for i in words1_tok_counts:
@@ -255,17 +270,11 @@ def main():
         for j in words2_tok_counts:
             #print("####\ttargetWord:{}\tword1TokLen:{}\tword2TokLen:{}".format(target, i, j))
             words2_lenj = words2_by_tok_count[j][:]
-            probs = batch_probabilities(
-                template, words1_leni, i, words2_lenj, j, 
+            print_probabilities(
+                template, words1_leni, words1type, i,
+                words2_lenj, words2type, j, 
                 target, tokenizer, model, batch_size
             )
-            for k, w1 in enumerate(words1_leni):
-                for l, w2 in enumerate(words2_lenj):
-                    prob = probs[k, l]
-                    print("\t".join(
-                        [w1, words1type, str(i), w2, words2type, str(j),
-                        template, str(target), str(prob)]
-                    ))
                     
 
 if __name__ == "__main__":
