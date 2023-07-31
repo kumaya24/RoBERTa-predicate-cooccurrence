@@ -62,7 +62,16 @@ def find_index(short_seq, long_seq):
 def single_batch_probability(
         sents, target_ids, target_start_ix, tokenizer, model
     ):
-    model_input = tokenizer(sents, return_tensors="pt")
+    try:
+        model_input = tokenizer(sents, return_tensors="pt")
+    except:
+        eprint("Tokenization error. Sentences:")
+        for s in sents:
+            eprint(s)
+            input_ids = tokenizer(s, return_tensors="pt").input_ids
+            eprint("Input IDs shape:", input_ids.shape)
+        raise
+  
     logits = model(**model_input).logits
     probs = softmax(logits, dim=-1) #.detach().numpy()
     target_probs = torch.ones(len(sents))
@@ -186,8 +195,6 @@ def print_probabilities(
 
 
 def main():
-    logging.basicConfig(filename="python_logging.txt", level=logging.DEBUG)
-    logging.info("letsa go!")
     argparser = argparse.ArgumentParser(
         """
         Compute word similarity using Roberta, a masked LM.
@@ -205,6 +212,7 @@ def main():
         choices=["noun", "adj", "vtransSubj", "vtransObj", "vintrans"]
     )
     argparser.add_argument("-b", "--batch-size", type=int, default=50)
+    argparser.add_argument("-l", "--logfile", default="log.txt")
     # TODO option for model?
 #    argparser.add_argument(
 #        "-m",
@@ -213,9 +221,7 @@ def main():
 #    )
     args = argparser.parse_args()
 
-
     # location of models: /home/clark.3664/.cache/huggingface/hub/models--roberta-base/snapshots/bc2764f8af2e92b6eb5679868df33e224075ca68
-
     tokenizer = AutoTokenizer.from_pretrained("roberta-base")
     model = RobertaForMaskedLM.from_pretrained("roberta-base")
 
@@ -227,10 +233,18 @@ def main():
     words2type = args.words2type
     batch_size = args.batch_size
 
-    if words1type < words2type:
-        template = TEMPLATES[words1type][words2type]
-    else:
-        template = TEMPLATES[words2type][words1type]
+    logging.basicConfig(filename=args.logfile, level=logging.DEBUG)
+
+    if words2type < words1type:
+        words_temp = words1
+        wordstype_temp = words1type
+        words1 = words2
+        words1type = words2type
+        words2 = words_temp
+        words2type = wordstype_temp
+
+
+    template = TEMPLATES[words1type][words2type]
 
     eprint("Sorting words by token count...")
     words1_by_tok_count = defaultdict(list)
