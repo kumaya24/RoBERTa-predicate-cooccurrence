@@ -4,8 +4,6 @@ from scipy.stats import entropy as KL
 from torch.nn.functional import softmax
 from transformers import AutoTokenizer, RobertaForMaskedLM
 
-# https://github.com/huggingface/transformers/issues/18104#issuecomment-1465329549
-
 VOCAB_SIZE = 50265
 MASK_ID = 50264
 
@@ -14,34 +12,34 @@ def eprint(*args, **kwargs):
     if DEBUG:
         print(*args, file=sys.stderr, **kwargs)
 
-# TODO someone instead of something?
-# TODO deal with "an" for vowel-initial nouns
-# TODO whoever instead of whatever?
+# TODO better template for noun-noun? desired properties:
+# - works with countable (e.g. desk) and uncountable nouns (e.g. milk)
+# - works with vowel-initial and consonant-initial nouns
 TEMPLATES = {
     "adj": {
-        "adj": "They are very <1> and <2>.",
+        "adj": "One of them is very <1> and <2>.",
         "noun": "This is a very <1> <2>.",
-        "vintrans": "Something very <1> will <2>.",
-        "vtransObj": "They will <2> something very <1>.",
-        "vtransSubj": "Something very <1> will <2> them."
+        "vintrans": "The one which is very <1> will <2>.",
+        "vtransObj": "One of them will <2> the one which is very <1>.",
+        "vtransSubj": "The one which is very <1> will <2> them."
     },
     "noun": {
         "noun": "A <1> is a <2>.",
         "vintrans": "The <1> will <2>.",
-        "vtransObj": "They will <2> the <1>.",
+        "vtransObj": "One of them will <2> the <1>.",
         "vtransSubj": "The <1> will <2> them."
     },
     "vintrans": {
-        "vintrans": "They will <1> and <2>.",
-        "vtransObj": "They will <2> whatever will <1>.",
-        "vtransSubj": "They will <2> them and <1>."
+        "vintrans": "One of them will <1> and <2>.",
+        "vtransObj": "One of them will <2> the one which will <1>.",
+        "vtransSubj": "One of them will <2> some others and <1>."
     },
     "vtransObj": {
-        "vtransObj": "Someone will <1> them and someone will <2> them.",
-        "vtransSubj": "They will <2> it and the others will <1> them."
+        "vtransObj": "One will <1> them and another one will <2> them.",
+        "vtransSubj": "They will <1> the same one which will <2> some others."
     },
     "vtransSubj": {
-        "vtransSubj": "They will <1> them and <2> the others."
+        "vtransSubj": "They will <1> them and <2> some others."
     }
 }
 
@@ -97,9 +95,16 @@ def print_probabilities(
         target_ids = target_ids.repeat_interleave(len(words2), 0)
         mask = " ".join(["<mask>"]*words1_tok_count)
         masked_sents = list()
-        for _ in words1:
+        for w1 in words1:
             for w2 in words2:
-                sent = template.replace("<1>", mask).replace("<2>", w2)
+                sent = template
+                # hacky way of dealing with vowel-initial nouns that need
+                # "an" for their determiner
+                if words1type == "noun" and words2type == "noun" and w1[0] in 'aeiou':
+                    sent = sent.replace("A <1>", "An <1>")
+                if words1type == "noun" and words2type == "noun" and w2[0] in 'aeiou':
+                    sent = sent.replace("a <2>", "an <2>")
+                sent = sent.replace("<1>", mask).replace("<2>", w2)
                 masked_sents.append(sent)
         # reverse-masked sentence is used to find the location of the target
         # word (word 1) in the sequence of token ids.  word2 is masked so that
@@ -119,8 +124,13 @@ def print_probabilities(
         mask = " ".join(["<mask>"]*words2_tok_count)
         masked_sents = list()
         for w1 in words1:
-            for _ in words2:
-                sent = template.replace("<1>", w1).replace("<2>", mask)
+            for w2 in words2:
+                sent = template
+                if words1type == "noun" and words2type == "noun" and w1[0] in 'aeiou':
+                    sent = sent.replace("A <1>", "An <1>")
+                if words1type == "noun" and words2type == "noun" and w2[0] in 'aeiou':
+                    sent = sent.replace("a <2>", "an <2>")
+                sent = sent.replace("<1>", w1).replace("<2>", mask)
                 masked_sents.append(sent)
         # reverse-masked sentence is used to find the location of the target
         # word (word 2) in the sequence of token ids.  word1 is masked so that
