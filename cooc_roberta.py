@@ -15,7 +15,7 @@ def eprint(*args, **kwargs):
 # TODO better template for noun-noun? desired properties:
 # - works with countable (e.g. desk) and uncountable nouns (e.g. milk)
 # - works with vowel-initial and consonant-initial nouns
-TEMPLATES = {
+SHORT_TEMPLATES = {
     "adj": {
         "adj": "One of them is very <1> and <2>.",
         "noun": "This is a very <1> <2>.",
@@ -40,6 +40,35 @@ TEMPLATES = {
     },
     "vtransSubj": {
         "vtransSubj": "They will <1> them and <2> some others."
+    }
+}
+
+
+PROPOSAL_TEMPLATES = {
+    "adj": {
+        "adj": "Often a thing which is <1> is also a thing which is <2>.",
+        "noun": "Often a thing which is <1> is also a <2>.",
+        "vintrans": "Often a thing which is <1> is also a thing which can <2>.",
+        "vtransObj": "Often a thing which is <1> is also a thing which another thing can <2>.",
+        "vtransSubj": "Often a thing which is <1> is also a thing which can <1> another thing."
+    },
+    "noun": {
+        "noun": "Often a <1> is also a <2>.",
+        "vintrans": "Often a <1> is also a thing which can <2>.",
+        "vtransObj": "Often a <1> is also a thing which another thing can <2>.",
+        "vtransSubj": "Often a <1> is also a thing which can <2> another thing."
+    },
+    "vintrans": {
+        "vintrans": "Often a thing which can <1> is also a thing which can <2>.",
+        "vtransObj": "Often a thing which can <1> is also a thing which another thing can <2>.",
+        "vtransSubj": "Often a thing which can <1> is also a thing which can <2> another thing."
+    },
+    "vtransObj": {
+        "vtransObj": "Often a thing which another thing can <1> is also a thing which another thing can <2>.",
+        "vtransSubj": "Often a thing which another thing can <1> is also a thing which can <2> another thing."
+    },
+    "vtransSubj": {
+        "vtransSubj": "Often a thing which can <1> another thing is also a thing which can <2> another thing."
     }
 }
 
@@ -98,12 +127,20 @@ def print_probabilities(
         for w1 in words1:
             for w2 in words2:
                 sent = template
+                # TODO these lines are for SHORT_TEMPLATES
                 # hacky way of dealing with vowel-initial nouns that need
                 # "an" for their determiner
                 if words1type == "noun" and words2type == "noun" and w1[0] in 'aeiou':
                     sent = sent.replace("A <1>", "An <1>")
                 if words1type == "noun" and words2type == "noun" and w2[0] in 'aeiou':
                     sent = sent.replace("a <2>", "an <2>")
+
+                # TODO these lines are for PROPOSAL_TEMPLATES
+                #if words1type == "noun" and w1[0] in 'aeiou':
+                #    sent = sent.replace("a <1>", "an <1>")
+                #if words2type == "noun" and w2[0] in 'aeiou':
+                #    sent = sent.replace("a <2>", "an <2>")
+
                 sent = sent.replace("<1>", mask).replace("<2>", w2)
                 masked_sents.append(sent)
         # reverse-masked sentence is used to find the location of the target
@@ -126,10 +163,18 @@ def print_probabilities(
         for w1 in words1:
             for w2 in words2:
                 sent = template
+                # TODO these lines are for SHORT_TEMPLATES
                 if words1type == "noun" and words2type == "noun" and w1[0] in 'aeiou':
                     sent = sent.replace("A <1>", "An <1>")
                 if words1type == "noun" and words2type == "noun" and w2[0] in 'aeiou':
                     sent = sent.replace("a <2>", "an <2>")
+
+                # TODO these lines are for PROPOSAL_TEMPLATES
+                #if words1type == "noun" and w1[0] in 'aeiou':
+                #    sent = sent.replace("a <1>", "an <1>")
+                #if words2type == "noun" and w2[0] in 'aeiou':
+                #    sent = sent.replace("a <2>", "an <2>")
+
                 sent = sent.replace("<1>", w1).replace("<2>", mask)
                 masked_sents.append(sent)
         # reverse-masked sentence is used to find the location of the target
@@ -254,7 +299,9 @@ def main():
         words2type = wordstype_temp
 
 
-    template = TEMPLATES[words1type][words2type]
+    templates = SHORT_TEMPLATES
+    #templates = PROPOSAL_TEMPLATES
+    template = templates[words1type][words2type]
 
     eprint("Sorting words by token count...")
     words1_by_tok_count = defaultdict(list)
