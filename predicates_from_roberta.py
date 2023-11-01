@@ -63,19 +63,14 @@ words = list()
 for ix in sorted_indices:
     word = tokenizer.decode(ix).strip()
     if not word.isalpha(): continue
-    if pos == "adj":
-        word = lemmatizer.lemmatize(word.lower(), pos='a')
-        if word not in words:
-            words.append(word)
-    elif pos == "noun":
-        word = lemmatizer.lemmatize(word.lower(), pos='n')
-        if word not in words:
+    if pos == "noun":
+        # comparing with lemmatized form ensures that plural nouns
+        # aren't included
+        lemmatized = lemmatizer.lemmatize(word, pos='n')
+        if lemmatized == word:
             words.append(word)
     else:
-        assert pos == "vintrans" or pos == "vtrans"
-        word = lemmatizer.lemmatize(word.lower(), pos='v')
-        if word not in words:
-            words.append(word)
+        words.append(word)
     if len(words) == args.n: break
 
 if args.alphabetize:
