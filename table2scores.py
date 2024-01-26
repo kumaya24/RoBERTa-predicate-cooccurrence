@@ -42,6 +42,8 @@ for w1, w1_tok_len in words1:
         w2_given_mask = scores_target_w2[(w1_mask, w2)]
         quasi_pmi_w2 = math.log(w2_given_w1 / w2_given_mask)
     
-        # could also take the mean and/or not include floor value of 0
-        score = max([quasi_pmi_w1, quasi_pmi_w2, 0])
+        # max with a floor of 0
+        #score = max([quasi_pmi_w1, quasi_pmi_w2, 0])
+        # mean
+        score = (quasi_pmi_w1+quasi_pmi_w2) / 2
         print(w1, w2, score)
