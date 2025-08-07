@@ -1,0 +1,10 @@
+do
+kill
+be
+find
+eat
+marry
+bite
+get
+shoot
+become

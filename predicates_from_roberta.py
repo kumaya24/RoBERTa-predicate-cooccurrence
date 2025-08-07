@@ -6,10 +6,105 @@ from transformers import AutoTokenizer, RobertaForMaskedLM
 MASK_ID = 50264
 
 TEMPLATES = {
-    "adj": "One of them is very <mask>.",
-    "noun": "The child saw the <mask>.",
-    "vintrans": "One of them will <mask>.",
-    "vtrans": "One of them will <mask> another one."
+    "adj": [
+        "He looks <mask>.", 
+        "It is really <mask>.",
+        "One of them is very <mask>.",
+        "This looks <mask>.",
+        "This is a <mask> dog."
+    ],
+    "noun": [
+        "The child saw the <mask>.",
+        "This is the <mask>.",
+        "I saw a <mask> today.",
+        "He looks like <mask>."
+    ],
+    "vintrans": [
+        "One of them will <mask>.",
+        "They often <mask>.",
+        "People can <mask>."
+    ],
+    "vtrans": [
+        "One of them will <mask> another one.",
+        "I will <mask> it.",
+        "They want to <mask> something."
+    ],
+    "particle": [
+        "He thinks <mask> she is right.",
+        "I believe <mask> it will rain.", 
+        "We know <mask> they left.", 
+        "She asked <mask> he was ready.",
+        "It is clear <mask> we need to leave."
+    ],
+    "prep": [
+        "The book is <mask> the table.",
+        "She walked <mask> the room.",
+        "He lives <mask> New York.",
+        "I will meet you <mask> Monday.",
+        "The cat jumped <mask> the box."
+    ], 
+    "compadj":[
+        "This movie is <mask> than the last one.",
+        "He is much <mask> than his brother.", 
+        "I think this solution is <mask>.", 
+        "She runs <mask> than me.", 
+        "The weather is getting <mask> every day."
+    ],
+    "adv":[
+        "He runs <mask>.",
+        "She spoke <mask> to the audience.",
+        "They often arrive <mask>.",
+        "I really like it because it is <mask>."
+    ],
+    "aux":[
+        "He <mask> go to the store.",
+        "They <mask> be finished by now.",
+        "I <mask> help you.",
+        "You <mask> have seen it."
+    ],
+    "determiner":[
+        "<mask> cat is sleeping on the bed.",
+        "I saw <mask> people in the park.",
+        "We need <mask> solution.",
+        "<mask> of the students passed the exam."
+    ],
+    "pronoun":[
+        "Alex is a runner. <mask> is running fast.",
+        "I don't know where Alex is today, but I saw <mask> yesterday.",
+        "Alex has no work now. <mask> will finish the task.",
+        "Alex is not here yet. We are waiting for <mask>."
+    ],
+    "conj":[
+        "I like apples <mask> oranges.",
+        "He left early <mask> he was tired.",
+        "We will go out <mask> it rains.",
+        "You can choose tea <mask> coffee."
+    ],
+    "interjection":[
+        "<mask>! I forgot my keys.",
+        "<mask>, I think you are right.",
+        "<mask>, that is a great idea.",
+        "<mask>, I don’t agree with you."
+    ],
+    "num":[
+        "I have <mask> apples.",
+        "She is the <mask> person in line.",
+        "The room contains <mask> chairs.",
+        "He finished in <mask> place."
+    ],
+    "negation":[
+        "I will <mask> forget this.",
+        "He does <mask> like broccoli.",
+        "We have <mask> seen such a thing.",
+        "It is <mask> too late to try."
+    ],
+    "superlative":[
+        "She is the <mask> student in the class.",
+        "This is the <mask> day of my life.",
+        "He runs the <mask> among all the players.",
+        "It is the <mask> solution we have found.",
+        "That was the <mask> movie I have ever seen."
+    ]
 }
     #"noun": "This is the <mask>.",
     #"noun": "Here is a <mask>.",
@@ -55,40 +150,56 @@ pos = args.pos
 tokenizer = AutoTokenizer.from_pretrained("roberta-base")
 model = RobertaForMaskedLM.from_pretrained("roberta-base")
 lemmatizer = WordNetLemmatizer()
-template = TEMPLATES[pos]
+all_words = []
+all_scores = []
 
-model_input = tokenizer(template, return_tensors="pt")
-input_ids = model_input.input_ids[0]
-mask_index = input_ids.tolist().index(MASK_ID)
-logits = model(**model_input).logits
-mask_logits = logits[0, mask_index]
-sorted_vals, sorted_indices = torch.sort(mask_logits, descending=True)
+for template in TEMPLATES[pos]:
+    model_input = tokenizer(template, return_tensors="pt")
+    input_ids = model_input.input_ids[0]
+    mask_index = input_ids.tolist().index(MASK_ID)
+    
+    logits = model(**model_input).logits
+    mask_logits = logits[0, mask_index]
+    sorted_vals, sorted_indices = torch.sort(mask_logits, descending=True)
 
-words = list()
-scores = list()
-for v, ix in zip(sorted_vals, sorted_indices):
-    word = tokenizer.decode(ix).strip()
-    if not word.isalpha(): continue
-    if pos == "noun":
-        # comparing with lemmatized form ensures that plural nouns
-        # aren't included
-        lemmatized = lemmatizer.lemmatize(word, pos='n')
-        if lemmatized == word:
-            words.append(word)
-            scores.append(v)
-    else:
-        words.append(word)
-        scores.append(v)
-    if len(words) == args.n: break
+    for v, ix in zip(sorted_vals, sorted_indices):
+        word = tokenizer.decode(ix).strip()
+        if not word.isalpha(): 
+            continue
+
+        # Filtering rules
+        if pos == "noun":
+            # Only singular nouns
+            lemmatized = lemmatizer.lemmatize(word, pos='n')
+            if lemmatized != word:
+                continue
+        if pos in ["particle", "prep", "determiner", "pronoun", "negation"]:
+            # Skip capitalized or long content words
+            if word[0].isupper() or len(word) > 10:
+                continue
+
+        all_words.append(word)
+        all_scores.append(v.item())
+        if len(all_words) >= args.n:
+            break
+
+# Deduplicate while keeping highest score
+word_score_dict = {}
+for word, score in zip(all_words, all_scores):
+    if word not in word_score_dict or score > word_score_dict[word]:
+        word_score_dict[word] = score
 
 if args.alphabetize:
-    wordscores = sorted(zip(words, scores))
-    words = [w for w, s in wordscores]
-    scores = [s for w, s in wordscores]
+    wordscores = sorted(word_score_dict.items(), key=lambda x: x[0])
+else:
+    wordscores = sorted(word_score_dict.items(), key=lambda x: x[1], reverse=True)
 
-for word, score in zip(words, scores):
+wordscores = wordscores[:args.n]
+
+# Print results
+for word, score in wordscores:
     if args.scores:
-        print("{}\t{}".format(word, score))
+        print(f"{word}\t{score}")
     else:
         print(word)
 

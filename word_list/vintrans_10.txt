@@ -1,0 +1,10 @@
+do
+change
+die
+win
+survive
+be
+fail
+succeed
+live
+pass

@@ -17,29 +17,63 @@ def eprint(*args, **kwargs):
 # - works with vowel-initial and consonant-initial nouns
 SHORT_TEMPLATES = {
     "adj": {
-        "adj": "One of them is very <1> and <2>.",
-        "noun": "This is a very <1> <2>.",
-        "vintrans": "The one which is very <1> will <2>.",
-        "vtransObj": "One of them will <2> the one which is very <1>.",
-        "vtransSubj": "The one which is very <1> will <2> them."
+        "adj": "He is <1> and <2>.",
+        "noun": "This is a <1> <2> .",
+        "vintrans": "The one who is <1> will <2>.",
+        "vtrans": "The one who is <1> will <2> something.",
+        "particle": "He is so <1> <2> he is dead."
     },
     "noun": {
-        "noun": "A <1> is a <2>.",
-        "vintrans": "The <1> will <2>.",
-        "vtransObj": "One of them will <2> the <1>.",
-        "vtransSubj": "The <1> will <2> them."
+        "noun": "A <1> is a kind of <2>.",
+        "vintrans": "The <1> will <2> soon.",
+        "vtrans": "Someone will <2> the <1>."
     },
     "vintrans": {
-        "vintrans": "One of them will <1> and <2>.",
-        "vtransObj": "One of them will <2> the one which will <1>.",
-        "vtransSubj": "One of them will <2> some others and <1>."
+        "vintrans": "They often <1> and <2>.",
+        "vtrans": "One of them will <1> and then <2> something."
     },
-    "vtransObj": {
-        "vtransObj": "One will <1> them and another one will <2> them.",
-        "vtransSubj": "They will <1> the same one which will <2> some others."
+    "vtrans": {
+        "vtrans": "They will <1> and <2> something.",
+        "vintrans": "Someone who can <1> can also <2>."
     },
-    "vtransSubj": {
-        "vtransSubj": "They will <1> them and <2> some others."
+    "particle": {
+        "particle": "He wondered <1> and <2> it would happen."
+    },
+    "prep": {
+        "prep": "The book is <1> the box and <2> the chair."
+    },
+    "compadj": {
+        "compadj": "He is <1> than her and <2> than me.",
+        "noun": "A <1> person than most is also a <2> one."
+    },
+    "adv": {
+        "adv": "He runs <1> and <2>.",
+        "vtrans": "She can <1> quickly and <2> carefully."
+    },
+    "aux": {
+        "aux": "He <1> go now and <2> later."
+    },
+    "determiner": {
+        "determiner": "<1> and <2> cats are outside."
+    },
+    "pronoun": {
+        "pronoun": "<1> and <2> are late to class."
+    },
+    "conj": {
+        "conj": "I want apples <1> oranges, not <2> bananas."
+    },
+    "interjection": {
+        "interjection": "<1>! That’s what I said. <2>! That’s what I meant."
+    },
+    "num": {
+        "num": "I saw <1> and <2> ducks in the pond."
+    },
+    "negation": {
+        "negation": "He will <1> and <2> do that again."
+    },
+    "superlative": {
+        "superlative": "She is the <1> and <2> of all.",
+        "adj": "This is the <1> and most <2> result."
     }
 }
 
@@ -50,7 +84,8 @@ PROPOSAL_TEMPLATES = {
         "noun": "Often a thing which is <1> is also a <2>.",
         "vintrans": "Often a thing which is <1> is also a thing which can <2>.",
         "vtransObj": "Often a thing which is <1> is also a thing which another thing can <2>.",
-        "vtransSubj": "Often a thing which is <1> is also a thing which can <1> another thing."
+        "vtransSubj": "Often a thing which is <1> is also a thing which can <1> another thing.",
+        "particle": "They are <1> and not knowing <2> the death of Connor."
     },
     "noun": {
         "noun": "Often a <1> is also a <2>.",
@@ -259,12 +294,12 @@ def main():
     argparser.add_argument("words1")
     argparser.add_argument(
         "words1type",
-        choices=["noun", "adj", "vtransSubj", "vtransObj", "vintrans"]
+        choices=list(SHORT_TEMPLATES.keys())
     )
     argparser.add_argument("words2")
     argparser.add_argument(
         "words2type",
-        choices=["noun", "adj", "vtransSubj", "vtransObj", "vintrans"]
+        choices=list(SHORT_TEMPLATES.keys())
     )
     argparser.add_argument("-b", "--batch-size", type=int, default=50)
     argparser.add_argument("-l", "--logfile", default="log.txt")
