@@ -30,11 +30,11 @@ TEMPLATES = {
         "They want to <mask> something."
     ],
     "particle": [
-        "He thinks <mask> she is right.",
-        "I believe <mask> it will rain.", 
-        "We know <mask> they left.", 
-        "She asked <mask> he was ready.",
-        "It is clear <mask> we need to leave."
+        "Sequence made <mask> of numbers are also called progressions.",
+        "Sometimes companies try to find <mask> what people want.",
+        "A sentence is a group of words that are put <mask> to express a complete thought.",
+        "Clay is a fine-grained silicate mineral made when rocks break <mask>.",
+        "The RNA strand than takes <mask> the cell machinery to make proteins."
     ],
     "prep": [
         "The book is <mask> the table.",
