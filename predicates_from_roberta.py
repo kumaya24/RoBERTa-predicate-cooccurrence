@@ -29,32 +29,27 @@ TEMPLATES = {
         "I will <mask> it.",
         "They want to <mask> something."
     ],
-    "particle": [
-        "Sequence made <mask> of numbers are also called progressions.",
-        "Sometimes companies try to find <mask> what people want.",
-        "A sentence is a group of words that are put <mask> to express a complete thought.",
-        "Clay is a fine-grained silicate mineral made when rocks break <mask>.",
-        "The RNA strand than takes <mask> the cell machinery to make proteins."
+    "particleVerbUp": [
+        "They will <mask> up something."
     ],
     "prep": [
-        "The book is <mask> the table.",
-        "She walked <mask> the room.",
-        "He lives <mask> New York.",
-        "I will meet you <mask> Monday.",
-        "The cat jumped <mask> the box."
+        "One thing is located <mask> another thing.",
+        "One thing happens <mask> another thing."
+        # "He lives <mask> New York.",
+        # "I will meet you <mask> Monday.",
+        # "The cat jumped <mask> the box."
     ], 
     "compadj":[
-        "This movie is <mask> than the last one.",
-        "He is much <mask> than his brother.", 
-        "I think this solution is <mask>.", 
-        "She runs <mask> than me.", 
-        "The weather is getting <mask> every day."
+        "This one is <mask> than the other one.",
+        "He is much <mask> than the other one.", 
+        # "I think this solution is <mask>.", 
+        "She does it <mask> than we do."
     ],
     "adv":[
-        "He runs <mask>.",
-        "She spoke <mask> to the audience.",
-        "They often arrive <mask>.",
-        "I really like it because it is <mask>."
+        "He does it more <mask>."
+        #"She does <mask> to the audience.",
+        #"They often arrive <mask>.",
+        #"I really like it because it is <mask>."
     ],
     "aux":[
         "He <mask> go to the store.",
@@ -99,20 +94,26 @@ TEMPLATES = {
         "It is <mask> too late to try."
     ],
     "superlative":[
-        "She is the <mask> student in the class.",
-        "This is the <mask> day of my life.",
-        "He runs the <mask> among all the players.",
-        "It is the <mask> solution we have found.",
-        "That was the <mask> movie I have ever seen."
+        "She is the <mask> one in the group.",
+        "This is the <mask> thing of all.",
+        "He is the <mask> among all of them.",
+        "It is the <mask> thing we have done.",
+        "That was the <mask> one I have ever seen."
     ],
-    "complementClause": [
-    "I think <mask> she is right.",
-    "She believes <mask> he will win.",
-    "I arranged <mask> him to come early.",
-    "She <mask> him to finish the report.",
-    "We <mask> the concert will be amazing.",
-    "They <mask> that we start early."
-]
+    "complementClauseVerb": [
+    "I will <mask> that she is right.",
+    "She did <mask> that he must win.",
+    "I will <mask> for him to come early.",
+    "I will <mask> that he finish the report.",
+    "They will <mask> that we start early."
+    ],
+    "complementClauseNoun": [
+        "I have a feeling that he will <mask>.",
+        "The <mask> that she can win is great.",
+        "The <mask> that he is late is bad.",
+        "The <mask> that they will succeed is unacceptable.",
+        "The hope that we can finish on time is <mask>."
+    ],
 }
     #"noun": "This is the <mask>.",
     #"noun": "Here is a <mask>.",
