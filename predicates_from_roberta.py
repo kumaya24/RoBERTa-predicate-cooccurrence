@@ -30,11 +30,11 @@ TEMPLATES = {
         "They want to <mask> something."
     ],
     "particle": [
-        "He thinks <mask> she is right.",
-        "I believe <mask> it will rain.", 
-        "We know <mask> they left.", 
-        "She asked <mask> he was ready.",
-        "It is clear <mask> we need to leave."
+        "Sequence made <mask> of numbers are also called progressions.",
+        "Sometimes companies try to find <mask> what people want.",
+        "A sentence is a group of words that are put <mask> to express a complete thought.",
+        "Clay is a fine-grained silicate mineral made when rocks break <mask>.",
+        "The RNA strand than takes <mask> the cell machinery to make proteins."
     ],
     "prep": [
         "The book is <mask> the table.",
@@ -104,7 +104,15 @@ TEMPLATES = {
         "He runs the <mask> among all the players.",
         "It is the <mask> solution we have found.",
         "That was the <mask> movie I have ever seen."
-    ]
+    ],
+    "complementClause": [
+    "I think <mask> she is right.",
+    "She believes <mask> he will win.",
+    "I arranged <mask> him to come early.",
+    "She <mask> him to finish the report.",
+    "We <mask> the concert will be amazing.",
+    "They <mask> that we start early."
+]
 }
     #"noun": "This is the <mask>.",
     #"noun": "Here is a <mask>.",
@@ -117,7 +125,7 @@ argparser = argparse.ArgumentParser(
 )
 
 argparser.add_argument(
-    "pos", choices=["adj", "noun", "vintrans", "vtrans"],
+    "pos", choices=list(TEMPLATES.keys()),
     help="part of speech"
 )
 
