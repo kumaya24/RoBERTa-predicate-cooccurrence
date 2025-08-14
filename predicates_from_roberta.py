@@ -7,117 +7,131 @@ MASK_ID = 50264
 
 TEMPLATES = {
     "adj": [
-        "He looks <mask>.", 
-        "It is really <mask>.",
-        "One of them is very <mask>.",
-        "This looks <mask>.",
-        "This is a <mask> dog."
+        "They are <mask> ones."
     ],
     "noun": [
-        "The child saw the <mask>.",
-        "This is the <mask>.",
-        "I saw a <mask> today.",
-        "He looks like <mask>."
+        "They saw a <mask>."
     ],
     "vintrans": [
         "One of them will <mask>.",
-        "They often <mask>.",
-        "People can <mask>."
     ],
     "vtrans": [
         "One of them will <mask> another one.",
-        "I will <mask> it.",
-        "They want to <mask> something."
     ],
     "particleVerbUp": [
         "They will <mask> up something."
     ],
+    "particleVerbDown": [
+        "They will <mask> down something."
+    ],
+    "particleVerbIn": [
+        "They will <mask> in something."
+    ],
+    "particleVerbOut": [
+        "They will <mask> out something."
+    ],
+    "particleVerbOver": [
+        "They will <mask> over something."
+    ],
+    "particleVerbAcross": [
+        "They will <mask> across something."
+    ],
+    "particleVerbAfter": [
+        "They will <mask> after something."
+    ],
+    "particleVerbAlong": [
+        "They will <mask> along something."
+    ],
+    "particleVerbAway": [
+        "They will <mask> away something."
+    ],
+    "particleVerbTo": [
+        "They will <mask> to do something."
+    ],
+    "particleVerbInto": [
+        "They will <mask> into something."
+    ],
+    "particleVerbOff": [
+        "They will <mask> off something."
+    ],
+    "particleVerbOn": [
+        "They will <mask> on something."
+    ],
+    "particleVerbAround": [
+        "They will <mask> around something."
+    ],
+    "particleVerbUnder": [
+        "They will <mask> under something."
+    ],
+    "particleVerbTogether": [
+        "They will <mask> together something."
+    ],
     "prep": [
         "One thing is located <mask> another thing.",
         "One thing happens <mask> another thing."
-        # "He lives <mask> New York.",
-        # "I will meet you <mask> Monday.",
-        # "The cat jumped <mask> the box."
     ], 
     "compadj":[
         "This one is <mask> than the other one.",
-        "He is much <mask> than the other one.", 
-        # "I think this solution is <mask>.", 
-        "She does it <mask> than we do."
     ],
     "adv":[
         "He does it more <mask>."
-        #"She does <mask> to the audience.",
-        #"They often arrive <mask>.",
-        #"I really like it because it is <mask>."
+        # "They often arrive <mask>.",
     ],
     "aux":[
-        "He <mask> go to the store.",
-        "They <mask> be finished by now.",
-        "I <mask> help you.",
-        "You <mask> have seen it."
+        "They <mask> do it."
     ],
     "determiner":[
-        "<mask> cat is sleeping on the bed.",
-        "I saw <mask> people in the park.",
-        "We need <mask> solution.",
-        "<mask> of the students passed the exam."
+        "There is <mask> thing"
     ],
     "pronoun":[
         "Alex is a runner. <mask> is running fast.",
-        "I don't know where Alex is today, but I saw <mask> yesterday.",
-        "Alex has no work now. <mask> will finish the task.",
-        "Alex is not here yet. We are waiting for <mask>."
+        "He said to me that <mask> are a good person.",
+        "He said to me that <mask> are good people."
     ],
     "conj":[
-        "I like apples <mask> oranges.",
-        "He left early <mask> he was tired.",
-        "We will go out <mask> it rains.",
-        "You can choose tea <mask> coffee."
+        "I like this <mask> she likes that.",
+        "I like this <mask> it is good.",
+        "I can only do this <mask> that."
     ],
     "interjection":[
-        "<mask>! I forgot my keys.",
-        "<mask>, I think you are right.",
-        "<mask>, that is a great idea.",
-        "<mask>, I don’t agree with you."
-    ],
-    "num":[
-        "I have <mask> apples.",
-        "She is the <mask> person in line.",
-        "The room contains <mask> chairs.",
-        "He finished in <mask> place."
+        "<mask>! I did it."
     ],
     "negation":[
-        "I will <mask> forget this.",
-        "He does <mask> like broccoli.",
-        "We have <mask> seen such a thing.",
-        "It is <mask> too late to try."
+        "This is <mask> anything.",
+        "I would <mask> get anything from it.",
     ],
     "superlative":[
-        "She is the <mask> one in the group.",
         "This is the <mask> thing of all.",
         "He is the <mask> among all of them.",
         "It is the <mask> thing we have done.",
         "That was the <mask> one I have ever seen."
     ],
     "complementClauseVerb": [
-    "I will <mask> that she is right.",
-    "She did <mask> that he must win.",
-    "I will <mask> for him to come early.",
-    "I will <mask> that he finish the report.",
-    "They will <mask> that we start early."
+        "I will <mask> that it is something."
     ],
     "complementClauseNoun": [
-        "I have a feeling that he will <mask>.",
-        "The <mask> that she can win is great.",
-        "The <mask> that he is late is bad.",
-        "The <mask> that they will succeed is unacceptable.",
-        "The hope that we can finish on time is <mask>."
+        "The <mask> that I do is good."
+    ],
+    "nullComplementClauseVerb": [
+        "I <mask> it is true."
+    ],
+    "nullComplementClauseNoun": [
+        "I have heard about <mask> that they did it.",
+        "The <mask> that they did it was surprising."
+    ],
+     "baseComplementClauseVerb": [
+        "They <mask> that the truth is out there."
+    ],
+    "baseComplementClauseNoun": [
+        "They know the <mask> that the truth is out there."
+    ],
+    "infinitivalComplementClauseVerb": [
+        "They <mask> to improve it."
+    ],
+    "infinitivalComplementClauseNoun": [
+        "They made the <mask> to do it."
     ],
 }
-    #"noun": "This is the <mask>.",
-    #"noun": "Here is a <mask>.",
-    #"noun": "I saw the <mask>.",
 
 argparser = argparse.ArgumentParser(
     """
