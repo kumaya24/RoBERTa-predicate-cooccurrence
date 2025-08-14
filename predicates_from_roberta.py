@@ -133,6 +133,10 @@ TEMPLATES = {
     ],
     "raisingVerb": [
         "They did <mask> to like it."
+    ],
+    "gerundVerb": [
+        "They like go <mask>.",
+        "Their favorite activity is <mask>."
     ]
 }
 
