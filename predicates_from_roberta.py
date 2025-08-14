@@ -131,6 +131,9 @@ TEMPLATES = {
     "infinitivalComplementClauseNoun": [
         "They made the <mask> to do it."
     ],
+    "raisingVerb": [
+        "They did <mask> to like it."
+    ]
 }
 
 argparser = argparse.ArgumentParser(
