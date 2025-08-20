@@ -19,52 +19,49 @@ TEMPLATES = {
         "One of them will <mask> another one.",
     ],
     "particleVerbUp": [
-        "They will <mask> up something."
+        "They will <mask> up."
     ],
     "particleVerbDown": [
-        "They will <mask> down something."
+        "They will <mask> down."
     ],
     "particleVerbIn": [
-        "They will <mask> in something."
+        "They will <mask> in."
     ],
     "particleVerbOut": [
-        "They will <mask> out something."
+        "They will <mask> out."
     ],
     "particleVerbOver": [
-        "They will <mask> over something."
-    ],
-    "particleVerbAcross": [
-        "They will <mask> across something."
+        "They will <mask> over."
     ],
     "particleVerbAfter": [
-        "They will <mask> after something."
+        "They will <mask> after."    # NOT RLY WORK
     ],
     "particleVerbAlong": [
-        "They will <mask> along something."
+        "They will <mask> along."
     ],
     "particleVerbAway": [
-        "They will <mask> away something."
+        "They will <mask> away."
     ],
     "particleVerbTo": [
-        "They will <mask> to do something."
+        "They will <mask> to."
     ],
     "particleVerbInto": [
-        "They will <mask> into something."
+        "They will <mask> into."
     ],
     "particleVerbOff": [
-        "They will <mask> off something."
+        "They will <mask> off."
     ],
     "particleVerbOn": [
-        "They will <mask> on something."
+        "They will <mask> on."
     ],
     "particleVerbAround": [
-        "They will <mask> around something."
+        "They will <mask> around."  # KINDA WORK
     ],
     "particleVerbUnder": [
-        "They will <mask> under something."
+        "They will <mask> under."
     ],
     "particleVerbTogether": [
-        "They will <mask> together something."
+        "They will <mask> together."    # NOT RLY WORK
     ],
     "prep": [
         "One thing is located <mask> another thing.",
@@ -113,20 +110,20 @@ TEMPLATES = {
         "The <mask> that I do is good."
     ],
     "nullComplementClauseVerb": [
-        "I <mask> it is true."
+        "I will <mask> it is true."
     ],
     "nullComplementClauseNoun": [
         "I have heard about <mask> that they did it.",
         "The <mask> that they did it was surprising."
     ],
      "baseComplementClauseVerb": [
-        "They <mask> that the truth is out there."
+        "They will <mask> that the truth is out there."
     ],
     "baseComplementClauseNoun": [
         "They know the <mask> that the truth is out there."
     ],
     "infinitivalComplementClauseVerb": [
-        "They <mask> to improve it."
+        "They will <mask> to improve it."
     ],
     "infinitivalComplementClauseNoun": [
         "They made the <mask> to do it."
@@ -176,7 +173,6 @@ argparser.add_argument(
 args = argparser.parse_args()
 pos = args.pos
 
-# location of models: /home/clark.3664/.cache/huggingface/hub/models--roberta-base/snapshots/bc2764f8af2e92b6eb5679868df33e224075ca68
 tokenizer = AutoTokenizer.from_pretrained("roberta-base")
 model = RobertaForMaskedLM.from_pretrained("roberta-base")
 lemmatizer = WordNetLemmatizer()
