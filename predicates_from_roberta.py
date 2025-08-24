@@ -33,9 +33,6 @@ TEMPLATES = {
     "particleVerbOver": [
         "They will <mask> over."
     ],
-    "particleVerbAfter": [
-        "They will <mask> after."    # NOT RLY WORK
-    ],
     "particleVerbAlong": [
         "They will <mask> along."
     ],
@@ -55,13 +52,11 @@ TEMPLATES = {
         "They will <mask> on."
     ],
     "particleVerbAround": [
-        "They will <mask> around."  # KINDA WORK
+        # "They will <mask> around.",   # B-aN-bP...
+        "This is something that they will <mask> around."  # B-aN-bP...-bN
     ],
     "particleVerbUnder": [
         "They will <mask> under."
-    ],
-    "particleVerbTogether": [
-        "They will <mask> together."    # NOT RLY WORK
     ],
     "prep": [
         "One thing is located <mask> another thing.",
