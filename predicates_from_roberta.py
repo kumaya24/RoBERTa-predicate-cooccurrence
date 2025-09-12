@@ -13,10 +13,14 @@ TEMPLATES = {
         "They saw a <mask>."
     ],
     "vintrans": [
-        "One of them will <mask>.",
+        # "They will <mask> soon.",
+        # "They also will <mask> for it."
+        "One of them will <mask>."
     ],
     "vtrans": [
-        "One of them will <mask> another one.",
+        # "They will <mask> it.",
+        # "It is something that they will <mask>."
+        "One of them will <mask> it."
     ],
     "particleVerbUp": [
         "They will <mask> up."
