@@ -208,6 +208,19 @@ TEMPLATE_OPTIONS = {
     ],
 
     #### V -> ADJ
+    "participleAdj_vintran":[
+        # "people say 'this is <mask>!' when they {w}."
+        "In English, something or someone able to {w} is defined as being <mask>."
+    ],
+    "participleAdj_vtran":[
+        #"people say 'this is <mask>!' when they {w} it.",
+        # "Something is very <mask> is defined as when something is capable to be {w}."
+        #"The word {w} can be converted to <mask> to describe things."
+        # "Very <mask> is defined as when something can {w} something."
+        # "In English, the sentence that something can {w} something is as same as the sentence that something is very <mask>."
+        # "In English, they can {w} something, which also means that something is very <mask>."
+        "In English, something or someone able to {w} something is defined as being <mask>."
+    ],
 
     ##### Causative
     "causative_vintran": [
