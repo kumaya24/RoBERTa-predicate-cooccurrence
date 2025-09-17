@@ -130,13 +130,16 @@ TEMPLATE_OPTIONS = {
         #"In English, a <mask> is defined as someone who will {w} regularly.",
         #"In English, an <mask> is defined as someone who will {w} regularly.",
         #"In English, the <mask> is defined as someone who will {w} regularly.",
-        #"In English, some <mask> is defined as someone who will {w} regularly."
+        # "In English, some <mask> is defined as someone who will {w} regularly."
 
         "A <mask> refers to a person who {w} regularly.",
         "An <mask> refers to a person who {w} regularly.",
         "The <mask> refers to a person who {w} regularly.", 
-        "Some <mask> refers to a person who {w} regularly."
-
+        #"Some <mask> refers to a person who {w} regularly."
+        #"In English, something or someone able to {w}  is defined as a <mask>.",
+        #"In English, something or someone able to {w}  is defined as an <mask>.",
+        #"In English, something or someone able to {w}  is defined as the <mask>."
+        
         #"If someone or something does {w} frequently, they are therefore a <mask>.",
         #"If someone or something does {w} frequently, they are therefore an <mask>.",
         #"If someone or something does {w} frequently, they are therefore the <mask>."
