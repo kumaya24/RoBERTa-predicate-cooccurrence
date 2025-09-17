@@ -136,9 +136,9 @@ TEMPLATE_OPTIONS = {
         "An <mask> refers to a person who {w} regularly.",
         "The <mask> refers to a person who {w} regularly.", 
         #"Some <mask> refers to a person who {w} regularly."
-        #"In English, something or someone able to {w}  is defined as a <mask>.",
-        #"In English, something or someone able to {w}  is defined as an <mask>.",
-        #"In English, something or someone able to {w}  is defined as the <mask>."
+        #"In English, something or someone able to {w} whom is defined as a <mask>.",
+        #"In English, something or someone able to {w} whom is defined as an <mask>.",
+        #"In English, something or someone able to {w} whom is defined as the <mask>."
         
         #"If someone or something does {w} frequently, they are therefore a <mask>.",
         #"If someone or something does {w} frequently, they are therefore an <mask>.",
