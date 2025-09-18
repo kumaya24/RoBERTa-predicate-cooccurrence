@@ -1,0 +1,1996 @@
+make	made
+do	
+get	good
+need	needed, necessary, needing, need
+regret	regret, responsible
+find	found
+have	human
+see	seen, seeing
+prove	proven, proof
+eat	edible, eating
+try	tried, trying, tested
+know	knowledgeable
+like	liked
+use	useful, used
+take	taken
+finish	finished
+win	worthy
+lose	lost, losing
+love	loved, love, loving
+own	owned, own
+say	said, speaking, someone
+remember	remembered
+handle	human
+deserve	deserving, deserved
+buy	bought
+break	broken
+catch	caught
+fix	
+miss	mistaken, missing, missed
+survive	strong, stronger, sentient
+believe	believed, believing
+kill	killed
+be	
+want	willing, wanted, wanting
+admit	authentic
+hate	hated, hateful, hostile, hate
+write	written, writing
+crush	crushed
+feel	felt, feeling
+hear	heard, hearing, human
+wear	wearable, wearing, worn
+nail	
+forget	forgotten
+save	saved, safe, strong
+stop	strong
+read	read, reading, readable
+destroy	destructive, dangerous, destroyed, damaged
+sell	sold, selling
+drink	drunk, drinking
+burn	burned, burning, burnt
+call	called
+realize	realized
+earn	earned, earning, employed
+manage	managed
+explain	
+pull	powerful, possible
+recognize	recognized
+steal	stolen, stealing
+blow	blown
+appreciate	appreciated, aware, able
+bring	brought
+understand	understood, understanding
+throw	thrown, throwing
+solve	smart, solved
+beat	
+enjoy	enjoyable, engaged, entertained
+learn	learned
+keep	
+show	shown, seen, something
+start	started, successful
+ruin	
+smoke	smoked, smoking, smoke
+crack	clever, capable
+accept	accepted, accepting, acceptable, able
+cut	cut, cutting
+carry	carried, carrying
+answer	able, available, answered
+swallow	swallowed, sentient, swallowing
+taste	tasting, tasted
+publish	published, publishing
+give	given
+open	open, opened
+drop	dropped, dropping
+sign	signed
+build	built
+claim	claimed
+end	effective
+post	posted, published, public
+print	printed, printing, print, portable
+smell	smelling, smell, smelled
+touch	touched
+hit	hit, hard, heavy
+doubt	doubtful, dishonest
+attempt	able, attempted, attempting, accomplished
+tell	there
+discover	discovered
+name	named
+share	shared, sharing, someone
+fight	fighting
+grab	grabbed
+spill	spilled, spilling
+report	reported, reporting, reliable
+hold	human, held
+pass	passed, present, proficient
+close	closed, close
+think	thinking, thought
+deliver	delivered
+suck	sucking, sentient, sucked, suck, strong
+test	tested, testing
+ride	ridden, riding
+complete	capable, competent, complete
+face	
+smash	strong, smashed
+run	running, run
+send	sent
+mean	
+change	capable, changed
+kick	kicking, kicked
+wing	
+hide	hidden, hiding
+dig	digging, dug, dig
+sing	singing, sung
+mention	mentioned
+mail	mail, mailed, mailing
+announce	announced, available, announcing, able
+cook	cooked, cooking, capable, competent, cook
+fly	flying, flown
+clean	clean, cleaner, competent, cleaned
+stick	stuck, solid, strong, sticky
+cap	capable, capped, creative
+order	ordered, ordering, order, organized
+watch	watching, watched
+receive	received, receiving
+sink	submerged, sink, solid, sinking, strong, sunk
+unlock	unlocked, useful
+wash	washed, washing, water
+achieve	able, accomplished, achieved
+drive	driving, driven
+shut	shut, silent, silenced, strong
+fake	fake, false, fraudulent
+notice	noticed, nearby
+turn	
+live	living, lived, live
+spot	smart
+afford	able, available, affordable, affluent
+walk	walking
+experience	experienced
+bite	biting, bitten
+allow	allowed, able
+move	moving, moved, mobile
+grow	grown, growing, green
+push	powerful, pushed, pushing, possible
+google	google
+leave	leaving
+shove	strong, shoved
+choose	chosen
+shoot	shot, someone
+question	questioned
+pick	picked
+deny	dishonest, deceptive
+join	joined, joining
+witness	witness
+demand	demanded, demanding
+follow	following
+require	required
+release	released, ready
+decide	determined, decided
+kiss	kissing, kissed
+punch	punched, punching, physical, powerful
+consider	considered, conscious, capable
+guarantee	guaranteed
+invent	invented, intelligent
+teach	taught, teaching
+book	booked
+wreck	wrecked
+refuse	refused, refuse, rejected
+plan	planning, prepared, planned
+fuck	fucked, female
+ask	asked, able, asking, available
+create	creative, created, capable
+pay	paid
+match	
+bottle	bottled, bottle
+accomplish	accomplished, able, achieved
+bear	born, borne
+repeat	repeated, reliable
+meet	met
+fold	folded, folding, flexible, fold, functional
+hack	hacked, hacking, hacker, hack
+help	helpful, human, helping
+defend	defended
+rock	rock, rocking, rocked
+guess	guessing, guess
+sense	sentient
+work	working
+cover	covered, covering
+sweat	sweating, strong, sweat, superhuman, sweaty
+paint	painted, painting, paint
+record	recorded, recording
+confirm	credible, certain, correct
+block	blocked, blocking, block, bad
+fire	fired, fire
+fill	filled
+notch	
+cross	crossed, cross, crossing
+screw	screwed, screw, stupid
+draw	drawn, drawing
+declare	declared
+bake	baked, baking
+replace	replaced
+spoil	spoiled
+quit	quit, quitting
+provide	provided, present
+Google	google
+spin	spinning, spun, spin, spins
+hurt	hurt, harmful
+force	forced, force, forceful
+lick	licking
+delete	deleted, destroyed, disabled, deleting
+blame	blamed, blame
+let	let
+melt	melting, melted, melt, molten
+lock	locked
+reject	rejected, reasonable
+pop	pop, popped, popping, present
+play	playable, proficient, played, playing
+brew	brewing, brewed, brew, brewer
+shout	shouting, shouted, shout, someone
+toss	tossed, thrown, trash
+seal	sealed, strong, special, solid, secure, safe
+patent	patented, patent
+bury	buried
+become	
+rip	ripped, ripping, rip, rotten
+cast	cast, casting, competent, casts, capable
+marry	married, male
+realise	realised
+request	requested, requesting, required
+wipe	wiped, wiping, wipes, wipe, wet
+reach	reached
+ace	able, ace
+define	defined
+figure	
+fail	failing
+recommend	recommended, reliable
+confess	confessed
+describe	described
+execute	executable, executed
+knock	knocked, knocking
+sue	sued
+cry	crying, cry, cried
+scratch	scratched, special, strong, scratch, stronger
+crash	crashing, critical
+fry	fried, fry, frying
+copy	copied, copying, copy
+sling	strong
+made	made
+swipe	something
+cop	capable
+design	designed
+celebrate	celebrated, celebrating
+collect	collected, collecting
+produce	produced, productive, possible
+wield	wielded
+set	set, something
+reveal	revealed, revealing
+remove	removed, removable
+surpass	superior, superhuman, successful
+swear	swearing, swear
+donate	donated, donating
+sort	smart, sort, sorted
+inherit	inherited
+prefer	preferred, preferable
+snatch	stolen, snatched, strong
+conquer	conquered, capable
+protect	protected, protective
+found	found
+top	
+risk	risky
+leak	leaking, leaked, leak
+ignore	invisible, ignored, incompetent, ignorant, indifferent, impossible, irrelevant
+veto	veto, vetoed
+did	done
+discuss	discussed
+coin	coin, clever, creative, coins
+flush	flush, flushed
+spend	spent, spending
+perfect	perfect
+track	tracked, there
+retrieve	
+defeat	defeated
+chuck	chuck
+float	floating, float, floated, floats
+embrace	
+hang	hung, hanging, hanged
+return	
+manufacture	manufactured, made, manufacturing
+flip	flipped, flip, flipping, flexible
+resist	resistant, resisting, resistance
+scar	sentient, strong
+overcome	overcome
+sniff	smart, sentient
+launch	launched
+drown	drowning, drowned, dangerous
+forbid	forbidden, forbid
+got	
+clear	clear, cleared, capable, competent
+avoid	able, avoided
+succeed	successful, strong, superhuman
+put	put, placed, possible, portable, present
+edit	editing, edited
+check	checked, competent
+capture	captured
+endure	
+bust	busted, broken, bust
+seize	seized, strong
+head	head
+climb	climbing
+decrypt	dangerous
+justify	justified
+master	master
+implement	implemented, intelligent
+introduce	introduced, invented, innovative, intelligent
+recover	recovered, restored
+light	lit, light
+promise	promised
+hump	human
+pack	portable, packed, prepared
+fit	flexible, fit, functional, fitted
+support	supported, strong, supportive
+resolve	real
+supply	supplied
+chew	chewing, chew
+slice	sliced, slicing, sharp
+lead	leader, leading, lead, leadership, led
+ship	shipping, shipped, ship, sold
+tackle	tough
+prevent	prevented, present
+narrow	narrow, narrowed
+fund	funded, financed, funding
+loose	loose, lost
+repair	repaired
+milk	milk
+present	present, presented
+welcome	welcome, welcoming, welcomed, willing
+cure	cured, contagious, capable
+tweet	tweeting, tweeted, twitter, tweet, typed
+beg	begging
+wrap	wrapped, wrap, wrapping
+haunt	haunted, haunting
+stand	strong, sturdy, standing, stronger, stout
+pursue	
+fear	fearful, frightened
+brave	brave
+trust	trustworthy, trusted, truthful, true
+cool	cool, cooler, creative
+recognise	recognised, real
+summon	summoned, sentient
+offer	offered
+shatter	shattered, strong
+acknowledge	aware, acknowledged, alive
+press	present, physical, pressed
+honor	honored, honorable, honoring
+treasure	treasure
+photograph	photographed, present, photographic
+ban	banned, blocked
+squash	squash
+reap	
+trade	traded, trade, trading
+fuel	fuel
+forge	forged, forging, forge
+forgive	forgiven, forgiving
+shred	shredded, sentient, strong
+organize	organized, organised, orderly, organizational, organizing
+rescue	rescued
+approve	approved, authorized, allowed
+correct	correct, competent, capable
+study	smart, studying, studied
+whisper	whispering, whispered
+raise	raised
+serve	served, serving
+predict	predicted
+erase	erased, evil
+document	documented
+needed	
+utter	
+control	controlled, capable
+nab	nearby
+spit	spit, spitting, saliva, spat
+DO	done
+contain	contained
+rebuild	rebuilt, restored
+recall	remembered, recalled, real
+slit	sentient, strong
+look	looking
+swim	swimming, strong, submerged
+dream	dreaming, dream
+tame	tame
+plug	plugged, portable, plug
+unleash	unleashed, unstoppable, unpredictable
+cause	capable, created
+unveil	unveiled, unknown
+ski	skiing, ski, strong, skilled
+expose	exposed
+foil	
+spell	someone, something
+settle	settled, stable
+worth	worth, worthwhile
+storm	strong
+finance	financed, financing, funded, finance, financial
+waste	wasteful, wasted, waste, worthless, wasting
+blast	
+tolerate	tolerant
+better	better
+needs	needed, necessary
+surf	surfing, surf, strong, sentient
+retake	
+dare	dangerous
+heal	healed, human, healing, healthy, helpful
+crave	craving
+fetch	
+mind	mental, mind
+hand	handed, hands, hand, handy, human
+come	capable
+sew	skilled, sewing, strong
+enforce	effective
+snap	snapped, snapping, strong, sharp, snap
+sneak	sneaky, stolen, stealth, sly, someone
+wish	wished, wishing, wish, wishes
+spike	spiked, spike, sentient
+thin	thin
+judge	
+race	racing
+arrange	arranged, arranging
+bag	
+voice	vocal
+hug	human, hugging
+split	split, separated, separate
+film	filmed, filming
+install	installed
+continue	continuing, continuous, continued
+hatch	hatched, human, hatch
+stub	sentient, something, smart
+whip	whipped, whip, whipping
+speak	speaking
+equal	equal, equivalent, equals
+thank	thankful, thanked
+fork	fork, forks, fluent
+drain	draining, drained
+shape	significant, shaped, something
+skip	skipped, skipping, smart
+weigh	weighed, weight, weighing
+butcher	butcher
+proclaim	
+recreate	real
+go	
+type	typed, typing, type
+sail	strong, sailing, sail
+text	text, typed, texting
+chance	capable, clever
+rape	raped, rape
+die	dead, disabled
+score	successful, scored, skilled, smart
+hunt	hunted, hunting
+grasp	
+adopt	adopted, adopting, available, adapted, adopt, alive, adaptive, able
+legalize	legal, legalized, legitimate, lawful
+pronounce	pronounced
+imagine	intelligent, imaginative, imaginary, imagined
+exhaust	efficient
+slay	strong
+upload	uploaded, uploading
+add	added, additive, adding, able, available
+patch	patched, possible
+police	police, present, powerful
+rub	rubbing, rubbed, rub
+promote	promoted, powerful
+restore	restored, reliable
+reverse	reversible, reversed
+stab	stabbed, sharp, stabbing, someone
+suffer	suffering, sentient, strong
+absorb	aware, able, absorbing, absorbed
+pin	pinned, pin
+expect	expected, expecting
+lift	lifted
+suggest	said, suggested
+begin	beginning, born
+curse	cursed, cursing, curse, curses
+dye	dyed, dye, different
+charm	charming, charm
+submit	submitted, submitting
+right	right
+pitch	pitched, pitching
+endorse	endorsed
+suspect	suspicious, suspect, suspected
+strike	striking, struck, strong
+undo	undone
+translate	translated, trustworthy
+attack	attacked, armed, aggressive, attacking
+eliminate	eliminated, effective, evil
+decipher	
+respect	respectful, respected, reasonable, respect
+rename	renamed
+bless	blessed
+scream	screaming, screamed, scream
+download	downloaded, distributed, downloadable, downloading
+wind	wind, winding
+email	email, emailed, electronic
+redeem	redeemed, real
+mark	marked
+protest	peaceful, protesting, present, political
+rough	
+dread	
+borrow	borrowed, borrowing
+skin	skin, sentient
+challenge	challenged, challenging
+identify	intelligent, identified
+command	capable, competent, controlled, commanded, command
+knit	knit, knitting
+license	licensed, legitimate, legal
+tear	torn
+blog	blogging, blogger, blog
+toast	toast
+resent	
+fancy	fancy, french
+analyze	analytical, able
+shoulder	strong, sturdy, standing, supported
+LOVE	loved, loving, love
+apply	able, applicable, applied
+for	
+tie	tied
+dismiss	dishonest, dismissed
+trigger	triggered, there
+freeze	frozen, freezing
+salvage	saved, salvage
+deploy	deployed, deploying, distributed, deploy
+oppose	opposed, opposition
+disclose	disclosed
+cancel	cancelled, canceled, cancel
+land	landed, land
+admire	admired, attractive, artistic, appreciated
+validate	valid, verified, validated
+revive	revived, resurrected, real
+interpret	intelligent, interpreted
+swing	swinging, strong, swung, skilled
+choke	choking, choked, choke
+decode	
+sport	sporting, superhuman, strong
+GET	
+scrap	scrap, scrapped
+don	
+sleep	sleeping, sound
+shake	strong, solid
+hope	hopeful, hope, human
+sabotage	subversive
+trash	trash, toxic
+slap	slapped, slap, strong, slapping, someone, sharp
+had	human
+log	logged, log, logging, logs
+vomit	vomit, vomiting
+last	
+process	processing
+plant	planted, present, plant
+develop	developed
+murder	murdered, murder
+spring	sprung, spring, strong, something
+mend	
+seek	seeking, sought
+cherish	cherished
+stink	stink, sentient, smelled, smelling
+maintain	maintained
+yell	yelling, yelled
+encourage	encouraging, encouraged, enthusiastic
+back	backed
+repeal	repealed, responsible
+NEED	needed, necessary, needy, needing
+roll	rolling, rolled, roll, rolls, real
+measure	measurable, measured
+click	clicked, clicking, click, connected
+tweak	
+carve	carved, carving, creative, crafted
+nick	
+rule	right
+reclaim	reclaimed, restored, reclaim
+sustain	sustainable, strong, stable, sustained, sentient
+express	expressive
+burst	broken, burst, bursting
+practice	practiced, practicing, proficient
+bend	bending, bent
+deserved	
+disguise	deceptive, disguised, different
+damn	damned
+represent	represented, real
+perform	present
+rent	rented, rent, renting, rental
+charge	charged, charging, capable, charge
+owe	owed, owing, owe, obligated, owes
+gain	gained, gifted
+outlaw	outlawed, outlaw
+store	stored, storage, safe, stable, stationary
+bluff	bluff
+count	counted
+pocket	portable, present
+frame	framed, frame
+review	reviewed
+demonstrate	demonstrated, demonstrating, displayed
+dominate	dominant, dominating, dominate, dominated
+rain	rain
+topple	
+improve	improved, innovative, important
+convert	converted, capable
+horn	human
+weather	
+slow	slow, slower, slowed, sentient, slowing, swift
+curl	curl, curly, curled
+volunteer	volunteer, volunteered, volunteering, volunteers, voluntary
+research	research
+not	nothing
+laugh	laughing, laughed
+counter	counter, capable
+breathe	breathing, breathed
+gut	
+grill	grilled, grill
+feed	fed
+abuse	abusive, abused, abuse, aggressive
+bore	
+obtain	obtained
+swell	strong, sentient, superhuman, stronger
+snag	someone
+ice	ice
+repay	repaid, responsible
+wave	wave, waving, waved, waves
+lack	lacking
+power	powerful, power, powered
+desire	desired, desirable, desire
+clone	created
+pipe	pipe, piping, pipes, portable
+grade	good
+adore	
+soften	softened, soft, strong, softer, stronger
+propose	proposed, possible, proposing, plausible
+nails	
+saw	seen, seeing, saw
+paddle	powerful, paddle
+direct	directed, direct
+escape	
+smack	strong, smack
+wet	wet, waterproof, water
+initiate	initiated, involved
+jump	jumping, jumped, jump
+replicate	real
+contribute	contributing, contributed, creative, capable
+retire	retired
+host	hosted, hosting, host, hosts, here
+refute	reliable, reasonable
+underestimate	underestimated, unreliable
+surrender	surrendered, surrender
+intercept	intercepted, involved, intercept
+detect	detected
+compile	compiled, compiler, capable
+load	loaded, loading
+ditch	disabled, defective
+mount	mounted, mobile, mount
+arrest	armed, arrested
+lament	
+embody	embodied
+regain	restored, revived, recovered, reborn
+about	able, aware
+abandon	abandoned, alive
+exploit	evil, exploited
+on	on
+inspire	inspired, inspiring, inspirational, influential, innovative
+engineer	engineering, engineer, engineered, engineers
+enable	enabled, enabling
+rewrite	
+note	noticed
+recite	
+enter	entered
+talk	talking
+trumpet	
+scrape	scraping, strong, sentient, solvent
+dodge	dodged, dangerous
+with	
+debate	debating, debated, democratic
+remake	
+refine	refined
+guard	guarded
+secure	secure, secured, strong, safe
+chase	chased, chasing
+verify	verified
+mourn	mourning
+permit	permitted, possible, permissible, present
+LIKE	
+time	timed, time, there
+sack	strong, sentient, stolen
+address	able, available
+sacrifice	sacrificed, superhuman
+duplicate	different
+sponsor	sponsored, supported, sponsor, sponsors, sponsoring
+spread	spread, spreading
+assume	assumed
+explode	explosive, exploding, explosives, exploded
+slam	slammed, strong, slam, solid
+dunk	dunk, drunk, dumb
+cheer	cheered, cheering, cheer
+divide	divided, different, defined
+best	better, best
+warrant	worthy
+dissect	
+uncover	uncovered, useful
+seem	something, someone, somebody
+resurrect	resurrected, revived, reborn, real
+zip	zip
+air	audible, alive, airborne, available, able, air
+pour	poured
+rethink	
+approach	able, adaptive
+wrench	
+investigate	intelligent, involved, independent
+crown	crowned
+iron	iron
+misuse	malicious
+ink	ink
+shed	shed, shedding
+phone	
+fumble	flexible
+mix	mixed, mix, mixing
+makes	made
+suffice	something, sentient
+award	awarded, acknowledged, able
+tap	tapped, tapping
+advertise	advertised, advertising, available
+determine	
+retweet	retweet, real
+withstand	weak
+explore	exploring, explored
+dismantle	destructive, dismantled, dangerous, destroyed
+visualize	visible, visual
+boycott	banned, boycot, bad
+digest	
+include	included, involved, important
+argue	able, argued
+preserve	preserved, protected, present
+foot	feet, foot
+qualify	qualified
+inject	injected, injecting, inject, infected
+encounter	encountered
+dispute	
+shine	shining, shine, shiny, special, shone
+commit	committed, commit, committing, capable
+MAKE	made
+cost	cheap, cheaper, costly, cost
+bang	bang, banging
+appropriate	appropriate, adaptive, adequate, able, acceptable
+implant	implanted, intelligent
+ring	real
+chant	chanting, chanted
+hail	human, helpful
+cement	concrete, cement
+knew	knowledgeable, known, knowing
+bar	
+chop	chop, chopped, chopping, cut
+fulfill	fulfilled
+gift	gifted, given, giving
+switch	switched, switching, switch
+stain	stained, stain
+shorten	short, shortened, shorter, shorten
+form	formed
+stomach	strong
+purchase	purchased, present, possessed
+hire	hired, hiring
+twist	twisted
+mine	mine, mined
+bomb	
+salute	
+trademark	trademark, trademarks
+crank	crank, creative, capable
+done	done
+style	stylish, skilled
+boil	boiling, boiled, boil
+gets	
+enlarge	enlarged, enormous
+overlook	oblivious
+articulate	articulate, able
+pump	pump, pumped, pumping, pumps
+won	
+slip	slippery, slipped, slipping, slip, sneaky, smart, someone
+said	said, speaking, saying
+hammer	hammer, heavy, hard
+merit	
+fall	falling, fallen
+file	file, filed
+clutch	clutch
+hook	hooked, human
+of	
+chip	chip, connected, capable
+display	displayed, displaying
+lost	lost
+coach	coach, coaching, coached, competent, capable
+bet	betting, bet
+mouth	
+ensure	effective
+flash	flash, flashed, flashing, fast
+possess	possessed, present, possess, possessing
+picture	
+suit	special, something, strong
+lay	laid, laying, lay
+sound	sound, something, someone
+organise	organised, organized
+reopen	restored, reopened
+pinch	
+tip	tipped, tipping
+administer	administered, alive, available, able
+double	double, doubled, dual, doubles
+rescind	real
+scale	scaled, scalable, scaling, scale
+does	done
+heat	hot, heated, heat, human, heating
+strut	strong, superhuman, something, special
+agree	agreed, agreeable
+snow	snow, strong, solid
+search	searched, searching, smart
+calculate	competent, capable, calculated
+grind	grinding, grind
+deserves	
+shovel	shovel, solid, strong
+activate	activated, active, alive, able, available
+strengthen	strong, stronger, strengthened, sturdy, strongest
+attain	able, accomplished, achieved, alive
+reinvent	revolutionary
+grate	
+happen	human
+SEE	seen, sentient
+generate	generated
+rap	rap, rapper, rappers
+wonder	wonder, wondering
+torch	
+down	dumb
+visit	
+ID	intelligent, identified, identifiable
+surprise	surprised, surprising, smart
+rush	rushed, ready, rushing
+debunk	
+muscle	muscle, muscular
+condemn	
+peel	peeled, peel, polish, portable
+starve	starving, starved
+clinch	capable
+concede	competent
+employ	employed, effective
+consume	consumed
+shrink	shrinking, small, smaller, shrunk, shrink
+invite	invited, inviting, interested, invite
+guide	
+poop	poop
+honour	honoured, honored, honour
+fish	fish, fishing
+flavor	flavorful, flavored, flavor
+bridge	bilingual, bridge
+juice	juice
+convince	convinced, credible, convincing, capable
+wire	wire, wired, wireless
+warm	warm, warmer
+embarrass	embarrassing, embarrassed, evil
+bike	
+bowl	
+compose	creative, composed, capable, composing, created, competent
+graduate	gifted
+making	made
+expand	expanded, expanding
+sketch	
+furnish	furnished
+dislike	disliked
+preach	preaching
+acquire	acquired, able, available
+park	parked, present, parking
+in	intelligent
+prepare	prepared, present
+stone	strong, stone, sentient
+authorize	authorized, approved, able
+rank	ranked
+stretch	stretched, stretching, stretch, strong, stronger
+poison	poisonous, poison, poisoned
+scrub	scrub
+feather	feather, flying
+grant	granted, given
+tow	
+bung	
+will	willing, will
+shave	shaved, shaving
+after	able, alive
+trick	
+doing	doing, done
+stir	stirred, stirring, strong, sentient, stir
+confront	capable, courageous, challenged
+assemble	assembled, able
+comprehend	capable
+collapse	collapsing, collapsed
+bump	bumped
+stagger	sentient, smart, something
+stitch	skilled, stitching
+restart	running
+lower	lower, low, lowered
+bank	bank, banking
+nut	
+shift	
+applaud	applauded, alive, applaud, american, appreciated
+liberate	liberated, liberating, liberate, liberation
+dot	dot, dots
+disable	disabled, disabling, dangerous
+eradicate	evil, effective
+overturn	
+bleed	bleeding, bleed, blood
+issue	issued
+size	small, sized
+glue	glue, glued
+struggle	strong, struggling, stronger
+unravel	useful
+likes	
+mute	mute, muted
+dress	dressed, dressing
+empty	empty
+roast	roasted, roast
+never	
+pray	praying, prayed
+HAVE	
+stuff	something, sentient, smart, someone
+KILL	
+harvest	harvested, harvesting
+censor	censored, censorship
+oversee	
+denounce	dishonest
+just	
+regulate	responsible, regulated
+widen	
+through	
+combine	combined, combining, complex
+nailed	
+git	git
+exceed	extraordinary, exceptional
+battle	
+excuse	
+insult	insulting, insulted
+spark	spark, something
+steer	sentient, steered
+OK	
+conclude	capable, certain, correct
+list	listed
+has	
+crest	capable
+smooth	smooth, smoother, strong, solid, stable
+me	
+compute	computation, computing, compute, computational, computed, capable
+proof	proof, proven
+color	colored, color, creative
+missed	
+tattoo	tattoo
+hike	hiking, human
+ate	able, alive
+green	green
+diffuse	diffuse
+mock	mocked, mocking, mock, malicious
+slide	slippery, strong, solid
+Make	made
+stroke	strong, sentient, special
+monitor	monitored
+brick	built
+Tweet	tweet, tweeting, twitter, tweeted
+blaze	
+ponder	philosophical
+getting	
+stock	stock, stocked
+shit	shit, sentient, squat
+fuse	fused, flexible, fluid
+scan	scanned, scanning, sentient
+recycle	recycled, recycling, reusable, renewable
+piece	
+modify	modified
+water	water, wet
+locate	located
+peg	
+heed	heard, human
+brown	brown, black, burned
+retract	removable, reliable, retracted
+over	over
+squeeze	strong, squeezed, small
+jam	jam, jammed
+obey	obedient
+sip	
+muster	
+gas	
+stay	something, stable
+stalk	stalking, suspicious, stalk
+mash	mash, mashed, mixed, made
+adapt	adaptive, adapted, able
+deflect	
+despise	disliked, despised
+bind	binding, bound, bonded, bind
+bit	
+redesign	
+reconsider	rational, reasonable
+slug	sentient, strong, something
+bolt	bolted, bolt
+rest	
+poke	poked, poking
+bullshit	bullshit
+criticize	critical, criticized, controversial
+clarify	correct, clear, competent
+cash	cash, capable
+round	round, real
+stamp	stamped, stamp
+knows	knowledgeable, knowing, known
+drag	dragged, drag, dragging
+fine	fine
+throttle	
+lend	lent, lending, lend
+renew	renewed, reliable
+dump	dumped, dump, dumping, dumps
+used	used, useful, using, usable
+plot	plotting, plot
+increase	increased, intelligent
+link	linked, linking
+broadcast	broadcast, broadcasting
+sweep	swept, sweeping, sweep, sweeps
+plead	powerful
+dish	delicious
+weld	weld, welding
+smear	
+betray	betrayed
+buckle	
+box	boxed
+praise	praised, positive
+complicate	complicated, complex, confusing, chaotic, confused
+trace	traced, there, trace
+sample	sampled, sampling
+transmit	transmitted, transmitting
+foresee	
+nickname	named
+retain	retained
+pee	pee, present, portable
+spawn	sentient, spawned, spawn
+temper	temper, tempered
+analyse	able, analytical
+threaten	threatened, threatening
+skate	skate, skating, skilled
+pardon	
+reboot	real, remote
+tax	taxed, taxable, tax, taxing
+dedicate	dedicated, done
+discharge	discharged, disabled
+okay	
+dim	dim
+connect	connected
+FIX	fixed, fix, flexible
+dry	dry, drying, dried, durable
+ration	
+darn	
+at	able
+weaken	weak, weaker, weakened, weakening
+remedy	
+divert	diverted
+bat	bat
+complement	complementary
+alter	able, altered, affected
+polish	polished, proficient, polish
+deem	
+contest	challenged, competent
+dub	dubbed, dub, different
+game	
+torpedo	
+pot	pot, powerful
+blend	blended, blending, bilingual
+tough	
+pound	powerful, pound, physical
+silence	silenced, silent, sound
+piss	pissed, pee, piss
+conceal	concealed
+spray	sprayed, spray, spraying
+yield	
+if	intelligent, independent
+bark	bark, barking
+sit	seated, sitting, standing, stationary
+defy	different
+wheel	wheel, wheels
+microwave	microwave
+earned	
+exhibit	expressive, exhibited
+commemorate	celebrated
+flood	flood, flooded
+panic	
+plate	
+chose	chosen, capable
+dwarf	
+communicate	communicating, capable
+befriend	
+trump	
+tire	tire, tires
+forfeit	forfeit, free
+combat	capable, competent
+STOP	sentient, stop, strong
+abort	aborted, alive, abort, abortion
+date	dating, dated
+Try	
+stage	staged
+title	titled
+frost	frost
+nurse	nursing
+examine	examined
+integrate	integrated
+tease	teased, teasing
+stream	streaming, streamed, stream
+signal	sentient
+label	labeled
+crumble	
+bum	
+trim	trim, trimmed
+pinpoint	present
+channel	creative, capable
+pawn	pawn, possessed
+ignite	ignited
+blew	
+boot	boot, booted
+pirate	pirate, pirates, piracy
+pave	paved, paving, powerful
+bully	bullying, bully, bullied, bullies
+accelerate	accelerated, accelerating, acceleration, accelerate
+overthrow	oppressive
+value	valuable, valued, value
+weave	woven, weaving, weave
+envision	
+claw	claw
+contemplate	conscious, contemplating
+register	registered, real, recorded
+slaughter	sentient
+whistle	whistle
+market	
+cave	capable
+ready	ready
+distribute	distributed, distributing, distribution
+extend	extended, extending
+treat	treated
+nod	
+hoard	hoard
+brake	braking, brake, brakes
+stumble	sentient, strong, smart, something
+disappoint	
+fixed	fixed
+spur	sentient, strong, something
+next	
+upset	unstable, unpredictable, upset, unreasonable
+bleach	bleach
+vote	voting
+emulate	equivalent
+bash	bash
+dent	
+prosecute	prosecuted, powerful
+champion	champion, champions
+stunt	strong, superhuman, sentient
+contact	connected
+breed	bred, beneficial, breeding
+death	
+mastermind	
+scoop	smart, strong, special
+breach	breached, broken
+gather	gathered
+wax	wax
+eclipse	evil
+brush	brush, brushed, brushing
+steel	sentient, something, strong, smart
+observe	observed, observing, observable
+liked	
+sting	strong, sting, sharp
+broke	
+dispatch	dispatched
+beam	blind
+wanted	
+Get	given
+accompany	accompanied, able, alive
+revisit	revived, remembered, restored, recalled, relevant, real
+utilize	useful, used, utilized, usable
+encrypt	encrypted
+divine	divine
+fade	
+punish	punished
+decline	disabled
+glass	
+smile	smiling, smile
+operate	operating
+separate	separate, separated, special, singular
+concoct	creative, created, capable, clever, competent
+damage	destructive, dangerous, damaged, damaging, damage
+dab	
+cloud	cloud
+access	accessible, available, alive, able
+patrol	
+thwart	
+recount	reliable, recorded, real
+navigate	
+price	priced
+hole	heavy
+model	modeled, modeling
+prescribe	prescribed
+scalp	sentient, strong, superhuman, smart
+pair	paired, pair
+maybe	
+surface	something
+affect	affected, able, active, alive
+strip	stripped, stripping, strip
+free	free, freed
+derive	
+latch	
+imitate	imitation, identical, intelligent
+sand	sand, strong, solid
+doom	dangerous
+deed	done, deed
+egg	egg, edible, evil, eggs
+showcase	showcased, something
+harness	
+Do	done
+bad	bad
+killed	
+illustrate	illustrated, important, interesting
+filter	filtered, filtering, filter, filters
+step	strong, superhuman, sentient
+kid	
+urge	
+violate	
+lease	leased, leasing, licensed
+is	
+key	key, keys
+nurture	nurturing
+sever	severed, sentient, strong, sever
+enact	effective
+intend	intended, intent, intentional, intelligent, involved
+ingest	ingested
+blur	blurred, blurry, bilingual, blur, black
+prick	
+reform	reformed
+bookmark	bookmark
+can	capable, can
+spare	spare, saved
+haul	heavy
+hurdle	human
+quite	
+realized	realized
+essay	english
+shop	shopping
+populate	populated, present
+dust	dust, durable, dangerous
+invest	invested, investing, involved
+highlight	helpful
+grit	
+terminate	terminated
+script	scripted, scripting
+seen	seen, seeing
+gasp	
+perpetuate	persistent, powerful
+update	updated, useful
+but	
+delay	delayed, delaying, delay, disabled
+travel	traveling, transported, travelling, traveled
+mess	messy, malicious, mess, mischief
+dance	dancing, dance
+dictate	dominant
+spew	spew, speech, said
+manifest	manifest, manifested
+relay	
+negotiate	negotiating, negotiated
+dam	
+pedal	pedal, powered, pedals, powerful
+dissolve	dissolved
+withdraw	withdrawn, withdrawing
+limit	limited, limiting
+seed	seed, seeds, sentient, seeded
+foster	foster, fostering
+scare	scary, scared
+lie	lying, lie
+advocate	able
+pretend	pretending, pretend
+prize	powerful
+chain	chained, chain, connected
+reference	referenced, relevant, reference, real
+clip	clipped
+wait	waiting, willing
+cough	coughing, cough, contagious, choking
+parse	parsed
+formulate	
+provoke	provoked, provocative, provoking
+buck	
+copyright	copyrighted, copyright, copied, creative
+occupy	occupied, occupying
+attend	available, alive, able, attending
+finger	
+wake	woke
+tank	
+place	placed, present
+suppress	suppressed, silenced
+freak	
+loved	
+headline	
+facilitate	facilitated, facilitating
+field	
+draft	drafted
+ram	
+establish	established
+amend	altered, able, amended
+eye	
+strain	strained, strong, stressed
+circle	circular, circle, connected
+bed	
+resemble	recognizable, real, related
+tape	taped
+KNOW	knowledgeable
+procure	possessed, present
+compare	comparable
+rival	
+skirt	strong, stealth
+harm	harmful, hostile, harmed
+undermine	unstable
+void	void, valid
+favor	favored, favorable
+project	possible, projected
+butter	butter, baked
+cream	
+crawl	crawling
+tried	
+Like	
+revoke	revoked, removable
+advise	advised, able
+revise	revised
+jail	
+captain	capable
+ridicule	ridiculed
+quote	quoted, quote
+target	targeted
+finished	
+flag	flagged
+matter	meaningful
+merge	merged, merging
+expend	expend, expended
+devise	devised
+ramp	
+big	
+flick	flexible
+critique	critical, competent, constructive
+shade	shade, sentient
+rig	rigged, rig, rigging
+sock	sentient, sock, something, socks
+code	code, capable, competent, coding
+mug	
+overpower	overpowered
+off	
+amplify	amplified, audible, additive
+half	human
+stake	stake, stakes, something
+profess	
+condone	complicit, criminal, corrupt
+worship	worshipped, worship
+view	visible, visual
+near	near, nearby
+punt	powerful, portable
+abolish	abolished, able
+credit	credited, credit
+video	video, visible
+stress	stressed, stress, stressful, strong, stressing
+influence	influential, involved, important, influence, influenced
+streak	sentient, smart, something
+postpone	present, possible
+probably	powerful, possible
+fingerprint	fingerprint
+scout	scouting, smart, scouts
+invented	invented, intelligent, inventive, innovative, invent, impossible
+WIN	
+disappear	disappear
+stomp	strong, stomp, sturdy
+out	out
+tag	tagged, tag, tagging, tags
+reconstruct	real, reconstructed, reliable
+recharge	
+wrestle	wrestling
+extract	
+butt	
+contradict	contradictory, contradicted
+envy	evil, envy
+deepen	deep
+exit	eliminated
+shot	shot, someone, sentient
+flank	
+discount	dishonest, deceptive
+rob	robbed
+spy	spying, spies, spy, someone
+remix	remix
+mimic	
+reproduce	reproduced, real
+root	root, rooted, real
+pilot	pilot
+discard	discarded, disposable, destroyed
+package	packaged, package, packages, packaging, possible
+you	
+deal	
+shell	shell, software
+satisfy	something, satisfied
+source	source, sourced
+raid	
+hitch	human
+hem	human
+scarf	sentient, strong
+dial	
+discredit	dishonest, deceptive, dangerous
+compost	compost
+that	
+bloom	
+so	sentient, something, so, someone
+Read	read, reading, readable
+shun	
+frog	
+chill	
+hawk	hawk
+shock	shocked, shock, shocking, surprised
+triple	triple, three
+soak	soaked, submerged, soaking
+reward	rewarded
+moderate	moderate
+corrupt	corrupt, corrupted, corruption
+isolate	intelligent, isolated
+worry	worried, worrying
+numb	numb
+kind	kind
+up	up
+foul	foul
+though	
+ground	ground, grounded
+confuse	confused, confusing
+sober	sentient, strong
+cracked	capable
+mortgage	
+blunt	blunt
+pencil	pencil, printed
+gust	
+outweigh	
+crunch	
+inhabit	inhabited
+wit	
+mask	masked
+anchor	anchored, anchor, anchors, able, alive
+jog	
+shrug	strong, sentient, superhuman, something
+aid	able, available, alive
+by	
+divorce	divorced, destroyed
+mistake	mistaken
+transport	transported, transport
+debut	
+illuminate	illuminating, illuminated, intelligent, important
+to	there
+fool	fool, fooled
+capitalize	clever
+hum	hum, human, humming, heard
+solder	solder, skilled
+counterfeit	counterfeit
+BE	
+resume	restored
+care	caring, concerned, competent, capable
+torture	tortured, torture
+breakdown	
+swarm	sentient, strong
+overtake	
+perceive	present
+pepper	pepper, poisonous
+boost	boosted
+state	said
+brand	branded, brand
+too	
+construct	constructed, creative, created
+blown	
+cycle	connected, cycling, cycle, creative
+shotgun	sentient, strong
+coordinate	coordinated, coordinate, connected, coordinating
+pen	
+upgrade	upgraded, useful, used
+debug	debugging
+steam	steam
+such	sentient, superhuman
+cherry	capable
+bail	
+from	
+called	capable
+march	mobile
+cite	cited, credible, correct
+transform	transformed
+venture	
+fare	
+swat	strong
+attract	attractive, attracted, appealing
+arm	armed, able, armored, arms
+expel	expelled
+cops	capable
+enhance	enhanced
+thread	threaded, thread, threads
+counteract	
+uphold	
+and	able, alive
+charter	charter
+adjust	adaptive, able, adjustable, adjusted
+wants	
+point	pointing, pointed, point, present
+waterproof	waterproof
+stole	stolen, stealing, stole
+Skype	skype, sentient
+grease	grease
+compress	compressed, compression, compress, compact
+blank	blank, black, blind
+forgot	
+without	
+heard	heard, human
+or	
+good	
+heart	human, heard
+WANT	wanted, willing
+subpoena	
+prolong	
+USE	useful, used, usable
+mint	
+disgrace	dangerous, destructive
+multiply	multiply, multiplication, multiplying, multiplied, mathematical, measurable
+fulfil	fulfilled
+chart	capable
+undergo	
+jerk	jerk
+cheat	cheating, cheated, corrupt, clever
+anticipate	able, aware
+invoke	invoked
+corner	clever
+READ	read, readable, reading
+author	able
+conduct	capable, competent
+lap	
+rise	
+craft	creative, craft, capable, competent, created
+image	intelligent
+till	
+slur	slur, slurs
+table	
+prohibit	prohibited
+train	trained, training
+remind	remembered, reminded
+staff	
+resign	
+misinterpret	mistaken, malicious, misunderstood
+pet	pet, present
+clock	clock
+screen	smart, sentient, screen
+likely	
+omit	omitted
+tan	tan
+eventually	
+evaluate	evaluated
+survived	sentient, superhuman, something
+coat	coated, coat, covered
+disband	
+overshadow	
+warn	
+blister	
+cane	capable
+ruined	
+vent	vent, vocal
+obscure	obscure, obscured, opaque
+drill	drilling, drilled
+See	seeing, seen
+paper	printed, paper, portable
+excise	evil, effective
+livestream	livestream, live
+exchange	exchanged, exchanging, exchange
+term	
+refill	
+tighten	tight, tightened
+prosper	powerful
+reign	
+oil	
+tend	tender, there
+fan	
+tread	
+suspend	suspended, sentient, stable
+law	
+manipulate	manipulated
+comb	comb
+interrupt	interrupted, interfering, involved, interrupt
+identity	intelligent, identifiable, identified, identity
+derail	disruptive, dangerous, derailed
+pace	pacing, paced, pace
+mar	
+slash	slash, slashed, someone
+curb	
+remain	
+palm	palm, palms, portable
+bug	bad, bug
+lob	
+conceive	conceived, capable
+ad	able, alive
+man	
+insure	insured, insurance
+appeal	able
+peak	powerful
+tempt	tempting, tempted
+render	rendered, rendering, real, render
+vest	
+here	here, human
+solo	sentient, something, smart
+speed	sentient, superhuman, smart, strong
+deposit	deposited, deposit
+automate	automated, autonomous, automation, automatic
+fence	fencing, fence
+skew	skewed
+limp	
+whiff	
+even	
+override	
+commute	capable
+inspect	intelligent
+finally	
+reduce	reduced, reducing
+grace	
+shutter	
+scramble	scrambled, scrambling
+litter	litter
+then	
+spam	spam
+prank	
+bare	bare
+rack	
+spite	sentient, strong, something, superhuman
+coax	capable
+cold	capable
+skill	skilled, special
+cup	
+proved	powerful
+suppose	suppose
+disrupt	disruptive, dangerous, disrupted, destructive
+eating	edible, eating
+mold	mold, molded
+misunderstand	mistaken, misunderstood
+day	
+elbow	elbow
+harbor	hostile
+really	
+tune	tuned, tuning
+tally	
+shield	strong, shielded, safe
+hurry	human
+crushed	capable
+square	square, squared, solid, something
+started	sentient, something, smart
+cum	capable
+rally	
+balance	balanced, balancing, balance
+select	selected, sentient
+prioritize	proactive
+took	
+pan	pan
+aim	armed, able, aiming, accurate, aimed, automatic, airborne
+mirror	mirror
+bounce	bouncing, bounce, bounced
+minimize	minimized, minimal, minimizing
+bid	bid, bidding, bidder
+configure	configured, capable, competent
+salt	sentient, smart, something
+scent	smelling, smell, smelled, scent
+red	
+import	imported, import, importing
+pause	paused, pause
+black	black, blind
+substitute	substituted, substitute
+compromise	compromised
+arrive	able
+feature	featured, functional, feature
+great	
+felt	felt
+hedge	hedge
+managed	
+eject	ejected, explosive
+discourage	discouraged, dangerous, discouraging
+reinforce	reinforced, reinforcing
+compound	compound, complex, compounded
+enough	
+incorporate	incorporated, integrated, involved
+strap	strong
+infiltrate	involved, infiltrated
+ize	intelligent
+evade	
+assure	assured
+triumph	
+distinguish	different
+rend	real
+ply	powerful
+Photoshop	photoshop
+impress	intelligent, impressive, interesting
+bin	bin
+diagnose	
+se	sentient, something, smart
+duck	duck, dumb
+escort	
+intensify	intangible, intelligent, impossible
+plaster	portable, powerful
+gun	gun
+morph	morph
+wrote	written, writing
+Buy	bought
+shower	strong
+hog	hog, hacked
+actually	able, alive
+real	real
+scorn	
+into	
+weep	weeping
+greet	
+dock	
+ha	human
+punk	powerful
+shame	strong, shameful
+loves	loved, loving, love
+fruit	
+undertake	
+impose	imposed, impossible, imposing
+rate	rated, reliable
+hop	high
+exercise	exercised, exercising
+vow	
+sanction	sanctioned
+assert	authoritative, able
+bought	bought
+bypass	
+audit	able
+schedule	scheduled
+discern	
+transplant	transplant
+named	named
+tidy	tidy
+dash	dangerous
+convict	convicted, capable, competent
+avert	able, alive
+only	
+toe	
+calm	calm, calming
+estimate	
+evolve	evolving, evolved, evolutionary
+disarm	dangerous
+tee	
+simplify	simplified, simpler, simple, superior
+now	
+itch	intelligent
+string	string, strings, smart, something, special
+OWN	owned, own
+slate	sentient, something, smart
+blows	
+using	useful, used, using
+contract	contracted, contract
+brain	brain
+bunk	
+breath	breathing, breath, breathed
+stem	sentient, strong, sound
+transfer	transferred, transmitted, transferring
+purge	powerful, purge, possessed, present
+quantify	
+slim	sentient, something, smart, strong
+caught	capable
+assess	able, accurate, assessed
+hone	
+act	able, acting, alive, active
+grip	
+lump	labeled
+reply	
+hashtag	hashtag, human
+teleport	teleport, teleportation
+reuse	reusable, reused
+scoff	sentient, smart, strong
+dope	dope
+short	short, sentient, shorter, small, something
+edge	
+paste	paste, printed, portable, possible, present
+idea	intelligent
+gum	
+negate	null, neutral, negative
+graffiti	graffiti
+testify	truthful, trustworthy, true
+filibuster	
+mentioned	
+sigh	sentient, sound, something
+spear	sentient, strong, something, smart
+net	net
+educate	educated, enlightened
+later	
+clue	capable, clever, competent
+replay	real, recorded, remembered
+able	able, alive
+leg	
+him	human
+frequent	
+cultivate	cultivated
+propel	propelled, powered, powerful
+wearing	wearable
+awake	awake, alive, awakened, aware, asleep
+jar	
+cuff	
+Eat	edible
+ve	
+first	
+sprint	sentient, superhuman, smart, strong
+garner	
+leverage	leverage
+total	
+ruins	
+prompt	prompt, present, prompted
+wander	wandering
+age	aged, aging, ancient, alive, age
+reset	reset, reliable
+broaden	broad, broader
+line	
+wage	wage
+phase	possible, programmed
+Find	
+export	exported, exporting, export, exports
+splash	splash
+ding	dumb
+friend	friendly, friend, friends
+spice	spice, spicy, spices
+still	sentient, strong, something
+rear	
+cage	
+fault	flawed
+ever	
+invade	invaded, invading, invasive
+broken	broken
+penetrate	penetrating, powerful
+distract	distracting, distracted, distraction, distract, disruptive
+goddamn	
+map	mapped, mapping
+stack	stacked, stack, stacking, stacks, strong
+attach	attached, able, adhesive, available
+comp	computational, comp, computed, competent
+humor	humorous, hilarious, humor
+reckon	right, real, reasonable, rational
+troll	trolling, troll, trolls
+herald	herald, heard
+t	
+flame	
+exclaim	english
+stump	sentient, smart, strong
+sandwich	sandwich, strong, substantial
+interview	interviewed
+joke	joking, joke, jokes
+fashion	fashionable, fashion, functional
+prime	prime, perfect, powerful
+truck	
+archive	available, archived, alive
+house	housed, house, housing, home, habitable
+blitz	
+soil	strong, sentient, solid, something
+pledge	pledged, pledging, pledge, promised
+customize	customizable, creative, customized
+appoint	appointed
+am	able, alive
+father	female
+elevate	elevated, extraordinary, exceptional
+parade	present, powerful
+apprehend	alive, able
+chair	capable
+flesh	
+booze	
+sequence	sentient, smart
+withhold	withholding, withheld, withhold
+wound	
+finds	found
+specify	specified, something, someone
+escalate	escalated
+massacre	
+says	said, speaking, saying
+horde	
+life	
+rifle	
+bitch	bitch
+belt	
+compliment	complimentary
+fret	
+built	built
+weight	weight, weighed, weighted, weighing
+believed	
+relate	related
+unite	united, unified, unity, unique, useful
+long	
+hard	human
+affirm	affirmed, alive, authentic, affirm
+us	useful
+floor	
+fax	fax
+board	
+camouflage	camouflage, concealed
+roof	
+losing	
+writing	writing, written
+word	
+redirect	redirected, redirect
+sees	seen, seeing
+lodge	
+SIGN	signed, sentient
+commission	capable, creative, commissioned, competent, created
+mother	mother, maternal
+might	
+fracture	fractured, fragile, flexible
+tone	tone
+dive	diving, dangerous
+behind	
+breeze	
+vape	vaping, vape, vapor
+offset	offset
+equate	equivalent, equal
+mentor	mentors, mentor
+brainstorm	brilliant
+embed	embedded, embed
+feast	
+improv	improvised, intelligent, impossible
+loan	lent, loan, lending
+delegate	delegated, delegate
+exist	exist, existing
+luck	
+cull	
+blackmail	blackmail
+strength	sentient, strong, something
+instruct	instructed, involved, intelligent
+stolen	stolen, stealing
+having	
+designed	designed, design
+ticket	
+reload	reload, ready
+assault	armed, aggressive, assaulted, abusive, attacked
+rep	real
+transcend	
+nominate	nominated, nominating
+humble	humble, human, helpful
+trail	
+motivate	motivated, motivating, motivational
+pulp	powerful
+thumb	thumbs, thumb
+forecast	forecast
+assign	assigned
+this	
+hated	human
+dip	dipping, dipped, dip
+rebound	
+lean	
+against	able
+level	level
+bus	
+sub	sentient, superhuman, something
+button	button, buttons
+sweet	sentient, something, smart
+wine	
+bundle	bundled, bundles, bundle
+insist	impossible
+all	able, anything
+please	polite
+cease	capable
+pad	printed
+staunch	sentient, something, smart
+rupture	
+needing	
+effect	effective
+deport	deported, dangerous, displaced
+consult	consulted, competent, capable
+known	
+behave	behaving
+knife	knife
+knee	
+was	
+expense	
+axe	armed, able, axe, alive
+drug	drug, dangerous, drugs
+tick	tick
+regretted	
+accommodate	accommodating, able, adequate, available, adapted, adaptive
+because	
+attest	authentic, able
+elect	elected, elect
+warp	warped, warp
+echo	echo
+takes	
+magic	
+home	human
+relocate	relocated, remote, removable
+yet	
+as	able, anything, alive
+dice	dice
+case	capable
+wolf	
+legal	
+thrive	
+emit	emitted, emitting, electromagnetic, electronic

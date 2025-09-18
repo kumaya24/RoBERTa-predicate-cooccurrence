@@ -1,0 +1,1996 @@
+make	making, make, maker, manufacturing, machine
+do	do, deed, decision, doing
+get	get, grant, gift, grab, getting, give
+need	need, needs, necessity
+regret	regret, regrets, remorse, retrospective, rebellion, ret, resentment
+find	find, finding, first
+have	have, hat, holding, having, how
+see	sight, seeing, see, saw, sighting
+prove	proof, predicate, prove, proofs, proving
+eat	eating, eat, event, eater, edible
+try	try, test, time, testing, task
+know	knowledge, know, knowing
+like	like, liking, likes, liked, latter
+use	use, usage, user, uses, utility
+take	take, theft, taking, trade, transaction, transfer, takeover, term
+finish	finish, finishing, finished, final
+win	win, wins, winner, winning, won, will
+lose	loss, losses, losing, lose, latter, lost, loses, lessness
+love	love, like, latter, loving
+own	ownership, owner, orem, occupation, object
+say	statement, speech, saying, say, something
+remember	recall, remembrance, recollection, remember, remembering, record, recognition, reminder
+handle	handling, handler, handle, hat, hash, hing, hold, hand
+deserve	demand, dispute, deserve, deserving, deed
+buy	buy, buying
+break	break, breaking, bug, broken, block, breakdown, breaks, breach, breaker, broke
+catch	catch, catching, catches, caught, ception, capture, collection, cat
+fix	fix, fixing, fork, fixes, function
+miss	miss, mistake, missing, mismatch, misses, misunderstanding, mark
+survive	survival, survive, surviving, survivor, success, survived, survives, sacrifice, struggle, self
+believe	belief, believe, believing, believer, beliefs, believed, body
+kill	kill, killing, kills, killings
+be	body, being, boolean
+want	want, wish, wanting, wants
+admit	admission, agreement, act, acknowledgment, appropriation, acknowledgement, acceptance, admitting, action, accusation
+hate	hate, hatred, hat, hating, hostility, h, holocaust
+write	writing, work, write, word, writer
+crush	crush, crushing, crash, collision, collapse, crunch, cap, carving
+feel	feeling, feel, felt, feelings, first
+hear	hearing, heard, hear
+wear	wear, wearable, wearing, wearer
+nail	nail, nails
+forget	forgetting, forget, failure, forgot, ft, former
+save	save, saving, saves, saved, sacrifice, snapshot, salvage, savings, sum
+stop	stop, shutdown, slowdown, stopping
+read	read, reading, review, reader, reads
+destroy	destruction, disruption, damage, disaster, destroy, destruct, deletion, demolition, destroying, death
+sell	sale, selling, sell, sales, seller, scam
+drink	drink, drinking, drunk, drinks, dish
+burn	burn, burning, burns, burned, blaze, burnt
+call	call, callback, caller, collection, calling, c, code, claim, catch, comm
+realize	realization, recognition
+earn	earning, earn, earned, event, effect
+manage	management, manager, managing
+explain	explanation, example, equation, expression, exhibit, explaining
+pull	pull, push, pulls, pulling, process
+recognize	recognition, realization, recognize, recognizing
+steal	steal, stealing, stole, scam, steals, stolen
+blow	blow, blackout, burst, breach, blowing, blows, burn, bang, bomb
+appreciate	appreciation, agreement, appreci, appreciate, appreciated, appropriation, attribute, argument, act, art
+bring	body, bring, bringing
+understand	understanding, understand
+throw	throw, throwing, thrown, toss, throws, threw, tossing, type
+solve	solution, solve, solving, success, solutions, solved
+beat	beat, beating
+enjoy	enjoyment, enjoy, enjoyable, enjoyed, effect, event, enjoying, experience, entertainment
+learn	learning, lesson, learn, learned, latter
+keep	keeping, keep
+show	show, showing, spectacle, shows
+start	start, startup, starter, starts
+ruin	ruin, riot, ruption, robbery
+smoke	smoke, smoking, smoker
+crack	crack, crash, cracking, code, crime
+accept	acceptance, agreement, accepting, accept, argument, act, accommodation, acknowledgment, action
+cut	cut, cutting, cutter, cuts, carving, chop, cision
+carry	carry, carrying, chain, carries, collection, container, crime, concept
+answer	answer, argument, action, act, affirmative, agreement, answers, activity
+swallow	swallow, swallowing, spill, spoon, snack
+taste	taste, tasting, tastes, time, test
+publish	publication, publish, publishing, post, pace, project, publications, posting, place, posts
+give	gift, give, giving, given, generosity, grant, good, gesture
+open	open, opening, object, opener, operation, openness
+drop	drop, dump, dropping, dumping, drops, dropped
+sign	sign, signature, signing, symbol
+build	build, building, block, builder
+claim	claim, claiming, claims, claimed
+end	end, ending, endpoint, exception, exit, execution
+post	post, posting, posts, poster, place, process
+print	print, printing, place, printer, publication, pace, pdf, program, prints, publishing
+smell	smell, scent, smells, sniff, stink, sense, smelling, signal, senses
+touch	touch, touching, touches, tap, transaction, time
+hit	hit, hitting, hits, hat
+doubt	doubt, disagreement, distrust, dispute, doubts, denial, debate
+attempt	attempt, act, action, achievement, attack, attempted, activity, attempts, accomplishment, actions
+tell	telling, time, tell, testimony, term, ta, thing, truth
+discover	discovery, discover, discoveries, discovering
+name	name, naming, namespace, noun, named, nickname, names
+share	sharing, share, shared, same, sum
+fight	fight, fighting, fights, first
+grab	grab, grabbing, grabs, grasping
+spill	spill, spilling, spilled, spills, splash
+report	report, reporting, reports, reported, record
+hold	holding, hold, holder
+pass	pass, passing, port, predicate, place, passed, passage, process, passes
+close	closure, close, closing, closed, closes, closures, case, crime
+think	thought, think, thinking, thinker, term, thoughts, things
+deliver	delivery, deliver, distribution, deed, delivering
+suck	suck, sucking, sucker, sucks, stealing, steal
+test	test, testing, tests, time, task
+ride	ride, riding, rider, rides
+complete	completion, complete, closure
+face	face, future, first
+smash	smash, smashing, slam, strike
+run	run, runtime, running, runner, runs
+send	send, sms, sending, sender
+mean	meaning, mean, manship
+change	change, changes, changing
+kick	kick, kicking, kicks, kicked, kill, kicker
+wing	work
+hide	hiding, hide, hidden, hid, hides
+dig	dig, digging, dump, discovery, digs, dug, drill, drilling
+sing	song, singing, sing, solo, songs, singer
+mention	mention, meme
+mail	mail, mailing, mailbox, message
+announce	announcement, announce, announcing, announcements, article, agreement, act, announced, advertisement, action
+cook	cooking, cook, culinary, curry, chef, cuisine
+fly	fly, flight, flying, fishing, first, fire
+clean	clean, cleaning, cleanup, cleaner, cleansing, cleaned, cle
+stick	stick, sticking, stuck, sticky, sticks, stuff, sculpture, situation, stamp, scraping
+cap	cap, caps, contract, collection, cache, cash, cat, crime
+order	order, ordering, ordered, orderly, orders, object, operation
+watch	watch, watching, work, watches
+receive	recipient, receiving, receive, request, receipt, response, receiver, return, received, result
+sink	sink, sinking, sunk, spill, sinks, sum
+unlock	unlock, unlocking, unlocked, upgrade, unlocks
+wash	wash, washing, work, wave
+achieve	achievement, accomplishment, achieve, action, act, achieved, ambition
+drive	drive, driver, driving, design
+shut	shutdown, shut, shutting
+fake	fake, fraud, fabrication, ft, false
+notice	notice, noticing
+turn	turn, transformation, turning, turns, transform, thing, trade
+live	life, living, live, lifetime, lie
+spot	sight, sighting, spot, spotting, search
+afford	appropriation, asset, act, acquisition, auction, action, art
+walk	walk, walking, wall, work, way, walks
+experience	experience, event, encounter, effect, experiencing, esthesia, experiences, events
+bite	bite, biting, bug, bites, bit, bitten
+allow	argument, appropriation, agreement, allow, attribute, act, approval, action, above
+move	move, movement, moving, motion, moves
+grow	growth, grow, garden, growing, gardening, gift
+push	push, pull, pushing, pushes, process
+google	google
+leave	list, leave, leaving, latter
+shove	shove, shoved, stuff, squat, squeeze
+choose	choice, choosing, consensus, choices, collection, choose
+shoot	shooting, shoot, shot, shooter, shoots, shots
+question	question, questioning, questions
+pick	pick, picking, preference
+deny	denial, dispute, deny, disagreement, denying
+join	join, joining, joins, joined
+witness	witness, witnessing, witnessed, watch, witnesses
+demand	demand, dispute, demands
+follow	following, follow, follows
+require	requirement, request, requirements, require
+release	release, releases, releasing
+decide	decision, decisions, dispute, disagreement, debate, deed
+kiss	kiss, kissing, kissed, kisses, king
+punch	punch, punching, punches, punched
+consider	consideration, collection, consensus, consider, considering, category, classification, concept, condition
+guarantee	guarantee, guarantees, guaranteed, gift
+invent	invention, innovation, inventor, idea, invent, inventions, invented, ideas
+teach	teaching, teach, teacher, term, time, taught
+book	book, booking, bundle, body, books
+wreck	wreck
+refuse	refusal, refuse, rejection, refusing, resistance, refused
+plan	plan, planning, project, plans, proposal, plot, program, predicate, preparation, process
+fuck	fuck, fucking, fucked, ft, first
+ask	ask, asking, argument, answer, act, action
+create	creation, create, creator, computation, collection, constructor, craft, change, construct, creating
+pay	payment, pay, payments
+match	match, matching, matches, matched, meme, magic
+bottle	bottle, body, blob, burglary, bottles, block
+accomplish	achievement, accomplishment, act, action, agreement, achieve, activity, accomplish, aggregate, accomplishments
+bear	body, bearing, bear, bundle
+repeat	repetition, repeat, reuse
+meet	meet, meeting, met, match, mark
+fold	fold, folding, folds, folded, form, fork, f, flow, function, foil
+hack	hack, hacking, hacker, hacks, hole, hat, h, hacked
+help	help, helper, helping, helps, helpful
+defend	defense, defend, defence, defending, defended, defender, defensive, defenses
+rock	rock, rocking, riot, rocks
+guess	guess, guessing, guesses, guessed, game
+sense	sense, sensation, sensing, sight, sensed, signal, search, statement, self
+work	work, working, workshop
+cover	cover, covering, coverage, category, collection, concept, counter, crime
+sweat	sweat, sweating, sis
+paint	painting, paint, painter, picture, project, process, paintings, pain, place, paints
+record	record, recording, records, register, recordings, reporting, recorder
+confirm	consensus, confirmation, confirm, correlation, confidence, confession, crime, claim
+block	block, blocking, blocks, blocker, blacklist, bind, body, blockade, break, bage
+fire	fire, fireball, firing, function, flame, flaming, fires, fireworks
+fill	fill, filling, function, form, fills, fork, following
+notch	notch
+cross	cross, crossing, collision, conflict, crossover, change, compromise, crime
+screw	screw, screws
+draw	drawing, draw, diagram, design, drawings, drew, draws
+declare	declaration, declare, declared, declaring, definition, declarations, document, deed
+bake	bake, baking, baked, bakery, baker, body, bread
+replace	replacement, replace, redesign, repair, reuse, return, reform, replacing
+spoil	spoil, spoiled, spoiler, scam, stealing, steal, sabotage
+quit	quit, quitting
+provide	provider, providing, provision, promise, predicate, place, provide
+Google	google
+spin	spin, spinning, spun, spins
+hurt	harm, hurt, hack, hurting
+force	force, forcing, forced, forces, first
+lick	lick, licking, latter, le, luck
+delete	deletion, delete, deleting, deleted, dump, destruction
+blame	blame, blaming, boycott, bole, body
+let	let, letting, lets
+melt	melt, melting, meltdown, melted, melts, making, microwave, magic, manufacturing
+lock	lock, locking, locks, lockdown, locked, lockout
+reject	rejection, reject, refusal, revolt, rebellion, rejects, resistance, rejecting, rejected, refuse
+pop	pop, popup, popping, popped, prank, parody, pops, pace, possession, party
+play	play, performance, playing, party, prank, pace
+brew	brew, batch, brewing, beer, brewery, brewer, boil
+shout	shout, shouting, scream, shouted, statement, shouts, swearing, speech
+toss	toss, throw, tossing, throwing, tossed, thrown, trade, trash
+seal	seal, sealing, seals, sealed, signature, sign
+patent	patent, patents, patented, pat, practice, perty, predicate, property
+bury	burial, burying, bury, body, buried
+become	body, being, becoming
+rip	rip, ripping, ripped
+cast	cast, casting, casts, caster, catch
+marry	marriage, merger, marry, marrying, marriages
+realise	realization, recognition
+request	request, requests, requesting, response
+wipe	wipe, wiping, wiped, wipes, work
+reach	result
+ace	ace, accident, act, achievement, argument, action, attack, appropriation, above
+define	definition, dictionary, define, defining, definitions, declaration, do, domain, design
+figure	figure, function, formula, first
+fail	failure, fail, failing, fault, failures, failed
+recommend	recommendation, recommend, recommendations, recommending, report
+confess	confession, confess, confessed, confessions, conscience, closure, communication, conversion
+describe	description, definition, descriptor, dictionary, describe, describing
+execute	execution, execute, executing, event, exception, executed, executable, expression
+knock	knock, knocking, knocks, king
+sue	suit, sue, suing, suits, sued
+cry	cry, crying, cascade, cried, cries, c, crime, calling, cat, call
+scratch	scratch, scratching, scrape, scratches, scratched, sketch
+crash	crash, crashes, crashing, collision, crashed, condition, code
+fry	fry, fish, frying, fried, fault, fishing, fork, fast, fire, food
+copy	copy, clone, copying, change, copyright, cloning, cat
+sling	sling, sum
+made	making, make, maker, made, machine, manufacturing
+swipe	swipe, sweep, screenshot, stroke, slash
+cop	cop, crime, cartel, collection, cooperative, contract, collective, collect, cooperation, crimes
+design	design, designer, designing, definition
+celebrate	celebration, celebrating, celebrations, celebrate
+collect	collection, collect, collecting, collector, collections
+produce	production, process, product, produce, place, program, processing, predicate, producer, producing
+wield	wielding, weapon, wield, work
+set	set, setting, state, statement, sets, something
+reveal	revelation, reveal, revealing
+remove	removal, remove, removing, removed, return
+surpass	surplus, success, sacrifice
+swear	swear, swearing, slur, sign, stealing, saying
+donate	donation, donating, donate, donations
+sort	sort, sorting, sorted, search, stuff, sale
+inherit	inheritance, instance, inherit, inherited, investment, infringement
+prefer	preference, preferences, prefer, protest, purchase, preferred
+snatch	snatch, steal, stealing, snag, stole
+conquer	conquest, conquer, conquering, conflict
+protect	protection, protect, protected, protecting, privilege, protects, protections, predicate, protector
+found	find, finding, found, function, first
+top	top, tuple, theft
+risk	risk, risks
+leak	leak, leaking, leakage, leaks, leaked, latter
+ignore	ignore, ignoring, ignored, indifference, instance, ignorance
+veto	veto, vote, voting
+did	do, deed, did, done, doing, decision, day
+discuss	discussion, debate, dialogue, discourse, disagreement, discussions, dispute, discuss
+coin	coin, change, currency, cryptocurrency, coins, creation, conversion, concept
+flush	flush, flushed, flow, flood, float, ft, fire, first
+spend	spend, spending, sum, surplus, sale, shopping
+perfect	perfection, perfect, predicate, pattern, purpose
+track	tracking, track, tracker, trace, time, term, theft, trademark, task
+retrieve	retrieve, retrieval, return, request, response, retrieving, reuse, result, recovery, receiver
+defeat	defeat, defeated, defeats, defeating, destruction, deed
+chuck	chuck, collision, catch
+float	float, floating, floats, function, floated, flow, fishing
+embrace	embrace, embracing, endorsement, ecosystem, experiment, engagement
+hang	hang, hanging, hangs, hung, h, hook, hold, how
+return	return, result, receipt, rebate, refund, returning, returns, receiver
+manufacture	manufacturing, manufacture, manufacturer, making, machine
+flip	flip, flipping, flipped, flips, flow, fix, fork, folding
+resist	resistance, resist, resisting, rebellion, revolt, refusal, resists, riot
+scar	scar
+overcome	overcoming, obstacle, outcome, omaly, overcome
+sniff	sniff, smell, search, scent, signal, seizure, sight, smells, searching
+launch	launch, launches, launching, launcher, latter
+drown	drowning, drown, drowned, disaster, dam, death, damage, deed, destruction
+forbid	forbid, first, felony
+got	getting, gift, get, grant, grab, got
+clear	clear, clearing, clearance, clarity, clears, cleared, clearer, consensus, condition, case
+avoid	avoidance, accident, act, action, avoid, ambiguity, attack, appropriation, argument, avoiding
+succeed	success, succeed, succeeds, successful, successes, succeeded
+put	place, put, pace, predicate, pair, purchase, piece, pile, putting
+edit	edit, editing, editor, effect, error, exception, edited, edits
+check	check, checking, checks, code, condition
+capture	capture, captures, capturing, collection, catch, ception
+endure	event, enduring, end, experience, eternity
+bust	bust, breach, busted, block, break, burst, bug, burglary, breaking
+seize	seizure, seizing, seize, steal, stealing, seizures
+head	head, heading, hat, herd, hierarchy, h, heads, hunting
+climb	climb, climbing, construction, cling, craft, challenge
+decrypt	decrypt, decoding, decode
+justify	justification, justifying, justify, justified
+master	mastery, master, mastering, masterpiece, magic
+implement	implement, implementation, instance, implementations
+introduce	introduction, interface, introduce, instance, introducing, innovation, implementation, invention, imitation, idea
+recover	recovery, recover, return, recovering, recovered, rebound, retrieval, restitution, result
+light	led, light, lighting, lamp, laser, lights, lantern
+promise	promise, promises, pledge, promised, prediction, promising, predicate, phrase, proposal
+hump	hash, hack, how, hacking
+pack	pack, package, packing, possession, packaging, packs, payload, purchase
+fit	fit, fitting, function
+support	support, state, supporter, stand, service, supporting, supports
+resolve	resolve, resolution, result
+supply	supply, supplier, service, source
+chew	chew, chewing, crunch, cutting
+slice	slice, slicing, slices, slash, slit, segment, sliced, sandwich
+lead	lead, leader, leadership, leading
+ship	ship, shipment, shipping, sale, ships, service
+tackle	task, tackle, tackling, time, term
+prevent	prohibition, predicate, prevent, prevention, protection, protest
+narrow	narrowing, narrow
+fund	fund, funding, funds, fundraising, financing, first, ft, finance
+loose	loss, loose, leak, lapse, latter, lessness
+repair	repair, repairs, restoration, recovery, repairing, renovation, rebuild, repaired
+milk	milk, manufacturing
+present	presentation, predicate, present, place, prototype, pace
+welcome	welcome, welcoming, welcomed
+cure	cure, curing, cured, cures, condition
+tweet	tweet, tweeting, tweets, trend, twitter, term, typo, time
+beg	body, bribe, bargain, bug, bounty, binding, behavior
+wrap	wrap, wrapping, wrapper, wrapped, wraps
+haunt	haunt, haunting, h, hat, haunted, harm, how, hack, hacking, hunting
+stand	stand, standing, stands, support, sum, statement
+pursue	pursuit, project, partnership, progress, pursuing, process, passion, predicate, proposal, pursuits
+fear	fear, fears, first, fearful
+brave	brave, bravery, breach, body, behavior
+trust	trust, trusting, trusted, transaction, trusts
+cool	cool, craft, cascade, creative, creativity, crash, concept, code, condition
+recognise	recognition, representation, recognise
+summon	summon, summoning, summons, summoned, spell, sorcery
+offer	offer, offering, opportunity, option, outreach, orem
+shatter	shatter, shattering, smashing, smash
+acknowledge	acknowledgment, acknowledgement, agreement, acknowledge, acceptance, acknowledging, act, argument, appropriation, apology
+press	press, pressing, push, presses, pressed, pinch, place, protest, possession, publication
+honor	honor, honoring, honorary, honour, hon, honors
+treasure	treasure, theft, thief, trade, term
+photograph	photograph, photo, photography, picture, photographs, portrait, photographic, photographer, photos, process
+ban	ban, block, blacklist, boycott, banning, blocking, bans, body, burning
+squash	squash, sow, spam, stuff, sum, squat, strike
+reap	reap, result, reward, ribution
+trade	trade, transaction, trading, transfer, term, trader, treaty
+fuel	fuel, fire, fuels, fficiency, fueling, first, fraud
+forge	forge, forging, forged, fork, first
+forgive	forgiving, forgiveness, forgive, forgiven, former
+shred	shred, scrap, split
+organize	organization, organisation, organizing, organizer, organized, organizational, organize, ordinance, order, operation
+rescue	rescue, rescuing, recovery, response, resc, rescued
+approve	approval, act, agreement, appropriation, authorization, agency, action, approving, approve, article
+correct	correction, corrective, change, correct, correctness, corrections, complaint, comma, correcting
+study	study, studying, science, studies, subject, sis
+whisper	whisper, whispering, whispered, whispers, word, words, writing
+raise	raise, raising, request, raised, resolution, raises, right
+serve	service, serving, serve, server, services, servant, sacrifice, self
+predict	prediction, predictor, probability, predict, predicted, predictions, predicate, plan, programming
+erase	erase, exception, erased, edit, error, eviction
+document	document, documentation, documentary, declaration, documents, definition, deed
+needed	need, needs, necessity
+utter	utter, usage
+control	control, corporation, cartel, collective, controlling, concept, condition, command, copyright, coercion
+nab	nab
+spit	spit, spat, spitting, spill, spew, saliva, slap, spoon, shit
+DO	do, deed, doing, decision
+contain	collection, component, container, class, content, condition, consumption, copyright, creation
+rebuild	rebuild, rebuilding, reboot, repair, reconstruction, recovery, restoration, restore, reuse, rebuilt
+recall	recall, recollection, remember, recalling, record, recalled, remembering, remembrance, recognition, reminder
+slit	slit, sum
+look	look, latter
+swim	subclass, sum, swim
+dream	dream, dreaming, dreams, dreamed
+tame	transformation, tame, takeover, time, ting, trade, term, task
+plug	plug, plugin, plugged, plugs, port, process, ping, programming, procedure
+unleash	unleashed, unleash
+cause	cause, collision, cascade, crash, crime, condition, causes, creation, conspiracy
+unveil	unveiling, unveil
+ski	sum, subclass
+expose	expose, exposing, exploit, exposure, example, expression, exposes
+foil	foil, fraud, fork
+spell	spell, spelling, symbol, statement, spells
+settle	settlement, settling, settle, sale
+worth	worth, work
+storm	storm, shutdown, storms, seizure
+finance	financing, finance, funding, fund, fundraising, first, ft
+waste	waste, wasting, wastes, wasted
+blast	blast, bash, bang, bounce, bomb, burst, body, burglary, burn, blasting
+tolerate	tolerance, tolerate, tolerant, toler, truce, theft, trust
+better	better, benefit, body, best
+needs	need, needs
+surf	surfing, surf, session
+retake	rebellion, riot
+dare	dare, disobedience, deed
+heal	healing, heal, healer, healed, heals, help, health
+crave	craving, crave, compulsion, condition, consumption, consumer
+fetch	fetch, function, fishing, following
+mind	mind, mindset, motive
+hand	hand, handing, handshake, holding, how, hat, handed, handler
+come	convergence, computation, collision, come
+sew	sewing, sew, stitch, seam, stitching, sis, stitches
+enforce	enforce, enforcement, enforcing, exception
+snap	snap, snapping, snapped, snapshot, snaps, slap, snag, screenshot, shot
+sneak	sneak, steal, sneaking, slip, stealing, stealth
+wish	wish, wishes, wished, wishing, want, will, work
+spike	spike, spikes, spiked, seizure, steal, shader
+thin	thin, tree, term, transaction, thickness, texture
+judge	judgment, judge, judgement, judging, judgments, jud, justice
+race	race, racing, rivalry, races, riot, result, rage
+arrange	arrangement, arrange, array, arranged, alignment, assignment, act, aggregate, agreement, arranging
+bag	bag, body
+voice	voice, voicing, verb
+hug	hug, hugging, hugs, handshake, h, hugged, hing
+split	split, splitting, separation, splits
+film	film, filming, first, filmmaking
+install	install, installation, installer, instance, implementation, installs, installing
+continue	continuation, cycle, chain, crime, continuing
+hatch	hatch, hatched, hack, h, hat, how
+stub	stub, stack, sum
+whip	whip, whipping, work
+speak	speech, statement, sentence, speaker, speak, speaking
+equal	equal, equality, equivalent, equation, entity, element
+thank	thank, thanking, thanks, thankful, time
+fork	fork, forks, first
+drain	drain, draining, dump, drains, destruction, deed
+shape	shape, structure, shaping, sculpture
+skip	skip, skipping, skipped, steal, stealing
+weigh	weight, weigh, weighing, work
+butcher	butcher, block, body
+proclaim	proclamation, peak, protest, phrase, propaganda
+recreate	replication, replica, remake, reuse, recreate, remix, recreation, result, return
+go	go, goal, gift
+type	type, typing, tuple, term
+sail	sail, sailing, ship, sails, scheme, sum
+text	text, texts, type
+chance	chance, coincidence, collision, convergence, crime, catch, ception, conspiracy, coordination, conditional
+rape	rape, rapist, raping, raped, riot, rapes
+die	death, die, dying, dead, demise, deed, deaths, destruction
+score	score, success, scoring, sum, stuff
+hunt	hunt, hunting, hunter, hunts, hunted, hat, harvest
+grasp	grasp, grasping, grab, gesture, gift
+adopt	adoption, adaptation, appropriation, adopt, act, adopting, action, acquisition
+legalize	legalization, law, legislation, latter, legal, laws, license
+pronounce	phrase, pronoun, pronounce, peak, place, predicate, proverb, pace
+imagine	idea, illusion, imagination, imagine, imaginary, imagining, image
+exhaust	exhaustion, exhaust, end, excess, exit, exception, expiration, event, execution
+slay	slaying, slay, slaughter, slain, sword
+upload	upload, uploading, uploaded
+add	add, addition, adding, added, attribute, additive, action
+patch	patch, patches, patched, project
+police	policing, police, predicate, policeman, protest, place, parent, protection
+rub	rub, rubbing, rubbed, rug
+promote	promotion, promoter, platform, promoting, propaganda, publicity, protest, policy, phrase
+restore	restore, restoration, restoring, restored, reboot, restitution, recovery, return, reset, restores
+reverse	reverse, reversal, reversing, result, revenge
+stab	stab, stabbing, stabbed, slash, stealing
+suffer	suffering, suffer, suicide, sin, situation
+absorb	absorption, absorb, acquisition, absorbing, aggregate, aggregation, appropriation, act, action, argument
+pin	pin, pins, pinned, pair, patch, place, post, pend, prank, painting
+expect	expectation, expect, expected, expectations, expects, event, expecting
+lift	lift, lifting, lifted, lifts, ladder
+suggest	suggestion, statement, speculation, speech
+begin	beginning, begin, body
+curse	curse, cursing, curses, cursed, crime
+dye	dye, dyed, deed, dish
+charm	compliment, craft, ception, cascade, collision
+submit	submission, submit, submissions, submitted, submitting
+right	right, row, rights, remedy, result
+pitch	pitch, presentation, pitching, proposal, pitches, place, pitched, p, ping, process
+endorse	endorsement, endorsements, endorsing, endorse
+suspect	suspicion, suspect, suspicious, suspected
+strike	strike, striking, strikes, struck
+undo	undo, undone
+translate	translation, translator, translate, translating, transformation, term, translations, translated
+attack	attack, attacker, attacked, assault, attacking, attacks, act, action, aggression
+eliminate	exclusion, elimination, extinction, exception, end, excess, extermination, eliminate, execution, eviction
+decipher	decipher, dictionary, discovery, decoding, deduction
+respect	respect, relationship, respecting
+rename	rename, ren, renamed, redirect, remake, rewrite, removal
+bless	blessing, bless, blessed, blessings, boon, body, binding
+scream	scream, screaming, shout, sound, statement, signal, shouting, swearing, speech
+download	download, downloading, downloads, distribution, dump
+wind	wind, winding, weaving, work
+email	email, exchange, event, example, error, emails, exception
+redeem	redemption, redeem, receipt, rebate, reverse, return, restitution, recycling
+mark	mark, marking, marker, markup, marked, marks
+protest	protest, protests, protesting, petition
+rough	robbery, result, rough
+dread	dread, delay, doom, dreaded, deed
+borrow	borrow, borrowing, borrowed, bery
+skin	skin, scratching, shaving
+challenge	challenge, conflict, controversy, clash, crisis, challenges, critique, challenged, criticism
+identify	identifier, identification, instance, identity, investigation, identify
+command	command, commands, call, cat, comm, computation, condition, control
+knit	knit, knitting, knot
+license	license, licensing, llc, licence, licenses, latter, law
+tear	tear, tearing, tears, theft
+blog	blog, blogger, blogging, blogs, block
+toast	toast, typo, theft, trust, trade
+resent	resentment, rift, resent, rebellion, rage, riot, revolt, resistance
+fancy	fancy, fast, ference, fetish
+analyze	analysis, alyses, analyze, algorithm, argument, act, action, article, analyses, analyzing
+shoulder	shoulder, share, shoulders
+LOVE	love, like, lover, latter
+apply	application, apply, attribute, act, assignment, appropriation, action, argument
+for	for, function
+tie	tie, tying, ty, tied, ties, ting, trade, task
+dismiss	dismissal, dismiss, dispute, disconnect, dismissing, disagreement, denial, defamation
+trigger	trigger, triggering, time, triggered, triggers, threat, things
+freeze	freeze, freezing, freezes, frozen, freezer, first, froze
+salvage	salvage, salv, sale, success, saving
+deploy	deploy, deployment, deploying, day, deployments, deployed
+oppose	opposition, objection, obstruction, opposing, outrage, organization, offense, opposite
+disclose	disclosure, declaration, disclosures, disclosing, deed
+cancel	cancellation, cancel, canceled, collision, cancelled, cascade, cance, change, cash, check
+land	landing, land, landed, lease, law, latter
+admire	admiration, admire, appreciation, affinity, admired, appropriation, approval, act, art, achievement
+validate	validation, validate, verification, valid
+revive	revival, resurrection, revive, revived, restart, reboot, resurgence, rebirth, resurrect, return
+interpret	interpretation, interpret, ism, interpretations
+swing	swing, swinging, swung, switch, swings, shift, spike, strike
+choke	choke, choking, choked, clamp, chunk, crime
+decode	decoding, decode, dictionary, definition
+sport	sport, spectacle, sports, sporting, sighting, season
+GET	get, gift, getting
+scrap	scrap, scrape, scraping, swap, surplus, sweep, salvage, shred, skip, sale
+don	definition, deed, dom, do
+sleep	sleep, sleeping, sleeper, state
+shake	shake, shaking, shook, shift, shakes, shaken
+hope	hope, hypothesis, hopes, hop, how
+sabotage	sabotage, sis
+trash	trash, theft, toss, thief, term, trade
+slap	slap, slapping, smack, slapped, splash, slash, swat, stuff
+had	hat, how, holding
+log	log, logging, logger, logs, loop, logged
+vomit	vomit, vomiting, virus, verb, violation
+last	lifetime, last, latter
+process	processing, process, processes, place, pace, predicate
+plant	plant, planting, place, plantation, plot, planted, plants, process, phenomenon, pace
+develop	development, day, design, definition
+murder	murder, massacre, murderer, murdering, murders
+spring	spring, stimulus, sprung, spark, startup, springs, sculpture
+mend	mend, manship
+seek	seek, search, seeking, sought, searching, success
+cherish	cherish, crime, cult, craft
+stink	stink, smell, stuff, smells, stealing, steal, situation
+maintain	maintain, maintenance, maintaining
+yell	yell, yelling
+encourage	encouraging, encourage, encouragement, endorsement, example, enabling, effect
+back	back, body, backs
+repeal	repeal, referendum, reform, regulation, reverse, repealing, repealed
+NEED	need, necessity, needs
+roll	roll, rolling, rolled, rolls
+measure	measure, measurement, metric, measuring, measures, method
+click	click, clicking, clicks, clicked
+tweak	tweak, tweaking, tweaks, time, tuning, task
+carve	carving, carve, cut, carved, creation, cutting, craft, crafting, construction
+nick	nick, n
+rule	rule, ruling, rules, rage
+reclaim	reclaim, return, recovery, restitution, reclaimed, resistance, revolt
+sustain	sustain, sustaining, sustainability, support, surplus, state
+express	expression, entity, express, example, expressions
+burst	burst, break, block, breach, bug, breakout, burglary, body
+practice	practice, phenomenon, predicate, pattern, practices, practicing
+bend	bend, bending, bent, break, body, bind, binding, bends, block
+deserved	dispute, demand, deed, deserving, deserve
+disguise	disguise, deception
+damn	damn, disobedience, damage, deed, devil
+represent	representation, relation
+perform	performance, perform, performing, process, processing, program, predicate, play, prank
+rent	rental, rent, renting, rents
+charge	charge, charging, commission, claim, crime, charges, cost
+owe	owed, obligation, owe, owing, owes, object, offering, offense
+gain	gain, gains, gift, good, getting
+outlaw	outlaw, offense, ordinance, outrage, offence
+store	store, storage, state, storing, shop, shopping, sale, stores
+bluff	bluff, blocking, body, block
+count	count, counting, collection, counts, computation, counter, checking
+pocket	pocket, penny, pouch, place, possession, purchase, property, pockets
+frame	frame, framing, frames, first
+review	review, reviews, reviewer, reviewing, report
+demonstrate	demonstration, demonstrate, demonstrating, display, demonstrations
+dominate	dominance, domination, dominant, domain, dominating, dom, dominate, destruction, deed
+rain	rain, rainfall, rainbow
+topple	topple, takeover, takedown, tornado, theft, threat
+improve	improvement, innovation, improved, impact, improving, improvements, improve, impro, ideal
+convert	conversion, convert, conversions, converted, converter, converting, change, converts
+horn	hash, hat, how, hack, hacking
+weather	weather, work, writing, will
+slow	slowdown, slow, slowing, slower, stop, seizure, spection
+curl	curl, condition, collection, catch, cur, c, chain, code
+volunteer	volunteer, volunteering, voluntary, volunteers, very
+research	research, researcher
+not	ness, nothing, null, negative
+laugh	laugh, laughter, laughing, laughs, law
+counter	counter, countering, clash, collision, crime
+breathe	breath, breathing, breathe, bubble, burn
+gut	glut, gut
+grill	
+feed	feed, feeding, flow, fork, fed, feeds, function, food, farming, following
+abuse	abuse, assault, attack, abuser, act, abusive, appropriation, age, above, ater
+bore	bore, bearing, bear, body, bearer, burglary, bears
+obtain	object, outcome, obtain, orem, order, operation
+swell	subclass, stuff, sum
+snag	snag, steal, success, stuff
+ice	ice, instance, iceberg, icing, illusion, ing
+repay	repayment, return, refund, repay, restitution
+wave	wave, waves, waving, work
+lack	lack, lessness, latter, loss, lock, law
+power	power, pace, powers, possession, process, property
+desire	desire, demand, desires, dream, desired
+clone	clone, cloning, copy, clones, copying, creation
+pipe	pipe, pipeline, piping, pipes, pip, pace, process, possession, patent
+grade	grade, grading, grades, graded
+adore	act, appropriation, affection, action, affair, admiration, affinity, ad, art, argument
+soften	
+propose	proposal, proposed, predicate, project, propose, plan, proposition, place, point, proposals
+nails	
+saw	sight, saw, seeing, sighting, see, seen
+paddle	paddle, padd, pace, plank, possession, process
+direct	direct, direction, directive, directed, directing, do, deed
+escape	escape, exception, exit, escaping, escaped, exile, escapes, event, eviction, evasion
+smack	smack, slap, smash, strike, stuff, slapping, smashing, swat
+wet	wet, waterfall, watering, washing, work, wash, water
+initiate	initiate, initiation, initiating, instance, initiated, invocation, initi, intention
+jump	jump, jumping, jumps, jumper
+replicate	replication, replicate, replica, repetition, result
+contribute	contribution, contributor, contributions, collection, collaboration, contributing, component, contribute, charity
+retire	retirement, retire, retiring, ret, retired
+host	host, hosting, hosted, hosts, here, hospitality, how
+refute	refute, resistance
+underestimate	underestimate, understatement, uncertainty
+surrender	surrender, sacrifice, submission, surrendered, surplus
+intercept	intercept, interception, intercepted, incident, intrusion, interruption, interference
+detect	detection, detect, detecting, detector, discovery
+compile	compile, compilation, compiler, compiling, collection, code
+load	load, loading, loader, loop
+ditch	ditch, dump, dumping, discard, disconnect, default, deed
+mount	mount, mounted, mounting, mounts, moment
+arrest	arrest, arresting, act, appropriation, arrested, arrests, action
+lament	lament, latter
+embody	entity, embodiment, expression, essence
+regain	recovery, restoration, regain, return, resurgence, rebound, rebirth, revival, restitution, recover
+about	act, action, article, argument, agreement, acting, assertion, association, about
+abandon	abandonment, abandon, abandoning, abandoned, act, appropriation, action, arson, abuse, addiction
+exploit	exploit, exploitation, example, exploits, exploiting
+on	occupation, object, observer, operation, on
+inspire	inspiration, influence, idea, inspire, impact, innovation, inspired, inspiring, iration
+engineer	engineer, engineering, experiment, enterprise, entity, effect, engineers
+enable	effect, enabling, enable, event
+rewrite	rewrite, rewriting, revision, reuse, redesign, remix, rename, reverse
+note	note, notation, notes, notice, noting
+recite	recite, ritual
+enter	entry, event, entity, enter, exception, entering, entrance, entries
+talk	talk, time, term, thing, talking, things
+trumpet	tweet, trademark, theft, trust, term
+scrape	scrape, scraping, snapshot, search, sum, sculpture, sweep, shovel
+dodge	dodge, delay, duck, dodging, drift, damage, dictionary, defense
+with	work
+debate	debate, disagreement, dispute, discussion, dialogue, debating, discourse, debates, definition
+remake	remake, remix, revision, rewrite, reboot, redesign, reuse, reverse
+refine	refinement, refine, refining, rewrite
+guard	guard, guarding
+secure	secure, security, securing, safeguard, secured, success, state
+chase	chase, chasing, catch, crime, cat, chased, ception
+verify	verification, verify, validation, verified, verifying
+mourn	mourning, mourn, murder, meme
+permit	permit, permitting, permission, privilege, prohibition, predicate, pass, process, permits, place
+LIKE	like, likes, liking
+time	time, timestamp, timer, times, timeout, timeline, transformation, things, term
+sack	sack, seizure, steal, stealing, sum, sabotage, state
+address	action, act, argument, address, appropriation, agreement, accusation, apology, actions
+sacrifice	sacrifice, sacrificing, sacrificed, sacrifices, surplus, slaughter
+duplicate	duplicate, duplication, dependency, derivative
+sponsor	sponsorship, sponsor, sponsoring, support, sponsors
+spread	spread, spreading, spreads, sharing, sow
+assume	assumption, assumed, assume, assertion, assuming, approximation, act, appropriation, action, argument
+explode	explosion, exploding, explode, explosive, exploded, explodes, eruption, event
+slam	slam, slamming, smash, slams, strike, smashing
+dunk	dunk, dictionary, dump, dab, dip, dish, dumping
+cheer	cheer, cheering, celebration, cheers, cheered, celebrating
+divide	divide, division, difference, dividing, definition, differentiation, derivative, divides, divided
+best	body, best, bargain
+warrant	warrant, worth, work
+dissect	dissect, debate, documentary, definition
+uncover	uncover, uncovered
+seem	state, something, statement
+resurrect	resurrection, resurrect, revival, rebirth, reboot, revive, resurrected, resurgence, restart, revived
+zip	zip
+air	air, act, airing, audible, action, attack, atom, argument, above
+pour	pour, pouring, poured, pint, process, place, painting, protest, purchase
+rethink	rethink, redesign, review, revision, rewrite, revolution
+approach	approach, action, act, attack, appropriation, argument, attitude, agreement, art, activity
+wrench	work, wrench
+investigate	investigation, investigate, investigating, inquiry, incident, instance, investigative, investigations
+crown	crown, copyright, carving, creation, collective, ceremony
+iron	iron, instance, item, ing
+misuse	misuse, mischief, misconduct
+ink	ink, instance, item, imprint, image, illustration, intent
+shed	shed, shedding, sheds, sacrifice
+phone	phone, possession, purchase, place, predicate, phrase
+fumble	fumble, fault, function, ft, flood, fork
+mix	mix, mixture, mixing, mixer, mixed, mixes, mash, making
+makes	making, maker, make, machine
+suffice	steal, subclass, stealing, sum
+award	award, awarding, awarded, allocation, act, awards, agreement, appropriation, achievement, appreciation
+tap	tap, tapping, token, touch, taps, transaction, time, touching, typing, ting
+advertise	advertisement, ad, advertising, advert, advertise, appropriation, advertised, act, article, affiliate
+determine	decision, definition, determination, deed
+retweet	retweet, rt, ripple
+withstand	wall, work
+explore	exploration, experiment, explore, experimentation, encounter, exploring, essay
+dismantle	dismantling, disruption, destruction, demolition, dismantle, damage, deed
+visualize	visualization, vision, visual, view, verb
+boycott	boycott, blockade, backlash, bds, boycot, blackout, body
+digest	digest, digestion, dump, dictionary
+include	item, index, inclusion, include, instance, intention
+argue	argument, arguing, argue, arguments, analogy, act, appropriation, action, accusation, article
+preserve	preserve, preservation, preserving, predicate, place, protection, property
+foot	foot, footwear, feet, fork, footing, footprint, ft
+qualify	qualifier, qualification, quality, qualify, qualifying
+inject	inject, injection, injected, injecting, instance, insertion, infection, invocation, infusion, ing
+encounter	encounter, event, experience, encounters, exception
+dispute	dispute, disagreement, disputes, discord, dissent, definition
+shine	shine, spark, shader, sun
+commit	commit, commits, commitment, cat, crime, contract, committing
+MAKE	make, maker, making
+cost	cost, costs, consumption, costing, consumer
+bang	bang, boom, bash, banging, bump, body, burglary, block
+appropriate	appropriation, appropriate, allocation, act, adaptation, action, above
+implant	implant, implants, infection, injection, implementation, implanted, intrusion, imitation, invention
+ring	ring, ringing, rings
+chant	chant, chanting, chants, cott, ceremony, chanted
+hail	hack, how, hat, hacking
+cement	cement, contract, concrete, consensus, collision, construction, coordination, conditional, condition, consistency
+knew	knowledge, knowing, know, knew
+bar	bar, block, body, bind, bara, burglary, binding
+chop	chop, chopping, carving, chunk, chopped, collision, cutting, cut, carve, chops
+fulfill	function, fulfillment, fulfilled, fill, following, fulfilling
+gift	gift, giving, gif, giveaway, gifts, give, generosity, grant, given, gesture
+switch	switch, swap, shift, switching, split, switches
+stain	stain, spill, smear, stains, stamp
+shorten	short, shorten, shortened, suffix
+form	form, function
+stomach	stomach, sickness, seizure, snack
+purchase	purchase, purchasing, purchases, possession, price, process
+hire	hire, hiring, hires
+twist	twist, twisting, twisted, transformation, trick, twists, trade, time, theft
+mine	mine, mining, miner, mischief, making
+bomb	bomb, bombing, breach, bang, blast, bombs, bombardment
+salute	salute, standing
+trademark	trademark, term, trademarks, trade, ty
+crank	crank, consensus, cluster, catalyst, crime, craft
+done	deed, do, done, doing, decision, deal
+style	style, styling, styles
+boil	boil, boiling, boils, boiler, body, boiled, batch, burn
+gets	gift, getting, get, grant, giving, gets
+enlarge	excess, expansion, enclosure, extent, enlarge
+overlook	overlook, omaly, omission, oversight, offense, overlooking, object
+articulate	argument, analogy, abstraction, act, assertion, abstract, association, appropriation, action, art
+pump	pump, pumping, pumped, pumps, pipeline, place, pace, process, purchase, possession
+won	win, wins, winner, winning, won, work
+slip	slip, slipped, slips, slipping, steal, stealing, stuff
+said	statement, speech, saying, say, something, sentence, said, statements
+hammer	hammer, hit, hat, h, hing, harm
+merit	merit, manship
+fall	fall, falling, failure, falls, failing, fallacy, fail, fallen
+file	file, filename, function, files, following
+clutch	clutch, cluster, convergence, collision, catch, crime, coordination, craft
+hook	hook, hooks, hack, h, hacking
+of	object, objects
+chip	chip, chips, chunk, collision, crack, cap, click, computation, computing
+display	display, demonstration, displays, displaying
+lost	loss, losses, lost, latter, losing, lose
+coach	coach, coaching, cooperative, collective, coordination, challenge, craft, cat, case
+bet	bet, bets, betting, bid
+mouth	mouth, meme
+ensure	ensure, exception, event
+flash	flash, flashing, flashed, flashes, fast, flood, first
+possess	possession, property, predicate, possess, place, purchase
+picture	picture, photo, photograph, projection, pictures, predicate, painting, protest, project, purchase
+suit	suit, sum
+lay	lay, laying, land, law, lie
+sound	sound, scream, speaker, speech, sounds
+organise	organisation, organization, organising, organised, organise, order, operation, organizing
+reopen	reopen, revocation, recovery, return, result
+pinch	pinch, pain, place, punch, pun, press
+tip	tip, tipping, tipped, tilt, trick, trade, tips, theft, transaction, thief
+administer	administrator, administration, admin, agency, act, aggregate, appropriation, application, abuse, action
+double	double, doubling, dual, doubles, doing
+rescind	revocation, rescind, retreat, revoke, repeal, reverse, rebellion
+scale	scale, scaling, scaled, step, shift
+does	deed, do, doing, does, done, did
+heat	heat, heating, heater, hot, heated, h
+strut	strut, stunt, sculpture
+agree	agreement, accord, agreed, agree, association, alliance, act, appropriation, agrees, argument
+snow	snow, snowball, storm, shovel, subclass, stuff, sum
+search	search, searches, searching, session, seo
+calculate	computation, calculation, culation, calculator, compute, computing
+grind	grind, grinding, grain
+deserves	deserve, demand, dispute, deed, deserves
+shovel	shovel, snowball, stack, sow, sum
+activate	activation, action, activate, attack, act, activity, actions
+strengthen	strengthening, strength, strengthen, shield, strong, stand, support, stronger, strongest, sacrifice
+attain	achievement, accomplishment, act, attain, action, attainment, achieved, acquisition, appropriation, art
+reinvent	revolution, redesign, reinvent, reboot, revival, remix, rewrite, reuse, reform, renovation
+grate	gift
+happen	happen, how
+SEE	sight, see, seeing, sighting
+generate	generator, generate, generation, generating, gener
+rap	rap, rave, rapper, remix, riot
+wonder	wonder, wondering, work
+torch	torch, theft, toast, trespass
+down	down, damage, destruction, deed
+visit	visit, visitor, visits, visitation, visitors, view, visiting
+ID	id, identifier, identity, identification, item, instance, ids, image
+surprise	surprise, shock, surprised, surprising, surprises
+rush	rush, rushing, rushed, rushes
+debunk	debunk, denial, disagreement, disclaimer, dictionary
+muscle	muscle, movement, motion, muscles, move, mob, mass
+condemn	condemnation, crime, condemn, condemning, criticism, cott, condemned, censorship, crimes
+peel	peel, peeled, pair, piece, place, plant, process, potato, pie, painting
+starve	surplus, scarcity, steal, stealing
+clinch	clinch, contract, consensus, convergence, coordination, crime
+concede	concession, compromise, concede, conceded, consensus, crime, conditional
+employ	employ, entity, example, effect, employment
+consume	consumption, consume, computation, collection, consuming, consumed, consumer
+shrink	shrink, shrinking, slowdown, size, small, sculpture, shell
+invite	invite, invitation, inviting, invited, invites, invitations, intention, imitation, ice
+guide	guide, guiding, guideline, guided, guidance, guides, gift, gesture
+poop	poop, poo, problem, pace, prank, po, phenomenon
+honour	honour, honor, honorary, homage, honoring, hon
+fish	fish, fishing, food
+flavor	flavor, flavour, flavors, fork, food
+bridge	bridge, bridges, body, block, breach, building
+juice	juice, jelly, ju
+convince	consensus, convincing, convince, conspiracy, convinced, convergence, ception, case, conditional
+wire	wire, wiring, wires, welding, work, working
+warm	warm, warming, warmth, warmer
+embarrass	embarrassment, embarrass, error, embarrassing
+bike	body, block, burglary, bicycle
+bowl	body, block
+compose	composite, composition, collection, component, combination, composing, creation, craft, compose, creativity
+graduate	gift, goal
+making	making, machine, manufacturing, maker, make
+expand	expansion, extension, expand, expanding, expanded
+sketch	sketch, sketches, sculpture, shader
+furnish	furniture, furnish, first
+dislike	dislike, disagreement, dispute, dissatisfaction, dissent, disapproval
+preach	preaching, platform, propaganda, preach
+acquire	acquisition, acquire, acquired, acquiring, appropriation, acquisitions, agreement, act, auction
+park	park, parking, place, pace, possession, property, purchase
+in	instance, intention, item, ing
+prepare	preparation, processing, prepare, preparing, prep, prepared, preparations, plan, place, process
+stone	stone, sculpture, stuff
+authorize	authorization, authorize, appropriation, authorizing, act, authority, agreement, agency, authorized, action
+rank	ranking, rank, ranked, rating, rankings
+stretch	stretch, stretching, stretched, sculpture
+poison	poison, poisoning, poisoned, poisons, problem
+scrub	scrub, scrape, scraping, slash, search
+feather	feather, feathers, fork, flying, fly, fing, folding, fish, function, ft
+grant	grant, gift, granting, grants, given, granted, giving, give, generosity
+tow	theft, tree, transaction, term, thief, trade, trust, things
+bung	bug, bung, blob, bang, burglary, bage, bugs, body
+will	will, wish, wills, work
+shave	shave, shaving, shaved, slash
+after	action, act, attribute, after, acting, article, adjective, argument, alias
+trick	trick, tricked, tricks, tampering, time, theft, trap
+doing	deed, decision, do, doing
+stir	stir, stirring, spark, spike, strike
+confront	confrontation, crisis, conflict, challenge, clash, confront, crime
+assemble	assembly, assembling, assemble, aggregate, array, act, argument
+comprehend	comprehension, cognition, classification, concept, ception, consensus, consciousness, computation
+collapse	collapse, collapsing, crash, collapsed, collapses, crime, case, closure, construction, corruption
+bump	bump, bounce, bumped, bumps, block, body, bang, bumper, board, buff
+stagger	sum, stuff
+stitch	stitch, stitching, stitches, sewing, seam
+restart	restart, reboot, reset, refresh, rebuild, return
+lower	lower, lowering, latter, law
+bank	bank, banking, burglary, bet, banks, borrowing
+nut	
+shift	shift, shifting, switch, shifts
+applaud	applause, applaud, appropriation, act, applauded, approval, award, agreement, action, argument
+liberate	liberation, liberate, liberating, liberated, latter
+dot	dot, dash, dots, dictionary
+disable	disable, disabling, disabled, dis, damage
+eradicate	epidemic, end, extermination, evil, ecosystem, existence
+overturn	overturn, outcome, overthrow, overturned, opposite, orem
+bleed	bleed, bleeding, blood, blister, blob, blot, body, buff, burn, burning
+issue	issue, issuance, instance, issuing, invocation, item, infringement, ing
+size	size, sizes, sizing, small, square, space, sum, store, stuff
+glue	glue, gging, ging
+struggle	struggle, struggles
+unravel	unravel
+likes	like, likes, liking, liked, love, latter
+mute	mute, meme, murder, mischief
+dress	dress, dressing
+empty	empty, emptiness, exception, entity, example, equivalent
+roast	roast, recipe, runtime
+never	null, never, negative
+pray	prayer, pray, praying, prayers, prayed, phrase, protest, petition
+HAVE	hack, how
+stuff	stuff, stuffing, stack
+KILL	killing, kill
+harvest	harvest, harvesting, harvested, hunting
+censor	censorship, censor, controversy, copyright, crime, criticism
+oversee	organization, oversight, operation, offense, occupation, overseeing
+denounce	disagreement, dissent
+just	
+regulate	regulation, regulate, regulator, regulatory, regulating, regulations, rule
+widen	work
+through	through, time, transaction, transformation
+combine	combination, combine, composite, combined, combining, coupling, computation, creation, construction
+nailed	nail
+git	git, get
+exceed	excess, exponential, exceed, exception
+battle	battle, brawl, battles, battlefield
+excuse	excuse, exception, error, explanation, exemption, equivalent, excuses, exceptions, example
+insult	insult, insulting, insults
+spark	spark, sparking, start, sparked, sparks
+steer	steer, steering, scheme
+OK	object, ok, offense, operation
+conclude	conclusion, conclude, consensus, closure, convergence, concluding, crime
+list	list, listing, label, lists
+has	how, holding, hat
+crest	collection, chain, computation, carving, crime, creation, copyright, craft, construction, crafting
+smooth	smooth, smoother, slope, smoothly, smoot, synthesis
+me	meme, magic
+compute	computation, compute, computing, collection, computed, calculation, comput
+proof	proof, proofs, predicate, place, prototype, proving
+color	color, coloring, colors, colour, colored, cartoon, crime
+missed	miss, mistake, missing, mismatch, misses, missed, misunderstanding
+tattoo	tattoo, tattoos, ting, tatt, term, token
+hike	hike, hack, how, h, hash
+ate	ate, act, acquisition, appropriation, action, appetite
+green	green, greenhouse, garden, gift, gem, gardening, ging
+diffuse	diffuse, diff, diffusion, disturbance, difference, deed
+mock	mock, mocking, mockery, meme, mischief, mocked
+slide	slide, slip, stack, slides, slideshow, sliding, stuff, steal, stealing
+Make	make, making, maker
+stroke	stroke, strokes, stro, swipe, stripe, slash
+monitor	monitoring, monitor, measurement, manipulation
+brick	brick, block, bricks, blob, bug, bond, body, burglary, bind, building
+Tweet	tweet, tweeting, twitter, tweets, typo, trend, term, time
+blaze	burning, body, burn, block, burglary
+ponder	pause, ponder, paradox, protest, process, project, poem
+getting	gift, get, getting
+stock	stock, share, store, stocks, stake, sale, selling
+shit	shit, spat, stink, stuff, situation
+fuse	fuse, fusion, function, fit, fork, fire, following
+scan	scan, scanning, scanner, scans, search, scanned, session, screenshot, sale
+recycle	recycling, recycle, reuse, recycled
+piece	piece, puzzle, pair, place, pieces, possession, part
+modify	modification, modify, mod, mutation, modified, modifications, modifier, modifying, manipulation
+water	waterfall, water, watering, well, work, washing
+locate	location, locality, locate, lookup, latter, locating
+peg	peg, prediction, place, pegged, puzzle, pie, predictor, purchase, possession, process
+heed	hat, hack
+brown	brown, bug, body, boil, behavior, burning
+retract	retract, retracted, retreat, raction, ret, rest
+over	over, ownership, overthrow, objection, offense, overlap
+squeeze	squeeze, squeezing, squeezed, sum, squat, stuff
+jam	jam, jammed, ju
+obey	order, obey, obedience, object, ordering, operation, offense, orem
+sip	sip, session, spill
+muster	meme, manship, mischief, making
+gas	gas
+stay	state, stay, sum
+stalk	stalk, stalking, stake, stealing
+mash	mash, mutation, mixture, mix, mashed, mish, mess, making, manufacturing, meme
+adapt	adaptation, adjustment, adapting, appropriation, adapt, act, action, argument, art
+deflect	deflect, distraction, disagreement, denial, diversion, delegation, damage, deed, dish, destroyer
+despise	dislike, disagreement, distrust, disdain, deed
+bind	bind, binding, bound, binds, body, bond, block, bindings
+bit	bit, bite, bug, biting, bitten, bits, bet
+redesign	redesign, renovation, rewrite, reuse, revision, restructuring
+reconsider	review, reflection, reverse, revolt, resistance
+slug	slug, subclass, slur, sum, stuff, slap, smashing, slash
+bolt	bolt, bug, block, bundle, binding, bind, body, break, burglary
+rest	rest, result, remainder, restitution, restoration
+poke	poke, poking, poked, prick, ping, peek, point, prank, pie, puzzle
+bullshit	bullshit
+criticize	criticism, critique, controversy, complaint, critic, criticizing, criticize, criticisms, complaining, commentary
+clarify	clarification, clarity, clarify, consensus, clear, clarified, confusion, context, contradiction, criticism
+cash	cash, check, change, commerce
+round	round, rounding, roll, rounds, ring, rectangle, rolling
+stamp	stamp, stamps, stamped, stuff
+knows	knowledge, knowing, know, knows
+drag	drag, dragging, dragged, derivative, draw, drawing
+fine	fine, fork, finer, function, fault
+throttle	throttle, timeout, time, theft, term, throwing
+lend	lend, loan, lending, lent, latter, lender, law
+renew	renewal, renew, renewed, rebirth, refresh, revival, renovation, restoration, return, repair
+dump	dump, dumping, dumps
+used	use, usage, user, uses, using, used
+plot	plot, plotting, projection, prediction, pace, place, plots, project, predicate, programming
+increase	increase, increment, increasing, increased, improvement, index, item, increases, ing
+link	link, linkage, linking, links
+broadcast	broadcast, broadcasting, broadcasts, block, blog, body
+sweep	sweep, sweeping, sweeps, swept, swipe, scrape, steal, slash, stealing
+plead	plea, protest, piracy, predicate, pleading
+dish	dish, distribution, dishes, deed
+weld	weld, welding, work, working
+smear	smear, slander, slur, sham, sabotage
+betray	betrayal, betray, breach, betrayed, back
+buckle	body, buckle, block, bundle, binding, bind
+box	body, bundle, block
+praise	praise, praising, praises, positive, poem, performance, poetry
+complicate	complication, complexity, confusion, complicate, conflict, complex, complications, condition, crime
+trace	trace, tracing, track, transaction, time, tracking, traces, task
+sample	sample, sampling, snapshot, samples, session
+transmit	transmission, transaction, transfer, transmitter, transmitting, transmit, thing
+foresee	foresee, forecast, future, ference, first
+nickname	nickname, naming, name, noun, names
+retain	retention, retain, relic, return
+pee	pee, piss, poop, procedure, process, phenomenon
+spawn	spawn, spawning, seed, spawned, session, startup, sow, spawns
+temper	temper, term, theft, trade
+analyse	analysis, alyses, analyse, argument, act, action
+threaten	threat, threats, threatening, theft, term
+skate	skate, sculpture, skating
+pardon	pardon, proclamation, privilege, program, pard, place, pathy, phrase
+reboot	reboot, restart, reset, remake, rebuild, restoration
+tax	tax, taxation, taxing, term, taxes, taxable, theft
+dedicate	donation, dedicate, dedication, dedicated, deed, day
+discharge	discharge, default, declaration, diversion, discharged, disconnect, dis, deed
+okay	okay, offense, object, outrage, ok, objection, operation
+dim	dim, dip, ding, delay, denial
+connect	connection, connect, chain, connector, connecting, coupling, connectivity, communication
+FIX	fix, fork, fixing
+dry	dry, drying, drought, drip, dried, deed, dish
+ration	ration, reverse
+darn	damage, deed
+at	act, action, appropriation, art, attack, attempt, argument, aggregate, accusation, aggregation
+weaken	weakening, weakness, weak, weaken, weakest
+remedy	remedy, response, remedies, resolution, result, riot
+divert	diversion, dump, deviation, deed
+bat	bat, block, body, burglary, bug
+complement	complement, compliment, combination, conjunction, composite, cooperation, coupling, complementary, constructive, corrective
+alter	alteration, alter, alias, act, action, appropriation, amendment, artifact, ater, alterations
+polish	polish, painting, polished, performance, patch, ping, place, paint, process, pol
+deem	decision, declaration, deemed, distinction, definition, deed
+contest	contest, challenge, conflict, controversy, contested, competition, contests
+dub	dub, dictionary, definition
+game	game, glitch, gain, games, gam, goal, gaming, g, ging
+torpedo	torpedo, threat, takedown, theft
+pot	pot, place, predicate, property, process, possession, pair, processing, plant, pace
+blend	blend, blending, blends
+tough	transaction, term, theft, toughness, trust, task
+pound	pound, pounding, punch, pun, purchase, possession, pounds
+silence	silence, shutdown, silent, suppression, speech, statement
+piss	piss, pee, pour, pace, predicate, poop
+conceal	cloak, conceal, cover, crime, ception, conspiracy, corruption
+spray	spray, spraying, splash, spill, sprayed, shower, shooting, shoot
+yield	yield
+if	instance, if, item, input, it
+bark	bark, barking, block, body, burglary
+sit	sit, space, sitting, structure, sum, sculpture
+defy	disruption, defiance, deviation, disorder, disobedience, dissent, disagreement, deed
+wheel	work
+microwave	microwave, meme, manufacturing, merger, magic, method
+earned	earning, earned, earn, entitlement
+exhibit	exhibit, event, example, exhibition, effect, exhibiting, expression
+commemorate	celebration, ceremony, commemorate, crime
+flood	flood, flooding, flooded, floods, flow, fishing
+panic	panic, processing, provocation, prank
+plate	predicate, place, plate, pace, possession, purchase, pair, property, process, processing
+chose	choice, collection, chose, consensus, choosing, creation, choices
+dwarf	dwarf, discrepancy, deficit, double, difference, ding, dimension, damage, deed
+communicate	communication, conversation, channel, communicating, communicate, communications, concept
+befriend	befriend
+trump	trump, trust, term, theft, trademark, thief, trade
+tire	tire, tyre, tires, theft, time, transient, term, ting
+forfeit	forfeit, forfeiture, ft, former
+combat	conflict, combat, confrontation, crisis, clash, crime
+STOP	seizure
+abort	abort, abortion, aborted, act, accident, action, assault, attempt, abortions, acting
+date	date, dating, dates, dat, decade, deed, do
+Try	time, task, things, tree, try, type, term
+stage	stage, staging, scene, show, scenario
+title	title, term, trademark, theft
+frost	frost, fork, freeze, freezing, fire, function, fish, first
+nurse	
+examine	examination, evaluation, examine, examining
+integrate	integration, integrate, integrated, integrating, interaction, interface, implementation, imitation, innovation
+tease	tease, teaser, teasing, tweet, threat, theft, time, thief, teased, trade
+stream	stream, streams, streaming
+signal	signal, signaling, symbol, sign, spectrum, signature, signals, signalling, something
+label	label, labeling, list, labels, latter
+crumble	collision, collapse, chain, crash, crime, construct, coordination, craft, construction, crumble
+bum	bum, body, bug, burglary, block, bounty, bage
+trim	trim, trimmed, time, tree, ting
+pinpoint	pattern, pinpoint, point, predicate, process, puzzle
+channel	channel, conduit, channels, communication, concept, conversion
+pawn	pawn, piece, possession, place, purchase, piracy
+ignite	ignite, incident, ignited, ignition, incendiary, ite
+blew	bug, breach, blow, break, burst, burglary
+boot	boot, bug, bind, body
+pirate	pirate, piracy, pirates, pir, pace
+pave	protest, pace, purchase, possession, place, partnership, process, predicate
+bully	bully, bullying, boycott, bullies, backlash, body, bull, behavior
+accelerate	acceleration, accelerate, accelerator, accelerating, accelerated, act, appropriation, advance, action, accident
+overthrow	overthrow, opposition, omaly, occupation
+value	value, valuation, values, val
+weave	weave, weaving, warp, web, woven, w, work, wine
+envision	entity, event, envision
+claw	claw, carving, collection, claws, cat, catch, claim
+contemplate	contemplation, conversation, concept, crime
+register	register, registration, registry, record, registering, registers
+slaughter	slaughter
+whistle	whistle, whisper, writing, word, work
+market	market, marketplace, monopoly, markup, marketing, markets
+cave	collection, crime, chain, computation, cave
+ready	ready, readiness, reaction
+distribute	distribution, distribute, distributed, distributing, distributor, distributions, donation, deed
+extend	extension, extend, extends, extending, extended, expansion, end, extensions, equivalent
+treat	treat, term, treatment, theft, trade, transaction, tax
+nod	
+hoard	hoard, horde, hold, holding, how
+brake	brake, block, braking, brakes, blockade, blocking, burglary
+stumble	stumble, stumbling, stumbled, sight, success
+disappoint	disappointment, defect, deed
+fixed	fix, fixed, fixing, fixation, former
+spur	spur, spark, stimulus, startup, success, statement
+next	
+upset	upset
+bleach	bleach, breach, blight, boil, body, bath
+vote	vote, voting, votes, veto
+emulate	emulation, example, emulate, effect, equivalent
+bash	bash, bug, bang, block, build
+dent	dent, damage, disturbance, destruction, distortion, damages, deed
+prosecute	prosecution, prosecutions, prosecuting, possession, predicate, piracy
+champion	champion, consensus, coalition, collective, champions, case
+stunt	stunt, stunts, stuff
+contact	contact, call, communication, conversation, callback, connection
+breed	breed, breeding, breeds, brew
+death	death, deed
+mastermind	meme, mischief, magic, making
+scoop	scoop, snowball, snapshot, sweep, stuff
+breach	breach, breaches, burglary, break, breaking
+gather	gathering, gather, group, grab, gift, grabbing
+wax	wax, work, working
+eclipse	eclipse, event, eclips, effect, emption
+brush	brush, bump, brushing, brushed, blur, brushes, body
+steel	steel, strike, sum, sculpture
+observe	observation, observer, observe, observable, observed, observing, omaly, observ, object, observations
+liked	liking, like, likes, liked, love, latter
+sting	sting, seizure, steal, stealing, stuff
+broke	break, bug, breach, breaking, broken, breaks, burglary, broke
+dispatch	dispatch, dispatcher, deed
+beam	beam, beacon, beams, body, burglary
+wanted	want, wish, wanting
+Get	get, gift, getting
+accompany	act, association, appropriation, action, attribute, agram, associate, argument, analogy, aggregate
+revisit	revisit, retrospective, reboot, reset, restart, replay, review, refresh, return
+utilize	usage, utilization, use, user, utility, uses
+encrypt	encrypt, encryption, encrypted, exception, example
+divine	divine, deity
+fade	function, fork
+punish	punishment, penalty, punish, punishing, punishments
+decline	decline, default, denial, dispute, down, declined, declining, destruction, deed
+glass	glass
+smile	smile, smiling, smiles, smiled, sign
+operate	operation, organization, operator, organisation, operations, object, ownership
+separate	separation, separate, split, separating, state, same
+concoct	conspiracy, creation, craft, counterfeit, crime, cooking
+damage	damage, destruction, disturbance, disruption, disaster, damages
+dab	dab, dictionary, drawing
+cloud	cloud, cloak, cache, clouds, caching, computing, cra, collection, computation, contract
+access	access, api, actor, appropriation, acquisition, act, auth, ater
+patrol	patrol, protection, patrolling, policing, possession, protocol, predicate
+thwart	thwart, theft, threat, treason
+recount	recount, record, recall, recollection, recounts, reading, reporting, review
+navigate	navigation, navigate
+price	price, pricing, purchase, place, prices
+hole	hash, hack, hat, how, hacking
+model	model, modeling, models, modelling, meme
+prescribe	prescription, prescribing, prescribe, practice, predicate, protocol, prescribed, prohibition, patent, prescriptions
+scalp	scalp, spear, scratching, sum
+pair	pair, pairing, place, pairs, predicate, programming
+maybe	maybe, moment
+surface	surface, startup, snapshot, session
+affect	affect, act, action, appropriation, attack, actions
+strip	strip, stripping, stripped, slice, steal, sweep, stealing, slash, shader
+free	freedom, free, freeing
+derive	derivative, dependency, derive, definition, deed
+latch	latch, lock, law
+imitate	imitation, imitate, instance, infringement
+sand	sand, sandbox, swamp, stone, stuff
+doom	disaster, destruction, damage, deed
+deed	deed, deeds, deal
+egg	effect, entity, egg, event, example
+showcase	showcase, show
+harness	harness, hat, hash, how, hack
+Do	do, done, deed, decision, deal
+bad	bad, bug, behavior, body, bounty, bage, break
+killed	kill, killing, kills, killings, killed
+illustrate	illustration, image, idea, illustrating, illustrate
+filter	filter, filtering, filters, filtered, flow
+step	step, steps, stepping, stalk, stack, stage
+kid	kernel, king
+urge	urge, urging, urges
+violate	violation, violations, version, violating, violate, vandalism, violated, very
+lease	lease, llc, leasing, leases, latter
+is	item, instance, intention, is, idea, intent
+key	key, keys, keyword, king
+nurture	nurture, nurturing
+sever	sever, split, severed, strike, sis
+enact	event, effect, enactment, enact, entity, execution
+intend	intention, intent, idea, intended, imitation, intend, intentions
+ingest	ingestion, ingest, ingested, incident, infection, intoxication, ing
+blur	blur, blurred, blurry, body
+prick	prick, pinch, point, pie, ping, pin, pathy, piercing, picking
+reform	reform, restructuring, redesign, reforms, revolution, rewrite, redistribution, reforming
+bookmark	bookmark, body, bind, block, book, blog
+can	can, computation, collection, craft, creation
+spare	sacrifice, spare, surplus, stash, saving, steal, sale, stealing
+haul	haul, hat, hoard, holding, how
+hurdle	hurdle, hack, how, hacking, hash
+quite	
+realized	realization, recognition, result
+essay	entity, essay, effect, example
+shop	shop, shopping, sale, store, sho, session, shops, selling
+populate	place, pace, predicate, purchase, process, product
+dust	dust, disturbance, damage, destruction, deed
+invest	investment, invest, ico, investing, index, investor, investments, ing
+highlight	highlight, highlighting, h
+grit	gift, gesture
+terminate	termination, terminate, timeout, terminated, terminating, termin, term, time
+script	script, scripting, scripts, session, scripted, spec, screenplay
+seen	sight, seeing, sighting, saw, see, seen, session
+gasp	gift, gesture
+perpetuate	piracy, protest, predicate, phenomenon
+update	update, upgrade, updating, updates, updated
+but	body, boycott, burglary, block
+delay	delay, delays, delayed, delaying, defer
+travel	travel, trip, traveling, time, teleportation, travelling, traveler, teleport, travels, tourism
+mess	mess, mistake, mischief, meme, mission
+dance	dance, dancing, dances, disco, dancer
+dictate	directive, decision, dictate, definition, deed
+spew	spew, spill, speech, statement, spat, spit, spitting, swearing, slur
+manifest	manifest, manifestation, moment, magic, making
+relay	relay
+negotiate	negotiation, negotiating, negotiations
+dam	dam, damage, destruction, deed
+pedal	predicate, pace, pedal, place, processing, ping, painting, process
+dissolve	dissolution, dissolve, destruction, dictionary, definition, deed
+withdraw	withdrawal, withdraw, withdrawing
+limit	limit, limitation, limits, limitations, limiting, latter, law
+seed	seed, seeds, sow, seeded, startup, spawn
+foster	foster, fostering, fost, framework, first, former
+scare	scare, scares, scary
+lie	lie, lying, lies, liar, latter, law
+advocate	advocacy, advocate, argument, association, agenda, appropriation, act, alliance, activist, action
+pretend	pretend, pretending, prank, predicate, play
+prize	prize, perty, property, possession, place, privilege, price, purchase, protest
+chain	chain, chains, collection, computation
+reference	reference, referencing, relation, references
+clip	clip, clipping, click, cut, clips, crime, copyright, catch, craft, cutting
+wait	wait, waiting, waits, work
+cough	cough, coughing, c, cc, cloud, catch, cap, condition, cat, cup
+parse	parse, parser, parsing, processing, print, process, predicate
+formulate	formulation, function, form, first
+provoke	provocation, provoke, protest, provoking
+buck	block, body, bug, buck, board, burglary, bang
+copyright	copyright, copying, commons
+occupy	object, occupation, occupancy, organization, ownership, occupying
+attend	attendance, act, attending, action, attend, audience, assembly, appropriation, activity, argument
+finger	finger, fingerprint, function, ference, fingers, first
+wake	wake, work, waking
+tank	theft, trust, time, term
+place	place, placement, placing, pile, position, possession, places, predicate, property, purchase
+suppress	suppression, suppress, state, suppressing
+freak	freak, fault, fraud, felony, ference, first
+loved	love, like, loved, loving, latter
+headline	headline, hoax, hat, head
+facilitate	facilitate, facilitating, function
+field	field, function, form, fields
+draft	draft, document, drafts, drafting
+ram	result
+establish	entity, establishment
+amend	amendment, amend, alteration, act, appropriation, addition, article, amended, amendments, action
+eye	eye, ey, encounter, exhibit
+strain	strain, stress, strained, strains
+circle	circle, circles, cycle, collision, curve, creation, craft, collection, chain, construction
+bed	body, block, burglary, bed
+resemble	resemblance, relation, relationship, resemble, resembles
+tape	tape, taped, time, ting, technique, tapes, t
+KNOW	knowledge, know, knowing
+procure	procurement, procure, purchase, purchasing, possession, process
+compare	comparison, compare, correlation, comparing, comparisons, critique, compliment, comparative, competition, credit
+rival	rivalry, rival, riot, rebellion, robbery
+skirt	skirt, shadow, sum
+harm	harm
+undermine	undermining
+void	void, violation, val
+favor	favoring, favor, faction, ference, former, following
+project	project, projects, projection, port, proposal, process, place, prototype, plan, phase
+butter	butter, body, block, baking, bake, boil
+cream	collection, cooking, chain, carving, consumption, craft, creation
+crawl	crawl, crime, crawling, cookie, cat, collision, collection, craw, cache, ception
+tried	try, test, time, testing, tries, task
+Like	latter, lie, like
+revoke	revocation, revoke, revoked, reverse
+advise	advisory, advise, advice, appropriation, adviser, act, advisor, agreement, association, advising
+revise	revision, rewrite, refinement, regression, revisions
+jail	jail
+captain	captain, collection, chain, contract, crime, craft, coordination, command
+ridicule	ridicule
+quote	quote, quotation, quoting, quotes
+target	target, threat, targeting, time, targets, term, ting
+finished	finish, finishing, finished, function, final
+flag	flag, flags, function, following, first
+matter	matter, matters, moment, meaning, manship
+merge	merge, merger, merging, merged
+expend	expenditure, expend, expense, exchange, excess, equivalent, expenditures
+devise	design, devise, definition, derivative, deed
+ramp	ramp, redirect, ripple, resistance
+big	body, big, block, biggest
+flick	flick, flip, ference, flipping, flipped, ft
+critique	critique, criticism, controversy, critic, complaint, commentary, crit, critiques, criticizing
+shade	shade, shadow, shading, shader, stealing
+rig	rig, rigging, robbery, rigs, ram
+sock	sock, stocking, sweep, sum, stuff, stack
+code	code, callback, collection, coding, cat, class, compiler, c, computation
+mug	mischief, meme
+overpower	overpower, overload, overwhelming, overwhelm, offense, object
+off	off, offense, operation, offset, overload, on
+amplify	amplification, amplify, amplifier, amplified, avalanche, appropriation, act, action, argument, art
+half	half, hash, hat, how
+stake	stake, share, sale, stealing, same
+profess	position, phrase, poetry
+condone	crime, cult, conspiracy, criminal, con, conduct, condone, complicity, censorship
+worship	worship
+view	view, views, viewpoint, value, viewing
+near	near, neighbor, neighborhood
+punt	punt, pun, place, purchase, possession, put
+abolish	abolition, act, appropriation, abolish, alteration, action, anarchy, archy, abstraction, amendment
+credit	credit, credits, citation, claim, charge
+video	video, visual
+stress	stress, stressed, stressing, statement, stimulus, stresses
+influence	influence, impact, interaction, influencing, interference, intention, imitation, intent
+streak	subclass, stealing, stuff, sum
+postpone	paradox, predicate, postpone, protest, processing, pace, place, purchase, process
+probably	predicate, place, pace, property
+fingerprint	fingerprint, fingerprints, first, finger
+scout	scout, scouting, scouts, search, scope, spec
+invented	invention, innovation, inventor, idea, invented, invent, inventive, imitation, inventions, ingenuity
+WIN	win, work
+disappear	disappearance, deletion, disappear, destruction, deed
+stomp	stomp, strike, stamp, sweep, smashing
+out	out, output, outage, omaly
+tag	tag, tagging, tags, tagged, term, transaction
+reconstruct	reconstruction, reconstruct, replica, reconstructed, restoration, rebuild, rebuilding, repair, research
+recharge	recycling
+wrestle	wrestle, wrestling, wrest, work
+extract	extraction, extract, entity, exchange, example, export
+butt	butt, block, body, bust, back
+contradict	contradiction, conflict, controversy, criticism, censorship
+envy	envy, evil, entitlement, expression
+deepen	deed, definition, derivative
+exit	exit, end, exception, exiting, event, exits, escape, execution
+shot	shooting, shot, shoot, shooter, shots, shoots
+flank	function, fork, fraud, following
+discount	discount, deficit, discrepancy, dispute, distortion, dumping, decline, discounts, down, differential
+rob	robbery, rob, robbing, robber, raud, robberies
+spy	spy, spying, surveillance, sighting, spies, sis
+remix	remix, remake, replication, reverse
+mimic	mimic, model, mirror, meme, magic
+reproduce	reproduction, replication, reproduce, result, reuse
+root	root, roots
+pilot	pilot, program, project, partnership, prototype, pace, place, patent, processing, piracy
+discard	discard, dump, deletion, dumping, disposal, discarded
+package	package, packages, packaging, project, pack, place, programming, program, process
+you	
+deal	deal, dealing, dealer, deals, deed
+shell	shell, session, snapshot, shells, shader
+satisfy	satisfy, set, state, satisfaction, satisfies, satisfying
+source	source, sourcing, stream, sources, steal
+raid	raid, raiding, raids, robbery
+hitch	hack, how, hash, hat, hacking
+hem	hash, hat, how, hack
+scarf	subclass, sum, stuff
+dial	dial, delay, deed
+discredit	discredit, defamation, dispute, damage, discord, deed
+compost	compost, collection, cess, cling, consumption
+that	thing, things, term, transaction, type
+bloom	body, block
+so	sum, state
+Read	reading, result
+shun	shun, split, stealing
+frog	function, fork, fraud, form
+chill	chill, cascade, collision, conditional, crime
+hawk	hawk, hack, hacking, how
+shock	shock, stimulus, spike, surprise, shocks, switch, scream, stunt
+triple	triple, triangle, tuple, tri, time, t, term, theft, thing
+soak	soak, soaking, sponge, sink, sculpture
+reward	reward, rewards, rewarding
+moderate	moderation, moderate, modification, moderator, mod, meme, modifier, medium
+corrupt	corruption, corrupt, crime, cheating, criminal
+isolate	isolation, isolate, isolated, instance, infringement, injunction
+worry	worry, work, writing
+numb	numb
+kind	kind, kindness
+up	up
+foul	foul, felony, fraud, fou, ft, fair
+though	transaction, time, type, thought, term, technique
+ground	ground, grounding
+confuse	confusion, confuse, confusing, confused, contradiction, clear, condition, crime
+sober	sober, sum
+cracked	crack, crash, cracking, code
+mortgage	mortgage, mortgages
+blunt	body, block, burglary, breach, blunt
+pencil	place, predicate, pencil, pace, pair, processing, process, piece
+gust	gift, gesture
+outweigh	outweigh, obstacle, offense, occupation, outrage, opposite, overlap
+crunch	crunch, collision, computation, chunk, crack, convergence, core, clock, code, counter
+inhabit	inhabit, instance, imitation, invention
+wit	wit, work, writing
+mask	mask, masked, masks, mark
+anchor	anchor, association, anchored, anchors, artifact, anch, appropriation, act, action, ant
+jog	
+shrug	
+aid	aid, assist, assistance, act, alliance, ally, agreement, aiding, action, appropriation
+by	body, behaviour, behavior, boolean
+divorce	divorce, dissolution, division, dispute, divorced
+mistake	mistake, misunderstanding, mismatch, mistakes, miss, mischief, mist
+transport	transport, transporter, transportation, transit, transfer, trade, transporting, term, teleportation
+debut	debut, demo, demonstration, day
+illuminate	illumination, image, illuminating, illusion
+to	thing, term, transaction, to, ting, tree, trade, t
+fool	fool, fraud, fallacy
+capitalize	capitalize, cap, crime, claim, comma
+hum	hum, humming, h, hump, hat, harm, how, hack
+solder	solder, sis, screw
+counterfeit	counterfeit, change
+BE	be, body
+resume	resume, restart, return, restore, response, resumed, reboot, resumes, result
+care	care, concern, caring, cares, collective, crime
+torture	torture, tort, tyranny, threat, term, terrorism
+breakdown	breakdown, break, breakup, block, body, burglary, breaking
+swarm	swarm, storm
+overtake	overtake, overlap, offense, object
+perceive	perception, percept, phenomenon, perceive
+pepper	place, predicate, pepper, process, pair, processing, pace, plant, possession, pound
+boost	boost, boosting, bump, boosts, booster, boosted, buff
+state	statement, state, statute, states
+brand	brand, branding, brands
+too	transaction, theft, tree, term, things, transformation, thing
+construct	construct, constructor, construction, collection, computation, creation, code, craft
+blown	bug, block, breach, burglary, break, body, burn, burst
+cycle	cycle, cycles, cling, c, condition, collection, computation, chain
+shotgun	steal, subclass, sum, stealing
+coordinate	coordinate, coordination, consensus, coordinating, coordinated, coord, constellation, cluster, computation, chain
+pen	pen, poem, poetry, place, predicate, point, phrase
+upgrade	upgrade, update, upgrading, upgrades
+debug	debug, debugger, debugging
+steam	subclass, steam, stuff
+such	statement, something, sum, subclass, speech, sin, state
+cherry	collection, computation, chain, crime, cooking, craft
+bail	bail, bond, body, burglary, bounty, borrowing, bery
+from	fragment, function, flow, form
+called	call, collection, callback, comma, cat, computation, creation, copyright
+march	meme, mischief
+cite	citation, cite, claim, cited, citations, crime, copyright, copying
+transform	transformation, transform, transition, transforming, transformations, transforms, term, time
+venture	venture, ventures, vc, very, violation, version
+fare	function
+swat	swat, strike, swarm, spat, spear, slap, smack
+attract	attract, attraction, attracting, attracts, act, affinity, acquisition, action, attack, ad
+arm	arm, association, arms, act, arming, armed, argument, assault, action, attack
+expel	expulsion, exile, expel, exodus, expelled, emission, exclusion, extinction
+cops	crime, collection, contract, coordination
+enhance	enhancement, effect, enhance, enhancing, enhancements
+thread	thread, threads, threaded, time, transaction, task
+counteract	counteract, counter, countering, cascade, crime, conspiracy, criticism
+uphold	upholding, uphold
+and	act, action, appropriation, argument, activity, acting, association, actions
+charter	charter, copyright, contract, covenant, corporation, constellation, constitution, concept, cott
+adjust	adjustment, appropriation, alteration, act, adjust, adaptation, action, adjustments, adjusting, argument
+wants	want, wants, wish
+point	point, pointer, pointing, pointed, points, pointers, protest, possession, process
+waterproof	work
+stole	steal, stealing, stole, stolen, steals
+Skype	sum
+grease	grease
+compress	compress, compression, compressed, compressor, compilation, compact, change, condition, cess, case
+blank	blank, block, blocking, blob, body, bage
+forgot	forgetting, forget, failure, forgot, forgotten, former, ft
+without	without, work, waste
+heard	hearing, heard, hear, how
+or	offense, offence, object, organization
+good	good, gift, goodness
+heart	heart, hat
+WANT	want, wish, work
+subpoena	subpoena, seizure, search
+prolong	paradox, prolong, predicate, place, partial, process, purchase, patent, property
+USE	use, usage, user, utility
+mint	mint, manufacturing, making, magic
+disgrace	disgrace, defamation
+multiply	multiplication, multiply, multiplier, multiplying, multipl, matrix, math, macro, mathematics
+fulfil	function, fulfillment, fulfilled, fulfil, fill, following
+chart	chart, charts, constellation, computation
+undergo	
+jerk	jerk, jer, jump
+cheat	cheat, cheating, corruption, crime, che
+anticipate	anticipation, anticipate, act, assumption, anticipated, action, appropriation, anticipating, argument, accusation
+invoke	invocation, invoke, instance, invoking
+corner	corner, collision, collection, crime, cache, conflict, ception, cat, catch
+READ	read, reading, result
+author	author, act, alias, article, appropriation, authorization, action, argument, activity, artist
+conduct	conduct, crime, computation, contract
+lap	lap, loop
+rise	rebellion, rise, result, riot, revolution, resistance
+craft	craft, crafting, collaboration, creation, collection, crafts
+image	image, instance, images, imagery, imitation, infringement
+till	transaction, term, theft, trade, things, ting, time, thing
+slur	slur, slime, spat, smear, slurs, swearing, slander
+table	table, tables, tree, transaction, thing
+prohibit	prohibition, protest, prohibitions, predicate, piracy
+train	train, training, time, trainer, term, trade, task, trained, type, transformation
+remind	recall, riot, rebellion
+staff	staff, stack, staffing, shutdown, staffer
+resign	resignation, resign, retreat, rebellion, resigned
+misinterpret	misunderstanding, mistake, misinterpret, misconception, misuse, mis, mischief
+pet	pet, pets, possession, purchase, pat, place, pointer, play, poll, property
+clock	clock, callback, computation, counter, creation
+screen	screen, session, screens, screenshot, script, scripting, stuff
+likely	latter, likely, leak, law
+omit	omission, offset, offense, omitted, object
+tan	tan, theft, tree, trademark
+eventually	entity, effect
+evaluate	evaluation, eval, evaluate, example, expression, evaluating, evaluations
+survived	survival, survivor, survive, surviving, survived, success, surv, sacrifice
+coat	coat, coating, color, coats, carving, condition, cleaning
+disband	disband, dissolution, destruction, disobedience, deed
+overshadow	overlap, overshadow, offense, outrage, overlapping, opposite
+warn	warning, warn, warnings, warned, work
+blister	body, block, burn, burning
+cane	crime, collection, computation, coordination, craft
+ruined	ruin, ruption
+vent	vent, verb
+obscure	obscure, omaly, opacity, opaque, obscurity, offense
+drill	drill, drilling, dig, deposit, digging, drills
+See	see, sight, seeing, session
+paper	paper, place, predicate, printing, pace, process, pair, processing, property
+excise	excise
+livestream	livestream, log, latter, logging
+exchange	exchange, export, exchanging, exchanged, equivalent, exchanges
+term	term, terms, terminology, thing, things
+refill	result
+tighten	tightening, tighten, tightened, tight, tighter, twist, theft, things
+prosper	partnership, profit, protest, property, paradox, predicate, purchase, possession, piracy, positive
+reign	rebellion, result, rule
+oil	object, oil, operation, occupation, offense, orem
+tend	tendency, trend, tend, theft, time, trade, term
+fan	fan, fandom, fork, festival, fast
+tread	trespass, tread, trail, theft, trust, term
+suspend	suspension, suspend, shutdown, suspending
+law	law, legislation, laws, latter, lawsuit, legislature
+manipulate	manipulation, modification, manipulating, manipulate, move
+comb	comb, collision, combination, combo, collective, combine, composition, cat, ception, computation
+interrupt	interrupt, interruption, interrupts, interrupted, intercept, incident, interference, interception, intrusion
+identity	identity, identifier, id, instance, iqueness, identification, ing
+derail	disruption, derail, disaster, derailed, damage, deviation, deed
+pace	pace, protest, predicate, processing, place, possession, process
+mar	mischief, mutation, meme, modification, murder, mob, ma
+slash	slash, slashing, slice, slashed, screenshot, shortcut, scrape, stab, steal, stealing
+curb	curb, cur, consequence, crime, compliance
+remain	rebellion
+palm	palm, place, possession, purchase, processing, painting, pathy, process, predicate, property
+bug	bug, bugs, break
+lob	lob, lobster, lam, law
+conceive	conception, concept, creation, ception
+ad	act, ad, appropriation, ant, argument, action, attribute, advertisement, aggregate, activity
+man	manship, man, magic, murder
+insure	insurance, insurer, insured, insure, investment, infringement, injunction, insurers
+appeal	appeal, argument, appealing, action, act, appeals, accusation, appellate, appealed, appropriation
+peak	pace, place, protest, processing, predicate, process, project
+tempt	temptation, tempt, threat, tempting, trap, trust
+render	render, rendering, rendered, result
+vest	vest, very, value
+here	hash, hat, how, hack
+solo	solo, song, subclass, sculpture, sum, self
+speed	speed, speeding, slowdown, steal
+deposit	deposit, deposits, deposited, donation, deed
+automate	automate, automation, automated, api, aggregate, autom, above, abstraction, ater
+fence	fence, fencing, fork, following, farming
+skew	skew, shift, split, scam, shader
+limp	latter
+whiff	whiff, work
+even	entity, event, effect, exception
+override	override, overriding, overload, operation, object
+commute	commute, computation, collision, complement, comma, composition, comm, conjunction, crime
+inspect	inspect, inspection, instance, inspector, intercept, inspecting, inspections
+finally	function, fork, first
+reduce	reduction, reduce, reducing, reductions
+grace	gift, grace, gesture, giving, generosity, good
+shutter	shutdown, shutter, shooting, security, shoot
+scramble	scramble, scrambling
+litter	litter, latter
+then	thing, term, tuple, things, type, time, transaction
+spam	spam, scam, spoof, scams
+prank	prank, parody, piracy, party
+bare	body, bundle, burglary, bare, bear
+rack	rack, racket
+spite	slander
+coax	collection, coordination, contract, chain, creation, craft
+cold	cold, collection, computation, chain, cooling, crime, condition
+skill	skill, skills, subclass, state, success
+cup	collection, computation, crime, creation, craft
+proved	proof, prove, predicate, proposition, proofs, proving
+suppose	suppose, statement, state, say, saying
+disrupt	disruption, disruptive, disturbance, disrupt, disruptions, disrupting, damage, destruction
+eating	eating, edible, eat, eater, event, entity
+mold	mold, mould, mutation, modification, mash, model, meme, manufacturing, making, magic
+misunderstand	misunderstanding, mistake, misconception, misunderstand, mismatch, mis, mischief
+day	deed, day
+elbow	elbow, effect
+harbor	harbor, holding, hoard, harbour, hold, hip
+really	
+tune	tuning, tune, tuned, tweak, time, transformer, tun, tweaking, trade, ta
+tally	tally, total, transaction
+shield	shield, shielding, safeguard, shields, stand
+hurry	hack, hash, how, hat, hacking
+crushed	crush, crushing, crash, crushed, collapse, cap, carving
+square	square, squared, sum
+started	start, startup, started, starting, starts
+cum	collection, collective, computation, coordination, construct, crime, craft
+rally	rally, riot, rebellion, result, resistance, relation
+balance	balance, balancing, balanced, balances, budget
+select	selection, select, selector, search, selecting
+prioritize	priority, preference, prioritize, priorities, protest, performance, purchase, project, process
+took	theft, take, taking, takeover, transaction, transfer, thief, term
+pan	pan, predicate, place, pair, processing, pathy, protest, painting, patent, process
+aim	aim, arrow, aiming, act, aimed, action, aims, attack, appropriation, argument
+mirror	mirror, model, mirrored, mapping, meme, magic
+bounce	bounce, bouncing, bounces, bounced, bump, bubble, body, back, balance
+minimize	minimize, minimizing, maximum, minim, maxim, mismatch, max, meme
+bid	bid, bidding, bids, bidder, block, bribe
+configure	configuration, configure, config, command, configurations, case
+salt	salt, sum, sis
+scent	scent, smell, sniff, signal, sensation, sense, smells, sight, search
+red	red, result, ring
+import	import, importing, imports, imported, imitation, infringement
+pause	pause, paused, pauses, protest, processing, process
+black	black, bug, block, body, bind
+substitute	substitution, substitute, swap, sale, stealing
+compromise	compromise, conflict, collision, compromises, change, contract
+arrive	act, action, appropriation, argument, aggregate, attribute, aggregation, acquisition, agreement
+feature	feature, features, function, functionality, fork
+great	greatness, great, genius, gift, good, greatest
+felt	feeling, feel, felt, feelings, first, feels
+hedge	hedge, hed, hack, hacking, how
+managed	management, managed, manager, meme
+eject	eject, expulsion, exile, exodus, ejected, event, emission, eviction, explosion, exception
+discourage	discourage, discouraged, deed
+reinforce	reinforcement, reinforcing, reinforce, reinforced, relationship, response, rebellion
+compound	compound, combination, composite, complex, condition, combine, change, computation, chemical
+enough	entity, effect, event
+incorporate	interface, incorporation, integration, implementation, imitation, innovation, invention, item, integral
+strap	strap, steal, sum
+infiltrate	infiltration, intrusion, invasion, infiltrate, intruder, infection, incident, infiltr, interference, iltration
+ize	instance, index, i, imitation, ise, ize, izing, ization, ing, ism
+evade	evasion, exception, evade, escape
+assure	appropriation, act, assurance, action, agreement, argument, accident, attribute, attack, accusation
+triumph	triumph, term
+distinguish	distinction, difference, distinguishing, differentiation, distinguish, divergence, definition
+rend	rend, reverse
+ply	predicate, property, possession, purchase, pace, process
+Photoshop	photoshop, processing, painting, place, project, plugin, process, production, programming, program
+impress	imitation, impact, instance, imp, insult, item, influence, ing
+bin	bin, body, binary, batch, bundle, bage, bargain, bins
+diagnose	diagnosis, diagnostic, disorder, disease, diagnoses, diagnose, doctor, definition
+se	sis, sum, se, subclass, sin
+duck	duck, delay
+escort	effect, entity
+intensify	instance, infringement, innovation, ism
+plaster	plaster, painting, predicate, place, pace, pattern, processing, plumbing, process
+gun	gun, guns
+morph	morph, mutation, modification, morp, math, meme, magic
+wrote	writing, work, writer, write, word
+Buy	buy, buying, bundle, body
+shower	shower, showers, share
+hog	hog, hack, heap, hash, hat, hook, hacking
+actually	act, action, acting, actor, appropriation, attribute, artifact, actions, activity
+real	reality, result
+scorn	scorn, slur, stealing
+into	interaction, instance, intersection, integration, into, invention, ing
+weep	work
+greet	greeting, greet, gift, gesture, giving
+dock	deed
+ha	ha, hash, hat, how, h, holding
+punk	punk, protest, prank, predicate, place, pace, processing
+shame	shame, shaming, slur, slander
+loves	love, like, loves, lover, loving, likes, latter
+fruit	fruit, function, fork, fruits
+undertake	undertaking
+impose	imposition, injunction, imposed, impose, implementation, imposing, infringement
+rate	rating, ranking, rate, rank, ratings, rat
+hop	hop, hops, hook, hack, hat, hopping, h, hacking, how
+exercise	exercise, effect, event, ercise, example, expression, exercising
+vow	violation, very, verb
+sanction	sanction, sanctions, suspension
+assert	assertion, assert, argument, asserting, attribute, act, asserted, asserts, action, assertions
+bought	buy, buying, bought
+bypass	bypass, block, body, blocking, break, breach, burglary
+audit	audit, auditor, audits, act, analysis, accounting, above
+schedule	schedule, scheduling, scheduled, session
+discern	discern, discovery, deduction, declaration, decision
+transplant	transplant, transformation, theft, trade, transform
+named	name, namespace, named, naming, noun
+tidy	tidy, task, tree, term
+dash	dash, deed
+convict	crime, conviction, convict, conspiracy, convergence, criminal, collective, confession, crimes, case
+avert	act, accident, appropriation, agreement, action, argument, attack, anarchist, actions
+only	object, offense
+toe	tree, term, theft, transaction, trust
+calm	calm, calming, cascade, control, crisis, chaos, condition, cooling
+estimate	estimate, estimation, estimated, error, expectation, estimates, expression
+evolve	evolution, experiment, evolutionary, evolve, exponential, effect
+disarm	disarm, damage, deal
+tee	transaction, theft, term, trade, thief, time
+simplify	simplify, simplified, simpl, simplicity, subclass, statement, simple, simplest
+now	new
+itch	itch, itching, instance, incident, infection, istence, ing
+string	string, strings, str, stream, sequence
+OWN	ownership, owner, offense, occupation, object, owners, own, orem
+slate	stuff, sum, stealing
+blows	blow, blows, blast, burst, blowing, break, blown, burn
+using	usage, use, user, utility
+contract	contract, contracting, contracts, concept, clause
+brain	brain, body, behavior
+bunk	body, burglary, block
+breath	breath, breathing, breathe, blow
+stem	stem, sum, synthesis
+transfer	transfer, transaction, transfers, trade, transition, transferring, transferred, thing
+purge	purge, place, pur, process, possession
+quantify	quant, quality
+slim	sum, stuff, scraping, sculpture, slime, slash
+caught	catch, catching, caught, capture, collection, ception, catches, cat, case
+assess	assessment, analysis, assess, appraisal, act, action, appropriation, audit, argument, acquisition
+hone	hack, how, hacking
+act	act, action, acting, actor, agent, activity, acts, actions, accusation, appropriation
+grip	grip, grab, grasp, grasping, grabbing, gripping
+lump	lump, lap, latter, law
+reply	reply, response, replies, respond, request
+hashtag	hashtag, hash, hasht, how
+teleport	teleport, teleportation, transit, transfer, transporter, term, tele, trade, transition, thing
+reuse	reuse, recycling, remix, reused, repo, recycle, return
+scoff	stealing
+dope	dope, drug, derivative, drugs, dip, dea
+short	short, shortfall, sum, stack, shortest, stitch, substitution
+edge	edge, effect, entity, exception, edges, end
+paste	paste, place, pace, post, ping, process, processing, pose, product
+idea	idea, invention, innovation, intention, instance, ideas, ism
+gum	gum, gag, glitch, ging, gery, gram
+negate	null, negate, neg, negative
+graffiti	graffiti
+testify	testimony, theft, testifying, trust, thief
+filibuster	filibuster, felony
+mentioned	mention, meme
+sigh	stuff
+spear	spear, spears, sculpture, subclass, sword
+net	net, network, nets
+educate	education, educator, election, example, effect, essay, enlightenment
+later	latter
+clue	collection, crime, computation, chain, coordination, consensus, conspiracy, condition
+replay	replay, record, replication, review, reverse
+able	act, appropriation, action, argument, attribute, art, above
+leg	leg, log, limb, latter, law
+him	how, hat
+frequent	ference, fast, frequency, festival, first, frequent
+cultivate	cultivation, crop, cultivate, collective, cult, cultivating, cycle, condition, consumption, craft
+propel	propulsion, propel, place, pace, pelling, power, phenomenon, possession, protest, purchase
+wearing	wear, wearable, wearing, wearer
+awake	act, awakening, attack, awake, action, argument, association, awareness, activity, appropriation
+jar	jar
+cuff	cuff, collection, contract, coordination, chain, clamp, craft
+Eat	entity, effect, event, eating
+ve	value, verb, vice, very
+first	first, fast
+sprint	sprint, snapshot, session, startup, stack, scope
+garner	gain, gift, getting, giving, gesture
+leverage	leverage, leveraging, latter
+total	total, thing, term, things, time, transaction, totality, transformation
+ruins	ruin, ruins
+prompt	prompt, prompting, prompted, processing, place, prompts, protest, process
+wander	wander, wandering, work
+age	age, aging, act, aged, ageing, adult, abuse, abortion, assault, alogue
+reset	reset, reboot
+broaden	body, broaden, boycott
+line	line, lines, label, layer, lining, law
+wage	wage, work, will, working
+phase	phase, phases, process, place, pace, processing, pipeline, programming
+Find	finding, function, find, following, first
+export	export, exports, exporting, exchange, exported, example
+splash	splash, spill, stuff
+ding	ding, dictionary, deed
+friend	friend, friendship, friends, fish, function, following
+spice	spice, stuff
+still	state, standing, still, stand, sum, second
+rear	rear, result, return
+cage	crime, collection, cache, ception
+fault	fault, failure, failing, faults, flaw, fail, fraud, fallacy
+ever	entity, effect, event
+invade	invasion, intrusion, invade, invading, intruder, infection, infringement, interference
+broken	break, broken, breaking, block, broke, bug, breach, breakup, body, bind
+penetrate	penetration, penetrating, process, piercing
+distract	distraction, distract, distracting, diversion, distracted, disturbance, disconnect, disruption, distractions
+goddamn	goddamn, gesture
+map	map, mapping, maps
+stack	stack, stacking, stacks, stacked, stuff
+attach	attach, attachment, attaching, attached, appropriation, attribute, assignment, addition, add, act
+comp	comp, collection, compilation, computation, cache, collect, collision, composition, compact, construct
+humor	humor, humour, how, hat
+reckon	rebellion, reason
+troll	troll, trolling, trolls, theft, takedown, tweet, torrent, term
+herald	herald, hallmark, harm, hat
+t	t, tuple, ting, theft, term, task, ty, time, tree, type
+flame	flame, fire, flaming, fireball, flames, fireworks, fires
+exclaim	event, exclaim, expression, echo
+stump	stuff
+sandwich	sandwich, sum, sculpture, stuff
+interview	interview, interviewer, interaction, interviews, interrogation, interviewing, investigation
+joke	joke, jokes, joking
+fashion	fashion, fitting, form
+prime	prime, place, program, pace, predicate, prim, pi, purpose, pect, pot
+truck	transaction, theft, term, tree, time, trade, things, thief, thing, truck
+archive	archive, artifact, archives, aggregate, auction, archived, act, accumulation, appropriation, age
+house	house, housing, hold, household, home, holding
+blitz	block, bug, burglary, body, blocking
+soil	soil, stuff, sum
+pledge	pledge, pledging, promise, pledges, pledged, pact, partnership, purchase, project
+customize	customization, custom, customize, change, configuration, case, condition, craft
+appoint	appointment, appoint, agency, appropriation, act, administrator, appointed, action, acquisition, appointments
+am	act, appropriation, action, attribute, agram, argument, art, aggregate, abstraction, artisan
+father	father, fathers, function
+elevate	elevation, elevate, elevated, escalation, ering
+parade	parade, procession, party, protest, place, pace, possession, process
+apprehend	apprehension, apprehend, act, action, argument, appropriation
+chair	collection, chain, contract, collective, coordination, craft, crime
+flesh	fetish, flesh, fish, first
+booze	body, burglary, breach, behavior
+sequence	sequence, seq, sequences, sequencing
+withhold	withholding, withhold, withheld
+wound	wound, wounding, warp, work
+finds	finding, find, finds, first, found
+specify	specification, statement, set, state, something
+escalate	escalation, escalate, escalated, escalating, exception
+massacre	massacre, murder, mob, meme, mischief
+says	statement, saying, speech, say, statements, speak
+horde	hack, hacking, how, horde, harvest
+life	life, living, latter, law
+rifle	robbery, result, rifle
+bitch	bitch, boycott, backlash, body, behavior, bage, blocking, bug
+belt	body, block
+compliment	compliment, complement, compliments, comment, criticism, cellence, comparison
+fret	function, fork, former
+built	building, build, block, builder, body
+weight	weight, weights, weighted, weigh, weighing, work
+believed	belief, believe, believing, believed, beliefs, believer, body, believes
+relate	relation, relationship, relate
+unite	union, unification, unity
+long	long, length, list, labor, lease, lot, latter
+hard	hash, hard, hack, hammer, hat, hardness, hardest
+affirm	affirmation, affirm, assertion, agreement, argument, association, act, affirmative, action, appropriation
+us	user
+floor	function, fork
+fax	fax, foia, following, ft, function
+board	board, boarding, boards, budget, body, burglary, binding, blockade, bill
+camouflage	camouflage, cloak, cover, craft
+roof	roof, roofs, rooftop, relationship, result
+losing	loss, losing, losses, lose, lessness, latter, loses, lost
+writing	writing, work, word, write
+word	word, words, writing, work
+redirect	redirect, redirected, return, request, reverse, retweet
+sees	seeing, sight, saw, see, sighting, seen
+lodge	lodge, log, lod, lodging, lodged, law
+SIGN	sum
+commission	commission, contribution, contract, commissions, campaign, conspiracy, charter, crime, charge
+mother	mother, mothers
+might	might, may, mischief, must
+fracture	fracture, fracturing, fractured, fragmentation, fault, fragment
+tone	theft, typo, trademark, tree, time, term
+dive	deed
+behind	behind, body, back, bribe, bill, behavior
+breeze	body, block, burglary
+vape	vape, vaping, vapor, verb
+offset	offset, offsets, operation, object, opposite
+equate	equivalent, equation, equate
+mentor	mentor, meme, manship
+brainstorm	brainstorm, breakthrough, board, beginning
+embed	embed, element, embedded, entity, example, exchange
+feast	function, former, first
+improv	improv, improvised, improvis, instance, imitation, illusion
+loan	loan, lending, lend, loans, latter, liquidity
+delegate	delegate, delegation, delegated, delegates, directive, deed
+exist	entity, existence, exists, entities, element, exist
+luck	luck, lottery, latter, law
+cull	cull, collision, cascade, collection, cat, collect, cleansing
+blackmail	blackmail, breach, bribe, bullying
+strength	strength, struggle, state, strong, sum, sword, strengthening
+instruct	instruction, instruct, instance, implementation, instructional
+stolen	steal, stealing, stolen, stole
+having	how, house, having
+designed	design, designer, definition
+ticket	ticket, tickets, transaction, time, things, ting
+reload	reload, reboot, restart, replay, return
+assault	assault, attack, act, appropriation, assaulting, abuse, aggression, ault, assaults
+rep	rep, rebellion, repo, revolt
+transcend	transcend, transformation, term, totality
+nominate	nomination, nominating, nominee, nominate, nominations, namespace
+humble	humble, humility, honest, how, hack
+trail	trail, trace, tracking, track, trailing, tracker, theft, trails, time, thief
+motivate	motivation, motive, motivate, motiv, motivated, motivating
+pulp	predicate, place, pace, pulp, processing, possession, process, packaging, press
+thumb	thumb, term, transaction, tree, thumbs, time, thing
+forecast	forecast, forecasting, forecasts, future, fallacy
+assign	assignment, assign, allocation, attribute, assigned, assigning, appropriation, act, action, argument
+this	thing, things, tree, transaction, term
+hated	hate, hatred, hating, hat, hates, h, hostility, holocaust
+dip	dip, dipping, drop, dunk, dipped, dips, dump, derivative, dish
+rebound	result
+lean	lean, luence, latter
+against	act, attack, action, assault, aggression, accusation, argument, assertion, attacker, assert
+level	level, layer, leveling, ladder, levels
+bus	body, block
+sub	sub, subclass, sum, subs, subset, submission, self
+button	button, body, block, bug, bind, buttons
+sweet	sweet, sweetness, snack, stealing, sum, sweets
+wine	wine
+bundle	bundle, bundles, body, bund, bundled, bind, binding, block
+insist	insistence, inconsistency, illegal, infringement, istence, insist, insisting, ism
+all	act, action, array, aggregate, acting, attribute, activity, agreement, acts, argument
+please	pleasure, predicate, party
+cease	cease, cessation, closure, crime, ceases, ceased, ce
+pad	pad, pointer, point, pace, place, p, padding, purchase, process, patent
+staunch	sum
+rupture	rupture, ruption, riot, rebellion
+needing	need, necessity, needs, needing, namespace
+effect	effect, event, entity, effects
+deport	dmca, deportation, deport, definition
+consult	consult, consultation, consulting, consensus, conversation, communication, consumption, contract
+known	knowing, knowledge, know
+behave	behavior, behaviour, behave, bug, behaving
+knife	knife, knives, king
+knee	king
+was	
+expense	expense, expenditure, excess, exception, expenses, effect
+axe	axe, attack, accident, act, assault, ax, appropriation, avalanche, argument, axes
+drug	drug, drugs, doping, dea
+tick	tick, time, transaction, timestamp, ticks, trigger, ticking, ting, tagging, tag
+regretted	rebellion, riot, regret, result, rage
+accommodate	accommodation, agreement, accommodating, arrangement, appropriation, act, adaptation, accommodate, argument, action
+because	body, block, boycott
+attest	act, appropriation, agreement, argument, assertion, action, attribute, association, art, aggregate
+elect	election, elect, elected, example
+warp	warp, witch, work
+echo	echo, example, effect, event, exchange, expression
+takes	theft, taking, take, thief, trade, term, transaction, transformation, takes
+magic	magic, magician, magical
+home	home, house, how, hash, hobby, hat, homeowner, household
+relocate	relocation, relocate
+yet	
+as	act, action, appropriation, acting, activity, argument, attribute, array, acquisition, actions
+dice	dice, die, deal, derivative
+case	case, crime, claim, condition, computation, collection, conditional, ception, cases
+wolf	
+legal	law, lawsuit, latter, legislation
+thrive	theft, term, thief
+emit	emission, emit, emitted, event, effect, echo, emitting, emissions, example

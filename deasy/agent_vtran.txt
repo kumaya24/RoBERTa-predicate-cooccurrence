@@ -1,0 +1,1996 @@
+make	maker, manufacturer
+do	designer, developer, director
+get	
+need	need, needy
+regret	regret
+find	
+have	human
+see	scientist
+prove	physicist, philosopher, psychologist
+eat	eater, employee, economist, expert, entrepreneur, engineer
+try	
+know	
+like	
+use	user, utilitarian
+take	thief
+finish	
+win	winner
+lose	loser
+love	lover
+own	owner
+say	speaker
+remember	researcher
+handle	
+deserve	deserving
+buy	buyer, businessman
+break	breaker
+catch	catcher, catch, cat, collector
+fix	
+miss	mistake, miss
+survive	survivor, scientist, survival, self, soul
+believe	believer
+kill	killer
+be	being
+want	
+admit	atheist, analyst, activist, author, auditor
+hate	hate
+write	writer
+crush	crush, critic
+feel	
+hear	
+wear	wearer, worker, woman
+nail	
+forget	fool
+save	scientist
+stop	
+read	reader, researcher
+destroy	designer, destroyer
+sell	salesman, seller
+drink	drunk, drink, drinking, doctor
+burn	burn, burner, burning, burned
+call	caller
+realize	
+earn	entrepreneur, employee, economist, engineer
+manage	manager
+explain	economist, expert, engineer
+pull	programmer, producer, person, pull
+recognize	researcher
+steal	steal, stealing
+blow	
+appreciate	artist, astronomer, appreciation, atheist
+bring	
+understand	
+throw	throw, throwing, thrown, thief
+solve	scientist
+beat	
+enjoy	enthusiast, employee, educator
+learn	
+keep	keeper
+show	scientist
+start	startup
+ruin	
+smoke	smoker, smoke, shaman
+crack	crack, compiler
+accept	atheist, anarchist, activist, artist, academic
+cut	cutter, contractor, cut
+carry	courier, carrier, carry
+answer	astronomer, academic, analyst, atheist
+swallow	swallow, scientist
+taste	taste
+publish	publisher, publication, poet
+give	gift
+open	
+drop	drop, designer, diver
+sign	sign, signature, signing
+build	builder
+claim	claimant, claim, creator, capitalist, collector
+end	end, executive, entrepreneur
+post	poster, post, person
+print	printer, publisher, print, printing, person
+smell	smell, scent, scientist
+touch	touch, technician
+hit	hitter, hacker, hit
+doubt	doubt
+attempt	artist, amateur, architect, artisan, agent
+tell	translator
+discover	
+name	name
+share	
+fight	fighter
+grab	grab
+spill	spill, sponge, spilling, scientist, speaker, spoon
+report	reporter
+hold	holder, hold, holding, hand
+pass	person, politician, philosopher, pass
+close	closure
+think	thinker, theorist
+deliver	director, developer, designer
+suck	suck, sucker
+test	test, theorist
+ride	rider, ride
+complete	creator
+face	
+smash	scientist
+run	
+send	sender, server, subscriber
+mean	
+change	change, citizen, creator
+kick	kick, kicker
+wing	
+hide	hacker
+dig	dig, diver, digging
+sing	singer, song
+mention	
+mail	mail, mailing
+announce	announcer, announcement, analyst, author, ambassador
+cook	cook, chef, cooker
+fly	fly, flyer, flight
+clean	cleaner, clean, cleaning, contractor
+stick	stick, scientist
+cap	cap, curator, collector, creator
+order	orderly, order, organizer, officer
+watch	
+receive	recipient, receiver
+sink	sink, sewer, sinking, scientist, sunk
+unlock	user
+wash	worker, wash, washing
+achieve	activist, artist, agent, administrator
+drive	driver, designer, developer
+shut	shutdown
+fake	fake, fraud
+notice	
+turn	
+live	living
+spot	scientist
+afford	artist, accountant
+walk	walk, walking
+experience	empath, experience, explorer
+bite	bite, bug, biting, beetle, bitten
+allow	anarchist, atheist, artist, agent, architect, activist, author
+move	move, machine
+grow	garden
+push	programmer, physicist, promoter
+google	google, geek
+leave	
+shove	shove
+choose	consumer, creator, curator
+shoot	shooter, sniper
+question	
+pick	pick, person
+deny	denial
+join	join
+witness	witness
+demand	demand
+follow	follower, following
+require	robot
+release	release
+decide	democracy, director
+kiss	kiss, kissing, kissed
+punch	punch, person
+consider	critic
+guarantee	guarantee
+invent	inventor, invention, individual, intellectual
+teach	teacher, theorist
+book	book, bookstore
+wreck	
+refuse	refuse, refusal, resistance
+plan	planner, plan, programmer, politician
+fuck	fuck
+ask	astronomer, activist, analyst, atheist
+create	creator, creative
+pay	person, producer, poor
+match	mathematician
+bottle	bottle
+accomplish	administrator, agent, artist, activist
+bear	bear, bearing, borrower, bearer
+repeat	
+meet	manager
+fold	fold, folding, folded, folds
+hack	hacker, hack
+help	helper, humanitarian
+defend	defender, defense
+rock	rock
+guess	guess
+sense	scientist, sense
+work	worker
+cover	correspondent, columnist
+sweat	sweat, scientist
+paint	painter, painting, paint, person, photographer, professional
+record	recorder, reporter, researcher
+confirm	chemist
+block	blocker, block
+fire	fire, firefighter
+fill	
+notch	
+cross	cross, collaborator, crossing
+screw	screw
+draw	drawing, designer, draw
+declare	declaration, designer
+bake	baker, bakery, bake, baking, baked, brewer
+replace	robot, replacement
+spoil	spoiler
+quit	quit, quitting
+provide	provider, person, programmer, professional
+Google	google
+spin	scientist, spin
+hurt	hacker, hack
+force	force
+lick	lick, licking
+delete	deletion, developer, delete, director
+blame	blame, blogger
+let	
+melt	melt, magician, melting, microwave
+lock	lock
+reject	radical, reject, revolutionary
+pop	pop, programmer, producer
+play	player, performer, person, programmer, professional
+brew	brewer, brewery, brew, beer, bartender, brewing
+shout	shout, speaker, shouting, spokesperson
+toss	toss, trash, thief, troll
+seal	seal, sealing, scientist
+patent	patent, person, publisher
+bury	burial
+become	
+rip	rip
+cast	cast, caster, casting, critic
+marry	marriage
+realise	
+request	request, recipient
+wipe	wipe, worker, wiping
+reach	
+ace	architect, artist, author, administrator, analyst, astronomer
+define	designer, dictionary
+figure	
+fail	failure, failing, fail, fool, failed
+recommend	reviewer, recommendation
+confess	confession, conscience, christian
+describe	designer, dictionary
+execute	engineer, employee, execution, executive
+knock	knock, knocking
+sue	suit, sued, sue
+cry	critic, curator
+scratch	scratch, scientist
+crash	crash
+fry	fry, fish, frog, farmer
+copy	copy, clone, creator
+sling	sling, sender
+made	maker
+swipe	swipe
+cop	cop, collector, citizen, consumer
+design	designer, design, developer
+celebrate	critic, celebration, curator, creator
+collect	collector, curator, collection, citizen, collective, consumer
+produce	producer, programmer, person
+wield	witch, warrior
+set	scientist
+reveal	reporter, researcher
+remove	robot
+surpass	scientist, superhuman
+swear	scientist
+donate	donor, donation
+sort	supervisor, scientist
+inherit	inventor, individual, inheritance
+prefer	person, philosopher, programmer
+snatch	snatch, steal, stealing
+conquer	creator
+protect	protector, person, professional
+found	
+top	top
+risk	risk, rogue, researcher
+leak	leak, leaking, liar, leaked, leakage
+ignore	idiot
+veto	veto
+did	designer, developer, director
+discuss	
+coin	coin, creator, collector
+flush	flush
+spend	
+perfect	programmer, philosopher, professional
+track	tracker
+retrieve	receiver
+defeat	
+chuck	chuck, curator, collector
+float	float, floating
+embrace	educator
+hang	hang, hanging, hung, holder
+return	receiver, recipient, return
+manufacture	manufacturer, maker, machine
+flip	flip
+resist	resistance, revolutionary, rebel, radical
+scar	scar, scientist, surgeon
+overcome	
+sniff	sniff, scientist
+launch	leader
+drown	drowning, diver, dam, destroyer, drown, drowned
+forbid	fascist
+got	
+clear	critic, cleaner
+avoid	administrator, agent, activist, anarchist, artist
+succeed	success, scientist
+put	person, programmer
+edit	editor, engineer, encyclopedia, edit
+check	
+capture	curator
+endure	employee, engineer, empath
+bust	bust
+seize	
+head	head
+climb	climb, climbing
+decrypt	
+justify	
+master	master, mathematician
+implement	implementation
+introduce	inventor
+recover	recovery, researcher
+light	light, led, lamp, lantern
+promise	psychic, prophet, person, promise, promoter, politician
+hump	hacker
+pack	pack, planner, packing, professional, person
+fit	
+support	supporter
+resolve	referee
+supply	supplier
+chew	chew, chewing
+slice	slice
+lead	leader, leadership, lead
+ship	ship, salesman
+tackle	team
+prevent	politician, policeman, person, physician, planner, programmer
+narrow	
+fund	
+loose	loose, libertarian
+repair	repair
+milk	milk, manager
+present	presenter, professional
+welcome	writer
+cure	cure
+tweet	tweet, troll, twitter
+beg	
+wrap	wrap, wrapping, wrapper
+haunt	hacker, haunt, haunting, haunted
+stand	scientist, stand
+pursue	philosopher, person, programmer, project
+fear	fear
+brave	brave
+trust	trust, trusting
+cool	creator
+recognise	researcher
+summon	shaman, summon, sorcerer, summoning, spirit
+offer	
+shatter	scientist
+acknowledge	atheist, artist, activist, astronomer, author
+press	press, publisher, producer, person
+honor	honor, historian
+treasure	treasure, thief
+photograph	photographer, professional, photograph, painter, person, photographic
+ban	ban, bigot
+squash	scientist, squash
+reap	recipient
+trade	trader, trade, thief
+fuel	
+forge	forge
+forgive	forgiving, forgiveness, friend
+shred	shred
+organize	organizer, organization, operator, orderly
+rescue	rescue
+approve	administrator, author, agency, agent, activist, advocate
+correct	critic, correction
+study	scientist, scholar
+whisper	whisper, whispering, writer
+raise	revolutionary
+serve	servant, scientist, service
+predict	physicist, planner, psychologist, programmer, prediction
+erase	engineer, editor
+document	
+needed	
+utter	
+control	communist, creator
+nab	
+spit	spit, spitting, sponge, spat, slug
+DO	director, developer, designer
+contain	curator, creator, constructor
+rebuild	rebuild
+recall	researcher, recorder, recall, reader
+slit	scientist, slit
+look	
+swim	scientist
+dream	dream, dreaming, designer
+tame	tyrant, teacher
+plug	programmer, plug
+unleash	
+cause	creator, chemist, cause
+unveil	
+ski	scientist
+expose	
+foil	foil, fool
+spell	spell, spelling
+settle	
+worth	worker
+storm	storm, strategist
+finance	
+waste	waste, wasting, wasteful
+blast	blast
+tolerate	
+better	
+needs	
+surf	scientist
+retake	
+dare	dare
+heal	healer
+crave	consumer, craving, customer
+fetch	fisher, fetch, fisherman
+mind	mind
+hand	helper, hand
+come	creator
+sew	seam, sew, sewing, sewer
+enforce	employee, executive
+snap	snap, snapping
+sneak	sneak, spy, suspect
+wish	wish, witch, writer
+spike	spike, scientist
+thin	thin, tailor, thinner
+judge	judge
+race	race, racer, racist
+arrange	architect, administrator, artist, agent
+bag	bag, backpack
+voice	voice
+hug	hug, human, hugging
+split	split
+film	filmmaker, film
+install	installer
+continue	creator, continuation
+hatch	hatch
+stub	scientist
+whip	whip, worker
+speak	speaker
+equal	equal, engineer, economist, entrepreneur, egalitarian
+thank	thank, thanking
+fork	fork, farmer
+drain	drain, diver, developer, destroyer
+shape	scientist
+skip	skip
+weigh	
+butcher	butcher, baker
+proclaim	prophet, philosopher, preacher, person
+recreate	
+go	
+type	type
+sail	sailor, sail, socialist, ship
+text	text, translator
+chance	creator
+rape	rapist, rape
+die	designer, developer
+score	scorer, score
+hunt	hunter, hunt, hunted
+grasp	
+adopt	agent, activist, adoption, advocate, administrator
+legalize	legislator, lawyer, lobbyist, libertarian, lawmaker, law
+pronounce	philosopher, person, poet, professional
+imagine	inventor, imagination, intellectual, individual
+exhaust	engineer, employee, expert, exhaust, entrepreneur, end
+slay	shaman
+upload	user, upload
+add	architect, artist, addition, additive
+patch	programmer, patch
+police	policeman, police, person
+rub	rub, rubbing
+promote	promoter, politician, person, philosopher
+restore	restoration, restore
+reverse	researcher, reverse
+stab	stab, stabbing, shooter
+suffer	slave, suffering
+absorb	artist, auditor, actor, administrator
+pin	pin, programmer, person, physicist, planner
+expect	expectation, expect, expert, expected, economist
+lift	lift, lifting, leader
+suggest	scientist
+begin	builder
+curse	curse, cursed, caster, creator
+dye	dye, designer
+charm	charm, caster, clown, comedian
+submit	submission, sender, subscriber
+right	
+pitch	promoter, pitch, programmer, producer
+endorse	endorsement
+suspect	suspect, scientist
+strike	strike, striking, scientist
+undo	user
+translate	translator, translation, translate, translating, translated
+attack	attacker, anarchist, attack, architect, agent, analyst, activist, adversary, actor, artist
+eliminate	entrepreneur, expert, engineer
+decipher	detective
+respect	
+rename	rename
+bless	blessing, believer
+scream	scream, speaker
+download	developer, download
+wind	wind, witch
+email	email, employee, editor, engineer
+redeem	
+mark	mark, marker, marking
+protest	protester, protest, philosopher, punk, person
+rough	
+dread	
+borrow	borrower, borrowing, borrow, borrowed
+skin	skin, surgeon
+challenge	critic
+identify	inventor, investigator, individual
+command	command, controller, commander, computer
+knit	knit, knitting
+license	licensee, license
+tear	thief, tear
+blog	blogger, blog, blogging, bloggers
+toast	toast
+resent	rebel, reactionary, racist
+fancy	fancy, fool
+analyze	analyst, academic, astronomer, artist, analytical
+shoulder	shoulder, servant
+LOVE	lover
+apply	artist, architect, author, agent, academic
+for	
+tie	tie, theorist
+dismiss	
+trigger	trigger
+freeze	freeze, freezer, frozen
+salvage	salvage, survivor
+deploy	developer, dev, designer
+oppose	opposition, opponent
+disclose	disclosure
+cancel	cancellation, cancel, creator, chemist, constructor
+land	
+admire	artist, amateur, admire, academic, astronomer
+validate	
+revive	revival, researcher
+interpret	interpreter, interpretation, intellectual
+swing	swing, scientist
+choke	choke, choking, cook
+decode	
+sport	sport, spectator
+GET	
+scrap	scrap
+don	designer
+sleep	sleeper, sleep, sleeping
+shake	scientist
+hope	
+sabotage	sabotage, subversive
+trash	thief, trash
+slap	slap
+had	
+log	log, logger
+vomit	vomit, vomiting, virus, vacuum
+last	legacy, leader, last
+process	philosopher, person, programmer, psychologist
+plant	plant, person, producer, planting
+develop	developer, designer
+murder	murderer, murder, monster
+spring	scientist
+mend	mechanic, monk, musician, minister, mend
+seek	seeker, scientist, search, scholar, self
+cherish	collector, curator, citizen
+stink	stink, smoker
+maintain	manager
+yell	
+encourage	educator, entrepreneur
+back	
+repeal	repeal, republican
+NEED	
+roll	roll, roller, rolling
+measure	mathematician, measure
+click	creator, computer
+tweak	
+carve	carving, carve, cutter, creator
+nick	
+rule	ruler, rule
+reclaim	revolutionary, radical
+sustain	scientist
+express	editor
+burst	burst, bubble
+practice	practitioner, philosopher, person, professional
+bend	bend
+deserved	designer, developer
+disguise	disguise, designer
+damn	devil
+represent	
+perform	person, professional, performer
+rent	rental, rent, renting, roommate
+charge	consumer, charge, customer, collector, capitalist
+owe	owner, owed, officer
+gain	
+outlaw	outlaw
+store	store
+bluff	bluff
+count	count, counting, collector, clerk
+pocket	pocket, person
+frame	filmmaker, frame
+review	reviewer, review, researcher
+demonstrate	demonstration, designer
+dominate	dictator, dominant
+rain	
+topple	theorist, tyrant
+improve	inventor, individual
+convert	convert, conversion, converter, creator, christian, converted
+horn	hacker
+weather	weather, writer
+slow	scientist, slow
+curl	curl, caster, compiler
+volunteer	volunteer, volunteering, voluntary
+research	researcher
+not	
+laugh	laugh, laughter, laughing
+counter	critic, counter, chemist
+breathe	breathing, breathe, breath
+gut	gut
+grill	grill
+feed	farmer
+abuse	abuser, administrator, abuse, agent, addict, authoritarian, abusive, anarchist, artist
+bore	bore, bear
+obtain	object, owner
+swell	scientist
+snag	
+ice	inventor, ice
+repay	repayment
+wave	
+lack	lack
+power	power, politician, programmer, person
+desire	desire
+clone	clone, creator
+pipe	pipe, programmer, pipeline, producer, physicist, poet, person
+grade	grade, grading
+adore	artist, atheist, amateur, artisan, astronomer
+soften	
+propose	philosopher, physicist, programmer, proposal
+nails	
+saw	scientist
+paddle	paddle, padd, painter, pilot, person
+direct	director, designer
+escape	exile, escape
+smack	smack, slap
+wet	wet, worker
+initiate	initiate, inventor, individual
+jump	jumper, jump, jumping
+replicate	researcher
+contribute	contributor, contribution, creator, citizen, collaborator
+retire	retirement, retire, retired, retiring
+host	host, hosting, house
+refute	researcher
+underestimate	underestimate
+surrender	servant, surrender, slave
+intercept	intercept, interception, insider, intruder
+detect	detector, detective, designer
+compile	compiler
+load	loader, load
+ditch	designer, destroyer, ditch
+mount	mount, man
+arrest	activist, anarchist, agent, arrest, attorney, artist
+lament	lament
+embody	
+regain	restoration, recovery
+about	analyst, author, artist, activist, academic, astronomer
+abandon	anarchist, atheist, artist, activist, abandonment, adventurer
+exploit	exploit
+on	observer
+inspire	inventor, inspiration, individual
+engineer	engineer, entrepreneur, expert, economist, employee
+enable	engineer, entrepreneur, economist
+rewrite	rewrite
+note	
+recite	recorder
+enter	engineer, entrepreneur
+talk	ted
+trumpet	
+scrape	scrape, scraping, scientist
+dodge	dodge, diplomat
+with	worker
+debate	
+remake	remake
+refine	researcher
+guard	guard, guardian
+secure	security, secure
+chase	chase
+verify	
+mourn	mourning, mourn, musician
+permit	person, philosopher, permit, programmer
+LIKE	
+time	timer, time
+sack	sack, supervisor
+address	activist, administrator, artist, analyst, architect, advocate
+sacrifice	sacrifice, socialist, saint
+duplicate	duplicate, designer, duplication, developer
+sponsor	sponsor, supporter, sponsorship
+spread	scientist, socialist
+assume	agent, actor, author, analyst, assumption
+explode	explosion, explosive, exploding, engineer, exploded, expert
+slam	slam, scientist, speaker
+dunk	designer, dictionary, developer
+cheer	critic, cheer
+divide	division, divide, developer, designer, dictator, definition
+best	
+warrant	writer
+dissect	
+uncover	
+seem	scientist
+resurrect	resurrection, researcher
+zip	zip
+air	artist, activist, actor, agent, author, anarchist, air
+pour	pour, poured, poet, pouring, philosopher, person
+rethink	researcher
+approach	artist, architect, analyst, agent, academic
+wrench	wrench, worker
+investigate	investigator, individual
+crown	crown, creator
+iron	iron, individual, inventor, inspector
+misuse	misuse, magician
+ink	ink, inventor, individual
+shed	shed, scientist, self
+phone	phone, person, professional, programmer
+fumble	
+mix	mix, mixer, mathematician, mixture, maker
+makes	maker, machine
+suffice	scientist
+award	award, awarding, administrator, agent, artist, ambassador
+tap	tap, tapping, thinker
+advertise	advertisement, agent, artist, agency, author, ad
+determine	designer
+retweet	retweet, rt
+withstand	warrior, worker
+explore	engineer, explorer
+dismantle	developer
+visualize	visionary, visualization, visual
+boycott	boycott, blogger
+digest	
+include	individual, inventor
+argue	academic, analyst, argument, advocate, activist, author
+preserve	philosopher, preservation, person
+foot	foot
+qualify	
+inject	injection, inject, inventor
+encounter	explorer
+dispute	dissent, disagreement
+shine	shine, star, shining
+commit	commit, compiler, collaborator, creator, contractor
+MAKE	maker, machine
+cost	consumer, capitalist, cost, customer, collector
+bang	bang, builder
+appropriate	administrator, artist, architect, artisan, ant
+implant	implant, inventor
+ring	ring
+chant	chant, chanting, composer
+hail	hacker
+cement	contractor, creator
+knew	
+bar	bar
+chop	chop, cutter, chopping
+fulfill	
+gift	gift, giving
+switch	switch, supervisor
+stain	stain, servant
+shorten	shrink
+form	
+stomach	stomach, scientist
+purchase	purchaser
+hire	hire
+twist	theorist
+mine	miner, mine, mining, musician
+bomb	bomb, bomber
+salute	saint
+trademark	trademark
+crank	crank
+done	designer, developer, director
+style	style
+boil	boil, boiling, boiler, boiled, brewer
+gets	
+enlarge	economist, engineer, entrepreneur
+overlook	observer
+articulate	artist, author, activist, academic, analyst
+pump	pump, producer, pumping, painter
+won	
+slip	slip
+said	scientist
+hammer	hammer, hacker
+merit	merit
+fall	
+file	file
+clutch	curator, collector
+hook	hook, hacker
+of	observer
+chip	chip, computer
+display	designer, display
+lost	
+coach	coach, coordinator
+bet	bet, broker
+mouth	mouth
+ensure	engineer, employee, executive
+flash	flash
+possess	possession, person, property, producer, possessed
+picture	painter, photographer, picture, philosopher, person, programmer
+suit	scientist
+lay	lay
+sound	sound, scientist, speaker
+organise	organizer, organisation, organization, operator
+reopen	
+pinch	pinch, person, painter
+tip	tip, tipping, trader, theorist
+administer	administrator, admin, agent
+double	double, designer, developer
+rescind	
+scale	scientist, scale
+does	designer, developer, director
+heat	heater, human, heat
+strut	strut
+agree	author, architect, administrator, anarchist, astronomer, artist
+snow	scientist, snow
+search	search, scientist, seeker, scholar
+calculate	calculator, computer
+grind	grind, grinding, grunt
+deserves	designer, developer
+shovel	shovel
+activate	artist, agent, activist, actor, administrator, architect
+strengthen	scientist
+attain	artist, activist, artisan, agent, anarchist, architect
+reinvent	revolutionary
+grate	
+happen	
+SEE	scientist
+generate	
+rap	rapper, rap, revolutionary
+wonder	wonder, writer
+torch	torch, thief, terrorist
+down	developer, designer, director
+visit	visitor, visit
+ID	id, investigator, identifier, individual
+surprise	scientist, surprise
+rush	rush
+debunk	
+muscle	muscle, machine, muscular, man
+condemn	critic, communist, condemned
+peel	peel, painter, producer, person
+starve	socialist, starving, starvation
+clinch	
+concede	critic
+employ	employee, entrepreneur, economist, engineer
+consume	consumer, consumption, customer
+shrink	shrink, scientist, surgeon
+invite	inventor
+guide	guide, guru
+poop	poop, professional, person, pig, poo
+honour	honour, historian
+fish	fisherman, fish, fisher, farmer, fishing
+flavor	flavor
+bridge	bridge
+juice	juice
+convince	
+wire	wire, worker
+warm	warm, worker, warmer, warmth
+embarrass	embarrassment, editor
+bike	bicycle, bike
+bowl	
+compose	composer, creator
+graduate	
+making	maker, manufacturer
+expand	entrepreneur, engineer, economist, educator
+sketch	sketch, scientist
+furnish	
+dislike	dislike
+preach	preacher, pastor, priest, prophet
+acquire	artisan, agent, artist
+park	park, parking, person
+in	individual, inventor
+prepare	planner, professional, programmer
+stone	stone
+authorize	agent, author, authority, administrator, authorize, authorized
+rank	rank, researcher
+stretch	scientist, stretch
+poison	poison, person
+scrub	scrub, sponge
+feather	feather
+grant	grant, gift, government
+tow	
+bung	
+will	
+shave	shave, shaving, surgeon
+after	architect, artisan, artist, agent, administrator
+trick	trick, thief
+doing	developer, designer, director
+stir	stir, stirring, scientist
+confront	critic
+assemble	architect, artist, artisan
+comprehend	
+collapse	collapse, communist, critic
+bump	builder
+stagger	scientist
+stitch	stitch
+restart	restart, reboot
+lower	leader
+bank	bank, banker, borrower
+nut	
+shift	scientist, strategist
+applaud	atheist, activist, artist, anarchist, advocate, applaud, actor
+liberate	libertarian, liberation
+dot	dot, designer, developer
+disable	developer, disabled
+eradicate	extremist, entrepreneur, enemy, expert
+overturn	outsider
+bleed	bleed
+issue	individual
+size	scientist, size, shrink, smallest
+glue	glue
+struggle	socialist, struggle
+unravel	
+likes	
+mute	mute, musician
+dress	designer, dress, dressing
+empty	empty, emptiness
+roast	roast
+never	
+pray	priest, prayer, pastor, praying, preacher, pray, person
+HAVE	hacker
+stuff	
+KILL	
+harvest	harvest, hunter, harvesting
+censor	censor, critic, censorship, communist
+oversee	official, officer
+denounce	
+just	
+regulate	regulator, regulation
+widen	
+through	thinker, theorist
+combine	creator, collaborator, collective
+nailed	
+git	git, geek
+exceed	engineer, entrepreneur, expert, extraordinary
+battle	battle
+excuse	excuse, expert, examiner
+insult	insult, idiot, intellectual
+spark	spark, scientist
+steer	strategist
+OK	organizer
+conclude	
+list	list
+has	
+crest	creator
+smooth	supervisor, smooth
+me	maker
+compute	computer, computation
+proof	physicist, philosopher, proof
+color	color, creator
+missed	
+tattoo	tattoo
+hike	hike, hiking, human
+ate	artist, architect, artisan, agent
+green	green, greenhouse, garden
+diffuse	diffuse, diplomat, director, developer
+mock	meme, mock
+slide	scientist
+Make	maker
+stroke	stroke, scientist
+monitor	monitor, manager
+brick	brick, builder
+Tweet	tweet, twitter, troll
+blaze	
+ponder	philosopher, psychologist
+getting	
+stock	stock, store, seller
+shit	scientist
+fuse	fuse, fusion
+scan	scanner, scientist, scan, scanning
+recycle	recycling, recycle
+piece	puzzle, piece, programmer
+modify	mathematician, maker
+water	worker, well, water
+locate	
+peg	peg, programmer, physicist, puzzle
+heed	
+brown	brown
+retract	
+over	operator
+squeeze	squeeze, squeezing
+jam	jam
+obey	officer, observer, order, official
+sip	scientist
+muster	
+gas	
+stay	
+stalk	stalk, stalking
+mash	mash, maker, mixer, musician
+adapt	architect, artist, adaptation, administrator
+deflect	distraction, diplomat, deflect, director
+despise	
+bind	bind, binding, bound
+bit	
+redesign	redesign
+reconsider	researcher
+slug	scientist
+bolt	bolt
+rest	rest
+poke	poke, prick
+bullshit	bullshit
+criticize	critic, criticism, critique, commentator
+clarify	critic
+cash	customer, cash, capitalist
+round	round
+stamp	stamp, scientist
+knows	
+drag	drag, dragging, diver, designer
+fine	
+throttle	
+lend	lender, lend, lending, loan
+renew	renewal
+dump	dump, dumping, developer
+used	user
+plot	planner, programmer, plot, physicist, politician
+increase	inventor, investor, individual
+link	link
+broadcast	broadcaster, blogger, broadcast
+sweep	sweep, sweeping, sweeps, swept
+plead	philosopher, programmer, person
+dish	dish
+weld	weld, worker, welding
+smear	smear, sham
+betray	betrayal, betrayed
+buckle	
+box	box
+praise	praise, poet, preacher, priest, person
+complicate	consultant, critic
+trace	tracker, trace, theorist
+sample	scientist
+transmit	translator, transmitter
+foresee	
+nickname	nickname
+retain	
+pee	pee, pet, person, piss, penis
+spawn	startup, scientist
+temper	temper, theorist, teacher
+analyse	analyst, academic, astronomer, artist, author
+threaten	threat, terrorist, traitor, thief
+skate	skate
+pardon	pardon, philosopher, politician, patriot, person, president
+reboot	reboot
+tax	tax, taxpayer, thief, treasurer, trader
+dedicate	donor, director
+discharge	delegate, director, discharge
+okay	organizer, observer
+dim	developer, designer, dim, director
+connect	connector, curator, creator, collaborator
+FIX	fix
+dry	dry, drying
+ration	ration, regulator
+darn	designer, developer, director
+at	architect, artist, analyst, artisan
+weaken	weak
+remedy	remedy
+divert	diversion, diver, director, distraction, developer, devil
+bat	
+complement	complement, collaborator, creator
+alter	activist, artist, administrator, architect, agent
+polish	painter, professional, polish, programmer
+deem	designer, director
+contest	critic
+dub	designer, dictionary
+game	game, gamer
+torpedo	torpedo, traitor, terrorist
+pot	programmer, physicist, philosopher, pot
+blend	blend, blending, blender
+tough	
+pound	pound, programmer, person
+silence	silence, speaker
+piss	programmer, person, protester, piss
+conceal	criminal
+spray	spray, shooter, sniper
+yield	
+if	inventor, individual
+bark	bark, bear
+sit	scientist, servant, secretary, server
+defy	
+wheel	
+microwave	microwave, magician
+earned	entrepreneur, engineer, employee, economist
+exhibit	exhibit, exhibition, educator
+commemorate	curator, collector
+flood	flood
+panic	panic, programmer, physicist, planner, psychic, paranoid
+plate	programmer, producer, person
+chose	curator, creator, consumer
+dwarf	designer
+communicate	
+befriend	
+trump	
+tire	tire, tyre
+forfeit	forfeit
+combat	critic, communist
+STOP	scientist
+abort	abort, agent, anarchist, activist, atheist
+date	date, designer
+Try	
+stage	stage
+title	title
+frost	
+nurse	nurse, nursing
+examine	economist, expert
+integrate	integration, interpreter, individual
+tease	tease, troll, thief
+stream	stream
+signal	scientist, signal, speaker
+label	label
+crumble	critic, crumble, constructor
+bum	
+trim	trim, technician, tree
+pinpoint	person, physicist
+channel	channel, creator, conduit
+pawn	pawn, pirate
+ignite	inventor, individual
+blew	
+boot	boot
+pirate	pirate, piracy, pirates, pir
+pave	paving, politician, pedestrian, planner, professional
+bully	bully, bigot
+accelerate	accelerator, architect, author, administrator, activist, academic
+overthrow	
+value	value
+weave	weave, weaving, witch, woman
+envision	engineer, economist
+claw	claw, communist
+contemplate	critic
+register	register, registrar, registry
+slaughter	slaughter
+whistle	whistle, whistleblower
+market	merchant, market
+cave	creator
+ready	
+distribute	distributor, distribution
+extend	extension, engineer, entrepreneur, economist
+treat	therapist
+nod	
+hoard	hoard
+brake	brake
+stumble	scientist
+disappoint	disappointment, disaster, designer, director, disappointed
+fixed	
+spur	scientist
+next	
+upset	user
+bleach	bleach
+vote	voter, vote
+emulate	educator, engineer, example
+bash	bully, bash
+dent	designer, dent, diver
+prosecute	prosecutor, prosecution
+champion	champion, critic
+stunt	stunt, scientist
+contact	contact, consumer
+breed	breed
+death	designer, developer, director
+mastermind	mastermind, mathematician
+scoop	scoop, sponge
+breach	breach
+gather	
+wax	wax, worker, witch
+eclipse	eclipse, engineer
+brush	brush, broom
+steel	steel, soldier
+observe	observer, observing, observation
+liked	
+sting	scientist
+broke	
+dispatch	dispatcher, dispatch
+beam	beam
+wanted	worker
+Get	
+accompany	artist, agent, artisan, architect, author
+revisit	researcher, retrospective
+utilize	user, utilitarian, utility
+encrypt	engineer, expert
+divine	divine, deity
+fade	
+punish	punishment, person
+decline	designer
+glass	glass
+smile	smile, smiling, smiles
+operate	operator, officer
+separate	separation, scientist, specialist
+concoct	chemist, creator, creative
+damage	designer, developer, destroyer
+dab	designer, developer
+cloud	cloud
+access	agent, administrator, activist, artist
+patrol	policeman, patrol, police, person, professional
+thwart	thief, traitor
+recount	reporter, reader
+navigate	
+price	price, producer
+hole	hacker, hole
+model	model, mathematician
+prescribe	physician, psychiatrist, psychologist, practitioner, philosopher
+scalp	scientist
+pair	pair, programmer, pairing, partner, person
+maybe	mathematician
+surface	scientist
+affect	activist, artist, agent, administrator, architect
+strip	stripping, strip
+free	free
+derive	designer, developer
+latch	legislator
+imitate	imitation, inventor, interpreter
+sand	sand
+doom	doom, disaster, devil, director, destroyer
+deed	deed
+egg	engineer, entrepreneur, economist, expert
+showcase	speaker
+harness	
+Do	director, designer, developer
+bad	
+killed	
+illustrate	illustration, interpreter
+filter	filter
+step	scientist
+kid	
+urge	
+violate	vandal, violation
+lease	landlord, lease, llc, leasing
+is	individual, inventor
+key	
+nurture	nurturing, nurture
+sever	sever, sorcerer
+enact	executive
+intend	inventor, individual
+ingest	individual
+blur	blur, blender, blogger
+prick	prick, physicist, painter, programmer, philosopher, person, producer
+reform	reform, radical, revolutionary
+bookmark	bookmark, blogger
+can	creator
+spare	spare, saint
+haul	haul
+hurdle	hacker, hurdle
+quite	
+realized	researcher
+essay	essay, editor
+shop	shop, seller, salesman
+populate	programmer, person
+dust	dust
+invest	investor, investment, individual, inventor
+highlight	historian
+grit	
+terminate	termination
+script	script, scientist
+seen	scientist
+gasp	
+perpetuate	parasite, philosopher, person
+update	user
+but	
+delay	delay, developer, designer, delaying, delayed, director
+travel	traveler, traveller, tourist, travel, traveling
+mess	mess, manager
+dance	dancer, dance, dancing, dj, drummer
+dictate	dictator, director
+spew	spew, speaker
+manifest	manifest, magician
+relay	relay, reporter, receiver
+negotiate	negotiator, negotiation
+dam	dam, developer, diver, director
+pedal	pedal, programmer
+dissolve	designer, developer
+withdraw	withdrawal
+limit	limit, libertarian
+seed	seed, scientist
+foster	foster, fostering, founder
+scare	scare, scientist
+lie	liar, lie
+advocate	advocate, activist, anarchist, analyst, advocacy, artist, author
+pretend	philosopher, pretend, person
+prize	philosopher, poet, prize
+chain	chain, collective
+reference	reference
+clip	clip, cutter, curator, clipping, collector
+wait	writer, worker
+cough	chemist
+parse	parser, programmer, philosopher, parse
+formulate	
+provoke	philosopher, poet, provocation
+buck	
+copyright	copyright, creator, collector
+occupy	occupation, observer, object, operator
+attend	attending, auditor, administrator, assistant
+finger	finger
+wake	
+tank	tank, theorist
+place	person, producer
+suppress	scientist, state
+freak	freak, fan
+loved	
+headline	headline
+facilitate	
+field	field, farmer
+draft	designer, draft, developer
+ram	
+establish	engineer, entrepreneur, economist, educator
+amend	activist, administrator, author, architect, agent, artist
+eye	eye, expert
+strain	strain
+circle	circle, chemist, creator
+bed	
+resemble	researcher
+tape	tape, technician
+KNOW	
+procure	purchaser
+compare	critic, comparison, curator
+rival	
+skirt	skirt
+harm	hacker, hack
+undermine	
+void	void, vandal
+favor	
+project	programmer, project, person, philosopher
+butter	butter, baker, butcher
+cream	critic, creator, chemist
+crawl	computer, compiler
+tried	theorist
+Like	
+revoke	
+advise	advisor, adviser, advocate, analyst, administrator, academic, agent
+revise	researcher, revision
+jail	judge
+captain	captain, ceo
+ridicule	
+quote	quote, quotation
+target	target
+finished	
+flag	flag
+matter	maker
+merge	merge, mathematician, merger
+expend	employee, entrepreneur, executive
+devise	designer, developer
+ramp	
+big	
+flick	filmmaker
+critique	critic, critique, criticism
+shade	shade, scientist, shadow, sun
+rig	rig, rogue
+sock	sock
+code	compiler, code
+mug	
+overpower	
+off	operator
+amplify	artist, activist, actor, architect, astronomer
+half	hacker
+stake	stake
+profess	philosopher, priest, person
+condone	communist, criminal, con, cult, critic, censor
+worship	
+view	viewer
+near	
+punt	programmer, person, philosopher
+abolish	anarchist, atheist, activist, agent, artist, author, administrator
+credit	credit, creditor, collector, consumer, curator
+video	video
+stress	stress, stressed, supervisor, strategist, speaker
+influence	inventor, individual, influence
+streak	scientist
+postpone	planner, politician, postpone, programmer, postp, promoter, person, patient
+probably	programmer, philosopher, physicist, person
+fingerprint	fingerprint
+scout	scout, scouting, spy, scouts, scientist
+invented	inventor, invention, individual
+WIN	
+disappear	
+stomp	scientist
+out	observer
+tag	tag, tagging, tracker
+reconstruct	researcher
+recharge	recharge
+wrestle	wrestler, warrior, wrestling, worker
+extract	entrepreneur, engineer, economist, explorer
+butt	
+contradict	critic, contradiction
+envy	envy, economist, expert, eccentric
+deepen	
+exit	exit, executive, entrepreneur, employee
+shot	scientist
+flank	
+discount	
+rob	robber, rob, robbery
+spy	spy, scientist
+remix	remix
+mimic	mimic, magician, model, musician, mathematician
+reproduce	researcher
+root	root
+pilot	pilot, physicist, programmer
+discard	discard, destroyer, director
+package	programmer, package
+you	
+deal	dealer, director
+shell	shell, scientist
+satisfy	scientist, servant, self
+source	source, supplier, scientist
+raid	robber, raid
+hitch	hacker
+hem	hacker
+scarf	scarf
+dial	designer, developer, director
+discredit	
+compost	compost, collector, citizen
+that	
+bloom	
+so	scientist
+Read	researcher
+shun	socialist, saint
+frog	
+chill	chill
+hawk	hawk, hacker, handler
+shock	scientist, shock, subversive
+triple	triple
+soak	sponge, soak, sink, soaking, scientist
+reward	reward, recipient
+moderate	moderate, moderator, moderation, monk
+corrupt	corrupt, criminal, corruption
+isolate	individual, inventor, isolate
+worry	worry
+numb	numb
+kind	kind
+up	user
+foul	foul, fraud, frog
+though	thinker, theorist
+ground	grounding, ground
+confuse	
+sober	sober, scientist
+cracked	creator
+mortgage	mortgage, manager
+blunt	blunt
+pencil	pencil, programmer, painter, printer, person
+gust	
+outweigh	
+crunch	crunch, compiler, computer
+inhabit	individual, inventor
+wit	writer
+mask	mask, mole, magician
+anchor	anchor, architect, artist, analyst, artisan
+jog	journalist
+shrug	scientist
+aid	aid, agent, activist, administrator, artist, assist
+by	
+divorce	divorce, developer, divorced, director
+mistake	mistake, magician
+transport	transporter, transport, traveller, traveler
+debut	designer, director
+illuminate	intellectual, investigator
+to	theorist
+fool	fool, fraud, fake
+capitalize	creator, capitalist
+hum	
+solder	solder, specialist
+counterfeit	counterfeit
+BE	be
+resume	resume
+care	citizen, consumer, care
+torture	terrorist, tyrant, torture, therapist
+breakdown	
+swarm	swarm, scientist, spider
+overtake	operator
+perceive	person, philosopher, psychologist, psychic, painter
+pepper	programmer, pepper, philosopher, producer, person
+boost	booster, builder
+state	scientist, speaker
+brand	brand, blogger
+too	theorist
+construct	constructor, creator, construct
+blown	
+cycle	cycle, cyclist, computer, collector
+shotgun	scientist
+coordinate	coordinate, coordinator
+pen	pen, poet, philosopher, person, printer, professional
+upgrade	upgrade, user
+debug	debugger, developer, designer, debug
+steam	steam
+such	scientist, scholar
+cherry	creator
+bail	
+from	
+called	creator
+march	
+cite	citation, cite, compiler, critic
+transform	theorist, transformation
+venture	visionary
+fare	farmer
+swat	swat, scientist
+attract	artist, agent, architect, attraction, attract
+arm	arm, actor, artisan, agent, armed
+expel	exile, expulsion, educator, editor
+cops	creator
+enhance	engineer, entrepreneur, economist, expert
+thread	thread, theorist
+counteract	critic, chemist, caster, communist, counter
+uphold	
+and	artist, artisan, architect, administrator, agent
+charter	charter, creator, company, corporation
+adjust	administrator, architect, analyst, accountant
+wants	worker
+point	point, pointing, pointer, philosopher, person, pointed
+waterproof	waterproof, worker
+stole	scientist
+Skype	scientist
+grease	grease
+compress	curator, compiler, compress
+blank	
+forgot	
+without	worker
+heard	historian
+or	organizer
+good	
+heart	
+WANT	worker
+subpoena	subpoena
+prolong	physician, physicist, philosopher, person, patient
+USE	user, utilitarian
+mint	mathematician, maker
+disgrace	disgrace
+multiply	mathematician, multiplier, multiply, multiplication
+fulfil	
+chart	chart
+undergo	user
+jerk	jerk
+cheat	cheat, con, criminal
+anticipate	analyst, astronomer, architect, agent, author
+invoke	invocation, interpreter, invoke, inventor
+corner	contractor, corner
+READ	reader
+author	author, artist, agent, architect
+conduct	citizen
+lap	
+rise	
+craft	creator, craft
+image	image, individual
+till	
+slur	slur, slime
+table	table, trader, theorist
+prohibit	person
+train	trainer, teacher, technician, theorist
+remind	recorder, reminder
+staff	staff, staffer, supervisor
+resign	
+misinterpret	mistake
+pet	pet, person, puppy, professional
+clock	clock, clerk
+screen	screen
+likely	
+omit	omission, observer
+tan	tan
+eventually	engineer, entrepreneur, educator, economist
+evaluate	economist, expert, engineer
+survived	scientist
+coat	coat, chemist, coating
+disband	designer, developer, director
+overshadow	outsider, organizer
+warn	warning, whistleblower, warn, writer
+blister	
+cane	creator
+ruined	researcher
+vent	vent
+obscure	obscure, observer
+drill	drill, diver, developer, drilling
+See	scientist
+paper	paper, printer, planner, programmer, person, publisher
+excise	expert, economist
+livestream	livestream
+exchange	exchange, entrepreneur, economist
+term	theorist, term, thinker
+refill	
+tighten	tailor, technician
+prosper	person
+reign	
+oil	
+tend	tend
+fan	fan, fandom
+tread	
+suspend	suspension, suspend, scientist
+law	lawyer, legislator, law, lawmaker
+manipulate	magician
+comb	comb, curator, critic
+interrupt	interrupt, interruption, intruder
+identity	identity, identifier, individual, inventor, interpreter
+derail	devil, director
+pace	planner, pace, programmer, professional
+mar	monk, maker
+slash	slash
+curb	critic, curb, curator, consumer
+remain	
+palm	programmer, philosopher, person
+bug	bug
+lob	
+conceive	creator, creative
+ad	artist, architect, administrator, artisan
+man	maker, manager, man, mechanic
+insure	insurer, insured, investor, insurance, individual
+appeal	atheist, artist, anarchist, activist, architect, author, agent
+peak	programmer, philosopher
+tempt	temptation, tempt
+render	rendering, render
+vest	
+here	
+solo	scientist
+speed	scientist, speed
+deposit	deposit
+automate	administrator, architect, accountant, automation, agent, analyst
+fence	fence, farmer
+skew	scientist
+limp	
+whiff	
+even	economist, engineer, equal
+override	operator, officer, override
+commute	commuter, commute, courier, cyclist
+inspect	inspector, investigator
+finally	
+reduce	reduction
+grace	grace
+shutter	shutter, shooter
+scramble	scramble, scientist, scrambling, scrambled
+litter	litter
+then	theorist
+spam	spam, scam
+prank	prank, parody
+bare	bear, buddhist, bare
+rack	rack
+spite	socialist, subversive, spite
+coax	creator
+cold	
+skill	skill, scientist, servant
+cup	creator, curator
+proved	philosopher, programmer, physicist, person
+suppose	scientist
+disrupt	disruption, disruptive, developer
+eating	eater, employee, expert, engineer, economist, entrepreneur, executive
+mold	maker, mold
+misunderstand	mistake, misunderstanding
+day	developer, director, designer
+elbow	engineer, entrepreneur, expert
+harbor	harbor, holder
+really	
+tune	theorist, technician
+tally	tally, tracker, trader, treasurer
+shield	shield, shielding
+hurry	hurry
+crushed	creator
+square	square, scientist
+started	scientist
+cum	creator
+rally	rally
+balance	balance
+select	scientist
+prioritize	planner, priority, person, professional
+took	theorist
+pan	programmer, philosopher, physicist
+aim	aim, architect, artist, agent
+mirror	mirror, model, mathematician
+bounce	bounce
+minimize	minimalist, mathematician
+bid	
+configure	controller
+salt	salt, scientist
+scent	scent, smell
+red	researcher
+import	immigrant, import, interpreter, investor
+pause	pause, programmer, philosopher, paused
+black	black
+substitute	substitute, substitution
+compromise	compromise, collaborator, critic
+arrive	architect, artist, agent, artisan, administrator
+feature	feature
+great	genius
+felt	
+hedge	hedge
+managed	manager
+eject	engineer, editor
+discourage	
+reinforce	
+compound	chemist, creator, compound
+enough	engineer, entrepreneur, educator
+incorporate	inventor, interpreter, individual
+strap	strap
+infiltrate	insider, intruder, informant, individual
+ize	intellectual, inventor
+evade	expert
+assure	agent, architect, administrator, actor, advocate, activist
+triumph	
+distinguish	designer, distinction
+rend	revolutionary
+ply	programmer, person, philosopher, physicist
+Photoshop	photoshop, painter, programmer, photographer, professional, person
+impress	idiot
+bin	bin
+diagnose	doctor, diagnosis
+se	scientist
+duck	duck, designer, dictionary
+escort	escort, employee
+intensify	individual
+plaster	plaster, painter, person, painting, professional
+gun	
+morph	morph, mathematician, machine, model
+wrote	writer
+Buy	
+shower	shower, sponge
+hog	hog, hacker, hack
+actually	artist, agent, artisan, actor, architect, author
+real	researcher
+scorn	satire, socialist
+into	inventor, individual
+weep	writer
+greet	greeting
+dock	developer, designer
+ha	
+punk	programmer, philosopher
+shame	slut, shame, sham, speaker
+loves	
+fruit	fruit, farmer
+undertake	
+impose	individual
+rate	reviewer, researcher, rating, regulator
+hop	hacker
+exercise	exercise, employee
+vow	
+sanction	sanction, state
+assert	agent, activist, anarchist, advocate, author
+bought	
+bypass	
+audit	auditor, audit, accountant, administrator, analyst
+schedule	schedule
+discern	
+transplant	transplant
+named	
+tidy	tidy
+dash	developer, designer, director
+convict	convict, criminal, conviction, communist, conscience, convicted, condemned
+avert	activist, agent, actor, atheist, administrator, advocate, anarchist
+only	
+toe	
+calm	calm, calming
+estimate	economist, estimate, expert, engineer, estimation
+evolve	engineer, entrepreneur, educator
+disarm	disarm, director
+tee	
+simplify	scientist
+now	
+itch	itch, inventor, individual, insect
+string	string
+OWN	owner
+slate	scientist
+blows	
+using	user
+contract	contract, contractor, creditor, customer, consumer
+brain	brain, biologist
+bunk	
+breath	breath, breathing
+stem	scientist, stem
+transfer	transfer, transporter, translator, teacher
+purge	purge, person
+quantify	
+slim	scientist
+caught	creator
+assess	analyst, auditor, administrator, accountant
+hone	
+act	actor, agent, act, artist, acting, actress
+grip	grip
+lump	lump
+reply	
+hashtag	hashtag, hash
+teleport	teleport, transporter, teleportation, traveler
+reuse	reuse
+scoff	scientist
+dope	dope, dealer, drug, designer
+short	short
+edge	engineer, entrepreneur, expert
+paste	paste, programmer, printer, producer, person
+idea	inventor, intellectual, individual
+gum	gum
+negate	
+graffiti	graffiti
+testify	theorist
+filibuster	filibuster
+mentioned	
+sigh	scientist
+spear	scientist, shepherd
+net	net
+educate	educator, economist, expert, engineer
+later	
+clue	
+replay	replay, recorder, researcher, reporter
+able	artist, architect, analyst, administrator
+leg	
+him	
+frequent	
+cultivate	creator, citizen
+propel	physicist, pioneer
+wearing	worker, wearer
+awake	artist, activist, architect, agent, anarchist
+jar	jar
+cuff	curator, collector, creator
+Eat	engineer, entrepreneur, economist, educator
+ve	
+first	founder, first
+sprint	scientist
+garner	
+leverage	leader
+total	theorist
+ruins	
+prompt	philosopher, prompt, planner, person, programmer
+wander	wander, wandering
+age	architect, aging, artist, age, aged, adult
+reset	reset
+broaden	
+line	line, leader
+wage	worker, wage
+phase	philosopher, phase, programmer, physicist, person
+Find	
+export	export, entrepreneur, exporting, economist
+splash	scientist
+ding	designer, developer
+friend	
+spice	spice, scientist
+still	scientist
+rear	
+cage	cage, curator, criminal, collector, catcher
+fault	fault, failure, fool
+ever	engineer, entrepreneur, educator, economist
+invade	intruder, invasion, intrusion, individual, invasive
+broken	
+penetrate	physicist
+distract	distraction, diversion, diver, distract, director, distracted
+goddamn	
+map	map, mathematician, mapping
+stack	stack, stacking
+attach	artist, adhesive, architect, attach, anchor, attachment
+comp	compiler, creator, collector
+humor	humor
+reckon	
+troll	troll, trolling, trolls
+herald	herald, historian
+t	theorist, teacher
+flame	flame, fire, fan
+exclaim	engineer, educator, entrepreneur, economist
+stump	scientist, stump
+sandwich	sandwich, scientist
+interview	interviewer, interview, investigator
+joke	joke
+fashion	fashion
+prime	programmer, prime, physicist, planner, philosopher
+truck	truck, transporter, tanker
+archive	archive, administrator, architect, artist, author
+house	house, homeowner, household, home
+blitz	blitz
+soil	soil, shepherd, sow, scientist
+pledge	pledge, pledging, programmer, person, project
+customize	consultant, contractor
+appoint	administrator, agency, agent, admin
+am	artist, artisan, architect, agent, atheist
+father	father, farmer, family
+elevate	educator, entrepreneur
+parade	parade, presenter, politician, protester, promoter, performer, person
+apprehend	artist, agent, analyst
+chair	chair, chairman, captain, ceo
+flesh	
+booze	
+sequence	scientist, sequence, supervisor
+withhold	withholding, whistleblower
+wound	wound, witch
+finds	
+specify	scientist
+escalate	escalation, enemy
+massacre	murderer, massacre, monster
+says	scientist
+horde	hacker, hunter, horde
+life	
+rifle	
+bitch	bitch, bully, bigot
+belt	belt
+compliment	compliment, critic, commentator
+fret	
+built	builder
+weight	weight, weighing, weigh
+believed	
+relate	
+unite	unity, unification
+long	
+hard	hacker
+affirm	activist, atheist, artist, advocate, author, anarchist, agent
+us	
+floor	
+fax	fax
+board	
+camouflage	camouflage
+roof	roof
+losing	
+writing	writer
+word	writer, word
+redirect	redirect
+sees	scientist
+lodge	lodge, leader
+SIGN	scientist
+commission	commission, contractor, commissioner, consultant
+mother	mother, mom, mum
+might	mathematician
+fracture	fracture
+tone	tone
+dive	diver, detective, dive, designer, developer
+behind	
+breeze	
+vape	
+offset	observer, operator
+equate	economist, engineer
+mentor	mentor, manager
+brainstorm	brainstorm
+embed	engineer, embed
+feast	
+improv	inventor
+loan	lender, loan
+delegate	delegate, director, dictator
+exist	engineer, entrepreneur
+luck	
+cull	cull, curator, collector
+blackmail	
+strength	scientist
+instruct	interpreter, instructor, inventor
+stolen	scientist
+having	
+designed	designer, developer
+ticket	theorist, trader
+reload	reload
+assault	anarchist, attacker, assault, abuser, activist, artist, agent, actor
+rep	rep, representative
+transcend	theorist, thinker
+nominate	nomination, nominee, nominating, nominate
+humble	humble
+trail	tracker, theorist
+motivate	motivation, manager
+pulp	programmer, philosopher, producer
+thumb	thumb, theorist
+forecast	forecast
+assign	assignment, administrator, agent, agency, architect
+this	
+hated	hacker
+dip	designer, developer
+rebound	
+lean	leader
+against	anarchist, activist, artist, atheist, agent, analyst
+level	leader, ladder
+bus	
+sub	scientist
+button	button
+sweet	scientist
+wine	
+bundle	bundle, broker
+insist	inventor, individual
+all	architect, artist, administrator, author, artisan, astronomer
+please	person, professional, philosopher, politician
+cease	creator, communist
+pad	programmer, planner, pad, professional, printer
+staunch	scientist
+rupture	revolutionary, rupture, radical, rebel
+needing	
+effect	engineer, entrepreneur, economist
+deport	deportation, deport, director, deported
+consult	consultant, consult, consultancy
+known	
+behave	
+knife	knife
+knee	
+was	
+expense	entrepreneur, engineer, economist, employee
+axe	axe, ax, artist, anarchist, artisan, architect
+drug	dealer, drug, doctor, dea
+tick	tick, technician
+regretted	researcher
+accommodate	architect, administrator, artist
+because	
+attest	artist, architect, artisan, activist
+elect	elect, engineer, elector
+warp	warp
+echo	echo, editor
+takes	
+magic	magician, magic, mage, magical
+home	
+relocate	relocation, resident
+yet	
+as	artist, artisan, architect, administrator, agent, author
+dice	designer, developer, dice
+case	creator
+wolf	
+legal	lawyer, legislator
+thrive	
+emit	entity, emission
