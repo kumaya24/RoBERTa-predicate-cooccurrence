@@ -222,15 +222,23 @@ TEMPLATE_OPTIONS = {
         # "Very <mask> is defined as when something can {w} something."
         # "In English, the sentence that something can {w} something is as same as the sentence that something is very <mask>."
         # "In English, they can {w} something, which also means that something is very <mask>."
-        "In English, something or someone able to {w} something is defined as being <mask>."
+        # "In English, something or someone able to {w} something is defined as being <mask>."
+        "To <mask> someone or something is defined as the causation of them to {W}."
     ],
 
     ##### Causative
     "causative_vintran": [
-        # "In English, for someone or something to <mask> someone or something is defined as to cause it to {w}.",
+        #"In English, for someone or something to <mask> someone or something is defined as to cause it to {w}.",
+        # "Someone or something to <mask> someone or something causes the someone or something else to {w}."
+        "In English, for someone or something to <mask> someone or something is defined as to cause the latter one to {w}.",
     ],
     "causative_vtran": [
-        "In English, for someone or something to {w} someone or something is defined as to cause it to <mask>.",
+        #"In English, for someone or something to {w} someone or something is defined as to cause it to <mask>.",
+        "In English, for someone or something to {w} someone or something is defined as to cause the latter one to <mask>.",
+        # "In English, someone or something is being {w} because someone or something else must <mask>."
+        # "To {w} someone or something causes them to <mask>."
+        #"{w} someone or something causes them to <mask>."
+        
     ],
     ## DISCARDED
         #result
@@ -323,33 +331,41 @@ argparser.add_argument("-s", "--scores", action="store_true", default=False,
 
 args = argparser.parse_args()
 
-def predict_candidates(src_word, templates, top_k, show_scores=False, filter_alpha=True):
+def predict_candidates(src_word, templates, top_k, choice, show_scores=False):
     agg_scores = {}
     for t in templates:
         sent = t.replace("{w}", src_word).replace("<mask>", tokenizer.mask_token)
         model_input = tokenizer(sent, return_tensors="pt")
-        mask_positions = (model_input.input_ids[0] == tokenizer.mask_token_id).nonzero(as_tuple=False)
+        
+        mask_positions = (model_input.input_ids[0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]
         if mask_positions.numel() == 0:
             continue
-        mask_idx = mask_positions.item()
+        mask_idx = mask_positions[0].item()
+
         with torch.no_grad():
             logits = model(**model_input).logits
+        
         mask_logits = logits[0, mask_idx]
         vocab_size = mask_logits.size(0)
-        k = vocab_size if top_k <= 0 else min(top_k, vocab_size)
+        k = vocab_size if top_k <= 0 else min(top_k * 5, vocab_size)
+        
         topk = torch.topk(mask_logits, k=k, dim=0)
+
         for idx, val in zip(topk.indices.tolist(), topk.values.tolist()):
             token = tokenizer.decode(idx).strip().lower()
-            if filter_alpha and not token.isalpha():
+            
+            if not token.isalpha():
                 continue
-            # optional heuristic: require same initial letter as source word
-            if not token or not src_word:
-                continue
-            if not token[0].lower() == src_word[0].lower():
-                continue
+
+            causative_choices = {"causative_vintran", "causative_vtran"}
+            if choice not in causative_choices:
+                if not token or not src_word or token[0] != src_word[0].lower():
+                    continue
+
             prev = agg_scores.get(token)
             if prev is None or val > prev:
                 agg_scores[token] = val
+
     sorted_items = sorted(agg_scores.items(), key=lambda x: x[1], reverse=True)
     return sorted_items
 
@@ -371,7 +387,7 @@ words = read_lines_guess_encoding(args.input)
 out_lines = []
 
 for w in words:
-    candidates = predict_candidates(w, templates, args.num, args.scores)
+    candidates = predict_candidates(w, templates, args.num, args.template_option, show_scores=args.scores)
     if args.num > 0:
         candidates = candidates[:args.num]
     if args.scores:

@@ -1,100 +1,100 @@
-make	move
-do	do
-get	get, go, give
-need	need
-regret	regret
-find	find
-have	happen, have
-see	see
-prove	prove, pass
-try	try
-eat	eat, exist
-know	know
-like	like, love
-use	use
-win	win, work
-take	take
-finish	finish
-lose	lose
-love	love, live
-own	own, occur
-remember	remember, recall, return, repeat
-say	say, speak, stop
-deserve	deserve
-handle	happen, harm, hurt, handle
-buy	buy, be
-break	break
-catch	catch
-fix	function, fail
-survive	survive, suffer
-miss	miss, move
-admit	admit
-kill	kill
-crush	collapse, crush
-believe	believe, be
-want	want, wish
-hate	hate, happen, hurt, harm
-nail	nail
-write	write, work
-hear	hear, happen
-forget	forget, fail
-be	be, become
-feel	feel
-wear	wear
-save	survive, succeed
-stop	stop
-read	read, run
-burn	burn, break, boil
-drink	drink, drunk, do
-destroy	die, destroy
-realize	realize, recognize
-sell	sell
-call	call, change
-earn	earn, exist
-explain	explain, exist
-manage	manage
-steal	steal
-pull	pull
-recognize	recognize, respond
-appreciate	appreciate
-blow	blow, break, burst
-throw	throw
-bring	bring, be
-solve	solve, succeed
-understand	understand
-enjoy	enjoy, exist
-learn	learn
-ruin	ruin
-crack	crack, collapse
-beat	break, beat
-accept	accept
-smoke	smoke
-start	start, stop
-carry	carry
-keep	keep
-answer	answer, arise
-swallow	swallow, sink
-taste	taste
-show	show, see
-publish	publish, print, publication
-cut	cut
-give	give
-drop	drop, disappear, die
-claim	claim, change
-open	open
-print	print, publish
-sign	sign
-build	build, break
-smell	smell, stink, sniff, smoke
-end	end
-doubt	doubt
-touch	touch
-attempt	attempt
-post	post, publish, propagate
-discover	discover
-tell	
-hit	happen, hurt, hit, harm
-name	name
-share	share, spread
-spill	spill
-fight	fight
+make	change, exist, appear, happen, die, move, suffer, occur, behave, do
+do	do, act, happen, occur, die, exist, react, behave, suffer, harm
+get	happen, die, leave, get, suffer, go, exist, do, occur, win
+need	need, suffer, exist, die, fail, occur, disappear, arise, hurt, help
+regret	regret, suffer, die, change, apologize, complain, fail, decline, think, hurt
+find	exist, appear, find, disappear, occur, die, vanish, leave, happen, return
+have	exist, die, occur, happen, live, appear, have, suffer, be, change
+see	appear, see, look, exist, move, blink, react, speak, object, perceive
+prove	exist, lie, die, believe, appear, prove, testify, succeed, occur, answer
+try	fail, succeed, try, suffer, fall, do, die, hurt, react, happen
+eat	die, eat, starve, bite, suffer, exist, vomit, kill, fall, death
+know	know, exist, communicate, understand, speak, care, do, act, appear, talk
+like	like, dislike, behave, exist, hate, smile, change, love, react, respond
+use	use, exist, fail, work, die, occur, object, harm, function, appear
+win	win, lose, die, succeed, triumph, prevail, suffer, fail, gain, exist
+take	die, fall, leave, disappear, suffer, take, go, move, perish, happen
+finish	finish, succeed, die, fail, start, stop, begin, continue, end, complete
+lose	die, lose, disappear, suffer, fall, perish, leave, go, win, fail
+love	love, exist, die, hate, live, suffer, change, marry, care, behave
+own	exist, own, live, possess, die, inherit, succeed, sell, buy, suffer
+remember	remember, forget, recall, appear, exist, think, occur, speak, smile, return
+say	speak, say, respond, occur, reply, happen, shout, appear, laugh, react
+deserve	deserve, suffer, die, exist, lose, fail, succeed, win, happen, occur
+handle	react, harm, fall, fight, move, attack, hurt, behave, die, act
+buy	buy, sell, exist, purchase, pay, die, live, suffer, succeed, consume
+break	break, fall, die, fracture, shatter, fail, hurt, collapse, crack, suffer
+catch	fall, escape, flee, die, disappear, appear, jump, catch, move, happen
+fix	change, improve, exist, succeed, fail, suffer, happen, die, work, occur
+survive	survive, die, exist, perish, live, suffer, thrive, escape, succeed, disappear
+miss	miss, occur, disappear, appear, fail, fall, happen, die, suffer, move
+admit	admit, confess, lie, exist, acknowledge, deceive, believe, deny, respond, speak
+kill	die, kill, perish, suffer, exist, death, live, fall, attack, murder
+crush	fall, die, collapse, suffer, explode, break, hurt, disappear, fail, shatter
+believe	believe, lie, exist, think, act, fall, occur, behave, deceive, happen
+want	want, desire, exist, object, leave, wish, ask, happen, seek, care
+hate	hate, die, exist, suffer, dislike, attack, retaliate, change, rage, despise
+nail	fall, die, bite, strike, hurt, hit, attack, fight, kill, suffer
+write	write, exist, die, occur, appear, respond, happen, reply, read, succeed
+hear	hear, speak, sound, shout, scream, talk, listen, respond, laugh, stop
+forget	forget, remember, disappear, die, exist, happen, appear, occur, fail, misunderstand
+be	exist, appear, be, occur, change, die, happen, speak, disappear, arise
+feel	feel, react, move, act, hurt, exist, touch, suffer, happen, respond
+wear	wear, appear, change, exist, look, fall, disappear, dress, be, move
+save	die, perish, survive, live, suffer, exist, succeed, escape, appear, fall
+stop	stop, intervene, act, react, happen, flee, move, die, occur, fail
+read	read, write, speak, appear, think, respond, see, talk, look, exist
+burn	burn, die, explode, perish, fire, combust, fall, ignite, flee, exist
+drink	drink, drunk, vomit, drown, consume, do, drive, die, fall, cry
+destroy	die, exist, perish, suffer, destroy, disappear, fall, harm, kill, fail
+realize	realize, notice, recognize, know, exist, happen, understand, occur, see, think
+sell	sell, buy, die, exist, perish, suffer, disappear, flee, purchase, lose
+call	respond, speak, answer, call, shout, appear, scream, yell, reply, exist
+earn	earn, win, succeed, rise, gain, pay, die, work, increase, exist
+explain	explain, understand, speak, respond, appear, answer, talk, react, occur, suffer
+manage	fail, behave, succeed, manage, exist, act, occur, intervene, suffer, work
+steal	steal, disappear, flee, leave, harm, die, suffer, fall, lose, vanish
+pull	pull, fall, move, happen, act, jump, object, do, stop, go
+recognize	recognize, appear, respond, exist, speak, move, react, notice, object, act
+appreciate	appreciate, smile, respond, exist, benefit, love, suffer, improve, care, behave
+blow	explode, die, blow, fall, breathe, fly, happen, fail, occur, bleed
+throw	fall, throw, jump, hit, object, drop, strike, move, explode, flee
+bring	appear, arrive, come, return, leave, bring, visit, die, happen, exist
+solve	solve, occur, exist, happen, succeed, appear, arise, suffer, fail, disappear
+understand	understand, speak, communicate, respond, know, think, comprehend, talk, misunderstand, exist
+enjoy	enjoy, suffer, laugh, smile, rejoice, pleasure, exist, benefit, delight, behave
+learn	learn, understand, speak, know, do, fail, improve, succeed, change, teach
+ruin	die, suffer, fail, perish, ruin, happen, fall, succeed, harm, exist
+crack	crack, break, fall, die, explode, fracture, fail, collapse, snap, occur
+beat	die, lose, fall, win, suffer, fight, beat, cheat, attack, succeed
+accept	accept, change, exist, refuse, leave, reject, die, believe, respond, object
+smoke	smoke, die, combust, drink, burn, fire, consume, cough, breathe, explode
+start	die, start, happen, stop, begin, occur, exist, fail, succeed, end
+carry	fall, move, die, carry, walk, suffer, stumble, trip, fight, hurt
+keep	leave, die, disappear, return, exist, change, stay, suffer, perish, escape
+answer	answer, respond, reply, speak, talk, react, laugh, question, object, lie
+swallow	die, drown, swallow, vomit, fall, eat, disappear, choke, breathe, exist
+taste	taste, drink, react, bite, vomit, smell, eat, swallow, spit, gag
+show	appear, react, smile, look, act, laugh, respond, see, object, behave
+publish	publish, exist, appear, succeed, write, print, perish, disappear, occur, reproduce
+cut	die, bleed, fall, cut, bite, hurt, suffer, break, scream, harm
+give	give, die, receive, exist, benefit, suffer, leave, live, pay, do
+drop	drop, fall, die, disappear, fail, move, crash, jump, exist, happen
+claim	claim, exist, die, lie, disappear, appear, fall, occur, vanish, succeed
+open	open, close, shut, enter, break, fall, escape, exist, crack, leave
+print	print, appear, exist, publish, write, disappear, occur, copy, happen, reproduce
+sign	sign, write, appear, exist, act, die, read, speak, contract, cross
+build	fail, build, exist, break, collapse, succeed, die, fall, grow, survive
+smell	smell, sniff, move, cough, vomit, breathe, faint, stink, appear, react
+end	die, end, perish, exist, suffer, occur, death, happen, fail, stop
+doubt	doubt, believe, lie, disagree, fail, suspect, question, distrust, fear, complain
+touch	move, fall, react, appear, object, hurt, scream, touch, die, suffer
+attempt	fail, succeed, fall, attempt, die, intervene, occur, attack, try, happen
+post	post, publish, appear, exist, comment, occur, happen, share, write, disappear
+discover	discover, exist, know, appear, occur, find, happen, change, die, learn
+tell	lie, speak, believe, respond, react, laugh, think, talk, act, object
+hit	fall, hit, die, hurt, strike, move, harm, react, retaliate, suffer
+name	exist, appear, occur, name, speak, die, happen, arise, change, be
+share	share, eat, occur, exist, suffer, lose, exchange, leave, fail, differ
+spill	spill, drink, vomit, fall, drown, drop, leak, happen, choke, explode
+fight	fight, die, lose, fall, attack, flee, suffer, harm, win, leave
