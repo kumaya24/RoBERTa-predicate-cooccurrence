@@ -9,3 +9,8 @@ Second, feed the output of the previous step into `table2scores.py` to compute t
 
 ```python table2scores.py < ratios.tsv > scores.tsv```
 
+## Derivative words based on input
+```python 1word1mask.py <input.txt> <option> ```
+
+eg. ```python 1word1mask.py word_list\vintrans_100.txt nom_vintran -o nominalization\nom_vintran.tsv```
+
