@@ -7,8 +7,9 @@ PYTHON_SCRIPT="1word1mask.py"
 INPUT_DIR="deasy"
 # The directory where you want to save the results
 OUTPUT_DIR="results"
-# Optional arguments for the python script (e.g., "-n 10" or "-n 5 -s")
-PYTHON_ARGS="-n 2000"
+# Optional arguments for the python script (e.g., "-s" for scores).
+# The number of candidates (-n) is now set automatically based on the input file's line count.
+PYTHON_ARGS=""
 
 # --- Template Categories ---
 # List of templates that use the intransitive verb list
@@ -36,8 +37,12 @@ for template in "${vintran_templates[@]}"; do
 
     # Check if the input file exists before running
     if [ -f "$input_file" ]; then
-        echo "Running: ${template} with ${input_file}"
-        python "$PYTHON_SCRIPT" "$input_file" "$template" $PYTHON_ARGS > "$output_file"
+        # Count the number of lines in the input file to use as the candidate count
+        num_lines=$(wc -l < "$input_file")
+        
+        echo "Running: ${template} with ${input_file} (${num_lines} words)..."
+        # Run the python script with -n set to the number of lines
+        python "$PYTHON_SCRIPT" "$input_file" "$template" -n "$num_lines" $PYTHON_ARGS > "$output_file"
     else
         echo "Warning: Input file not found at ${input_file}, skipping ${template}."
     fi
@@ -51,11 +56,15 @@ for template in "${vtran_templates[@]}"; do
 
     # Check if the input file exists before running
     if [ -f "$input_file" ]; then
-        echo "Running: ${template} with ${input_file}"
-        python "$PYTHON_SCRIPT" "$input_file" "$template" $PYTHON_ARGS > "$output_file"
+        # Count the number of lines in the input file to use as the candidate count
+        num_lines=$(wc -l < "$input_file")
+        
+        echo "Running: ${template} with ${input_file} (${num_lines} words)..."
+        # Run the python script with -n set to the number of lines
+        python "$PYTHON_SCRIPT" "$input_file" "$template" -n "$num_lines" $PYTHON_ARGS > "$output_file"
     else
         echo "Warning: Input file not found at ${input_file}, skipping ${template}."
     fi
 done
 
-echo "All templates processed successfully."
+echo "All templates processed successfully. ✅"

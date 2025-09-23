@@ -230,14 +230,17 @@ TEMPLATE_OPTIONS = {
     "causative_vintran": [
         #"In English, for someone or something to <mask> someone or something is defined as to cause it to {w}.",
         # "Someone or something to <mask> someone or something causes the someone or something else to {w}."
-        "In English, for someone or something to <mask> someone or something is defined as to cause the latter one to {w}.",
+        # "In English, for someone or something to <mask> someone or something is defined as to cause the latter one to {w}.",
+        "In English, for someone or something to <mask> things is defined as to cause them to {w}.",
     ],
     "causative_vtran": [
         #"In English, for someone or something to {w} someone or something is defined as to cause it to <mask>.",
-        "In English, for someone or something to {w} someone or something is defined as to cause the latter one to <mask>.",
+        #"In English, for someone or something to {w} someone or something is defined as to cause the latter one to <mask>.",
         # "In English, someone or something is being {w} because someone or something else must <mask>."
         # "To {w} someone or something causes them to <mask>."
+        # "To {w} someone or something is defined as causing them to <mask>."
         #"{w} someone or something causes them to <mask>."
+        "In English, for someone or something to {w} things is defined as to cause them to <mask>.",
         
     ],
     ## DISCARDED
