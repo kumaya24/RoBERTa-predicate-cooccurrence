@@ -106,7 +106,7 @@ TEMPLATE_OPTIONS = {
         #"They are an <mask> because they {w} something.",
         #"They are the <mask> because they {w} something.",
         # "People who {w} something is identified as a <mask>."
-        # "Person who do the action to {w} something is identified as a <mask>."
+         "Person who do the action to {w} is identified as a <mask>."
         # "The person who performs the action of to {w} is identified as a <mask>."
         #"A <mask> is a person who {w} something.",
         #"An <mask> is a person who {w} something.",
@@ -132,17 +132,20 @@ TEMPLATE_OPTIONS = {
         #"In English, the <mask> is defined as someone who will {w} regularly.",
         # "In English, some <mask> is defined as someone who will {w} regularly."
 
-        "A <mask> refers to a person who {w} regularly.",
-        "An <mask> refers to a person who {w} regularly.",
-        "The <mask> refers to a person who {w} regularly.", 
+        #"A <mask> refers to a person who {w} regularly.",
+        #"An <mask> refers to a person who {w} regularly.",
+        #"The <mask> refers to a person who {w} regularly.", 
+        #"A <mask> refers to a person who {w} frequently.",
+        #"An <mask> refers to a person who {w} frequently.",
+        #"The <mask> refers to a person who {w} frequently.", 
         #"Some <mask> refers to a person who {w} regularly."
-        #"In English, something or someone able to {w} whom is defined as a <mask>.",
-        #"In English, something or someone able to {w} whom is defined as an <mask>.",
-        #"In English, something or someone able to {w} whom is defined as the <mask>."
+        #"Technically, something or someone able to {w} whom is defined as a <mask>.",
+        #"Technically, something or someone able to {w} whom is defined as an <mask>.",
+        #"Technically, something or someone able to {w} whom is defined as the <mask>."
         
-        #"If someone or something does {w} frequently, they are therefore a <mask>.",
-        #"If someone or something does {w} frequently, they are therefore an <mask>.",
-        #"If someone or something does {w} frequently, they are therefore the <mask>."
+        #"If someone or something {w} frequently, they are therefore a <mask>.",
+        #"If someone or something {w} frequently, they are therefore an <mask>.",
+        #"If someone or something {w} frequently, they are therefore the <mask>."
     ],
     "agent_vtran":[
         # "He is called as a <mask> because the main thing that he does is to {w} something.",
@@ -311,9 +314,14 @@ TEMPLATE_OPTIONS = {
 
 }
 
+# Try to use GPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"INFO: Using device: {device}")
+
 # Load pretrained RoBERTa tokenizer and model
 tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 model = RobertaForMaskedLM.from_pretrained("roberta-base")
+model.to(device)
 model.eval()  # inference mode
 
 argparser = argparse.ArgumentParser()
@@ -338,7 +346,7 @@ def predict_candidates(src_word, templates, top_k, choice, show_scores=False):
     agg_scores = {}
     for t in templates:
         sent = t.replace("{w}", src_word).replace("<mask>", tokenizer.mask_token)
-        model_input = tokenizer(sent, return_tensors="pt")
+        model_input = tokenizer(sent, return_tensors="pt").to(device)
         
         mask_positions = (model_input.input_ids[0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]
         if mask_positions.numel() == 0:
