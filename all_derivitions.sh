@@ -1,70 +1,35 @@
 #!/bin/bash
 
-# --- Configuration ---
-# The name of your Python script
-PYTHON_SCRIPT="1word1mask.py"
-# The directory where your input files are stored
-INPUT_DIR="deasy"
-# The directory where you want to save the results
-OUTPUT_DIR="results"
-# Optional arguments for the python script (e.g., "-s" for scores).
-# The number of candidates (-n) is now set automatically based on the input file's line count.
-PYTHON_ARGS=""
+# This script runs the lm.py command on two different input files.
 
-# --- Template Categories ---
-# List of templates that use the intransitive verb list
-vintran_templates=(
-    "nom_vintran" "agent_vintran" "evt_vintran" "participleAdj_vintran"
-    "causative_vintran" "res_vintran" "item_vintran" "state_vintran" "inst_vintran"
-)
+echo "nom_vtran"
+time python 1word1mask.py deasy/vtrans.txt nom_vtran -o deasy/nom_vtran.tsv
 
-# List of templates that use the transitive verb list
-vtran_templates=(
-    "nom_vtran" "agent_vtran" "evt_vtran" "participleAdj_vtran"
-    "causative_vtran" "res_vtran" "item_vtran" "state_vtran" "inst_vtran"
-)
+echo "nom_vintran"
+time python 1word1mask.py deasy/vintrans.txt nom_vintran -o deasy/nom_vintran.tsv
 
-# --- Main Script Logic ---
+echo "agent_vintran"
+time python 1word1mask.py deasy/vintrans.txt agent_vintran -o deasy/agent_vintran.tsv
 
-# Create the output directory if it doesn't exist
-mkdir -p "$OUTPUT_DIR"
+echo "agent_vtran"                                                                                                                                        
+time python 1word1mask.py deasy/vtrans.txt agent_vtran -o deasy/agent_vtran.tsv
 
-echo "Processing intransitive templates..."
-# Loop through each intransitive template
-for template in "${vintran_templates[@]}"; do
-    input_file="${INPUT_DIR}/vintrans.txt"
-    output_file="${OUTPUT_DIR}/${template}.txt"
+echo "evt_vintran"
+time python 1word1mask.py deasy/vintrans.txt evt_vintran -o deasy/evt_vintran.tsv
 
-    # Check if the input file exists before running
-    if [ -f "$input_file" ]; then
-        # Count the number of lines in the input file to use as the candidate count
-        num_lines=$(wc -l < "$input_file")
-        
-        echo "Running: ${template} with ${input_file} (${num_lines} words)..."
-        # Run the python script with -n set to the number of lines
-        python "$PYTHON_SCRIPT" "$input_file" "$template" -n "$num_lines" $PYTHON_ARGS > "$output_file"
-    else
-        echo "Warning: Input file not found at ${input_file}, skipping ${template}."
-    fi
-done
+echo "evt_vtran"
+time python 1word1mask.py deasy/vtrans.txt evt_vtran -o deasy/evt_vtran.tsv
 
-echo "Processing transitive templates..."
-# Loop through each transitive template
-for template in "${vtran_templates[@]}"; do
-    input_file="${INPUT_DIR}/vtrans.txt"
-    output_file="${OUTPUT_DIR}/${template}.txt"
+echo "participleAdj_vintran"
+time python 1word1mask.py deasy/vintrans.txt participleAdj_vintran -o deasy/participleAdj_vintran.tsv
 
-    # Check if the input file exists before running
-    if [ -f "$input_file" ]; then
-        # Count the number of lines in the input file to use as the candidate count
-        num_lines=$(wc -l < "$input_file")
-        
-        echo "Running: ${template} with ${input_file} (${num_lines} words)..."
-        # Run the python script with -n set to the number of lines
-        python "$PYTHON_SCRIPT" "$input_file" "$template" -n "$num_lines" $PYTHON_ARGS > "$output_file"
-    else
-        echo "Warning: Input file not found at ${input_file}, skipping ${template}."
-    fi
-done
+echo "participleAdj_vtran"
+time python 1word1mask.py deasy/vtrans.txt participleAdj_vtran -o deasy/participleAdj_vtran.tsv
 
-echo "All templates processed successfully. ✅"
+echo "causative_vintran"
+time python 1word1mask.py deasy/vintrans.txt causative_vintran -o deasy/causative_vintran.tsv
+
+echo "causative_vtran"
+time python 1word1mask.py deasy/vtrans.txt causative_vtran -o deasy/causative_vtran.tsv
+
+echo "END"
