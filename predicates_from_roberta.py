@@ -1,5 +1,5 @@
 import argparse, torch
-from nltk.stem import WordNetLemmatizer
+# from nltk.stem import WordNetLemmatizer
 from transformers import AutoTokenizer, RobertaForMaskedLM
 
 
@@ -10,7 +10,10 @@ TEMPLATES = {
         "They are <mask> ones."
     ],
     "noun": [
-        "They saw a <mask>."
+        # "The <mask> is what there is."
+        #"The <mask> is something to discuss."
+        # "The <mask> is what the child saw."
+        "The <mask> was all the child saw."
     ],
     "vintrans": [
         # "They will <mask> soon.",
@@ -174,7 +177,7 @@ pos = args.pos
 
 tokenizer = AutoTokenizer.from_pretrained("roberta-base")
 model = RobertaForMaskedLM.from_pretrained("roberta-base")
-lemmatizer = WordNetLemmatizer()
+# lemmatizer = WordNetLemmatizer()
 all_words = []
 all_scores = []
 
@@ -191,13 +194,16 @@ for template in TEMPLATES[pos]:
         word = tokenizer.decode(ix).strip()
         if not word.isalpha(): 
             continue
-
+        
+        '''
         # Filtering rules
         if pos == "noun":
             # Only singular nouns
             lemmatized = lemmatizer.lemmatize(word, pos='n')
             if lemmatized != word:
                 continue
+        '''
+
         if pos in ["particle", "prep", "determiner", "pronoun", "negation"]:
             # Skip capitalized or long content words
             if word[0].isupper() or len(word) > 10:
