@@ -189,7 +189,8 @@ all_scores = []
 
 for template in TEMPLATES[pos]:
     model_input = tokenizer(template, return_tensors="pt")
-    input_ids = model_input.input_ids[0]
+    model_input = {k: v.to(device) for k, v in model_input.items()}
+    input_ids = model_input['input_ids'][0]
     mask_index = input_ids.tolist().index(MASK_ID)
     
     logits = model(**model_input).logits
