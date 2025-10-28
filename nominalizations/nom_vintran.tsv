@@ -1,100 +1,100 @@
-die	death, decision
-win	
-survive	stop
-be	
-fail	
-succeed	stop
-live	
-pass	party
-cry	conclusion, climax, close
-do	decision
-know	
-fall	
-leave	
-work	work
-come	conclusion, climax, close
-not	
-lose	loss
-return	realization, resolution
-bite	
-explode	
-answer	
-disappear	decision, disturbance
-try	
-tell	
-stay	stop
-fly	
-happen	halt
-go	
-help	help
-sue	stop
-respond	realization
-remember	realization, resolution
-run	run, realization, resolution
-change	conclusion, change, consensus, compromise
+die	death, die, day, deletion, dying, decay, dead, demise
+win	win, winner, winning, war, wins
+survive	survival, surplus, survive, surviving, success, state, stable, split, season
+be	bundle, boolean, being, be, block, bind
+fail	failure, fail, failing, fault, failed, fails, fork, function, famine, fall
+succeed	success, successful, startup, system, surplus, state, snowball, solution
+live	life, lifetime, lifespan, locality, living
+pass	pass, passing, passed, process, predicate, phase, path
+cry	cry, crying, crisis, cascade, contraction, catastrophe
+do	do, dependency, difference, does, deal, distribution, default
+know	knowing, know, knowledge, knows, known
+fall	fall, failure, function, failing, falling, flood, fail, float
+leave	loss, leave
+work	work, workflow
+come	convergence, computation, collection, collision, contract, call, coming, creation, cascade, come
+not	null
+lose	loss, lose, loser, losing
+return	return, result, response, returned, returning, record, reboot, returns, recovery, restart
+bite	bite, bug, breach, biting, bind, buffet, behavior, bottleneck, bounty
+explode	explosion
+answer	answer
+disappear	disappearance, deletion, disconnect, dissolution, death, disruption, drift, disappear, detachment
+try	try, test, throw, tries, timeout, time, trying, true, tried
+tell	tell, telling, transition, tale, time, transaction, transformation, true, truth
+stay	stay, separation, shift, split, state, shutdown, stable, sanctuary, surplus
+fly	fly, flight, function, fall, formation, flying, feast, failure, flock
+happen	happen, happening
+go	go
+help	helper, help, helping, helpful, helps, helped
+sue	suit, sue, strike, split, settlement, sued, seizure, situation
+respond	response, reaction, reply, respond, result, rally, reflection, responding, riot, relationship
+remember	recall, remember, record, recollection, remembering, response, reminder, recognition, retrieval, retrospective
+run	run, runtime, reboot, restart, record, result
+change	change, cycle, contract, condition, continuum
 eat	
-last	
-too	
-miss	mind
-pay	party, profit, purchase
-listen	listen
-retire	retirement
-suffer	stop
-understand	
-have	halt
-starve	stop
-recover	resolution, recovery, realization
-learn	
-wait	
-rise	realization
-see	stop
-scream	stop, scream, sound
-talk	
-laugh	
-remain	realization, resolution
-strike	stop, strike, stand
-say	stop
-burn	
-stop	stop, stand
-follow	
-graduate	
-break	breakdown, break
-quit	
-lie	
-finish	
-smile	smile, stop
-deliver	destination, decision
-ask	
-hurt	halt
-end	
-stick	stop
-walk	walk
-explain	
-call	conclusion, call, close
-perish	party
-apologize	
-prevail	panic
-kill	kill, killing
-sleep	stop, sleep, state
-disagree	disagreement, disagree, decision, dispute
-vomit	
-write	
-fold	
-speak	stop
-suffice	solution, stop
-drown	death, depression
-exist	
-teach	
-agree	
-care	conclusion, care, crisis
-collapse	conclusion, collapse, close
-never	
-protest	protest, party
-sing	stop
-vanish	
-decide	decision
-triumph	
-resign	resolution
-testify	test
-count	conclusion, climax
-drink	decision, drink, drunk, destination
+last	lifetime, last, life, list, lifespan, loop
+too	tree, tuple, term, transaction, transformation
+miss	miss, missing, mistake, mismatch, missed, misses
+pay	payment, payout, profit, provision, payday, portion, price, premium, payoff, period
+listen	listen, listening, listener, loop, listens, listened, leak, log
+retire	retirement, retire, retrospective, restructuring, retired, retiring, reduction, recession
+suffer	suffering, split, shutdown, surplus, slump, state, situation, sickness, storm
+understand	understanding, unity, unification, understand
+have	have, has
+starve	surplus, scarcity, shutdown, starvation, shortage, situation, slump, shortfall, slowdown, state
+recover	recovery, recover, rebound, restoration, recovering, recovered, return, restore, revival, resurrection
+learn	learning, learn, lesson, lifetime, learned, loop
+wait	wait, while, waiting, waits, week, watch
+rise	rise, rising, revolution, rebellion, revolt, rally
+see	see, seeing, session, saw, state, snapshot, scope, seen, sees
+scream	scream, screaming, shout, sound, storm, song, swarm, spectacle
+talk	talk, transaction, talking
+laugh	laugh, laughter, laughing, laughs, laughed
+remain	residual, relationship
+strike	strike, shutdown, striking, strikes, situation, swarm, slowdown
+say	statement, say, saying, sentence, sum, speech, state, sign
+burn	burn, burning, blackout, burned, blaze, breakup, block, burnt
+stop	stop, shutdown, state, slowdown, stopping, startup, split
+follow	following, function, follow, flow
+graduate	graduation, graduate, generation, graduated
+break	break, breakdown, breakup, block, breaking, broken, breach, bug, breakout, bind
+quit	quit
+lie	lie, leak, lying, liar, lies
+finish	finish, final, function, failure, fork
+smile	smile, smiling, smiles, smiled, selfie, sign, success
+deliver	delivery, deliver, day, distribution, delivered, deal, delay, delivering, difference
+ask	ask, asking, asked, asks
+hurt	hurt, hit, harm, hurting, headache, hardship
+end	end
+stick	stick, stable, sequence, spike, symmetry, shift, string, sticking
+walk	walk, wall, walking
+explain	explanation
+call	call, callback, caller, collection, calling, catch, closure, connection, cascade, contract
+perish	paradox, purge, plague
+apologize	apology, apologize
+prevail	plurality, paradox, problem, process, preference
+kill	kill, killing, killed, kills
+sleep	sleep, state, shutdown, session, sleeping, shift, sunset
+disagree	disagreement, dispute, divergence, dissent, disagree, division, divide, difference, debate, discord
+vomit	vomit, vomiting, virus, void, vacuum
+write	write, while
+fold	fold, folding, fork, factor, function, folded, fraction, fusion, failure, federation
+speak	speech, statement, sentence, session, speaker, silence, saying, state
+suffice	surplus, state, subclass, subset, separation, sum, situation, stream
+drown	drowning, disaster, death, drought, drown, dip, depression, default, dissolution, drowned
+exist	entity
+teach	teaching, teacher, teach, term, time, taught, tuple, test, tree, transition
+agree	agreement
+care	care, concern, caring, collective, charity, crisis, compromise, community, consensus, cooperative
+collapse	collapse, crisis, crash, cluster, chaos, cascade, crunch, catastrophe, closure, collapsing
+never	null
+protest	protest, provocation, peaceful, problem
+sing	song, solo, sing, singing, spectrum, swarm, split, string, session, synergy
+vanish	void, vanish, vanishing, vacancy, vacuum, vanished
+decide	decision, dispute, default, disagreement, divergence, divide, declaration, democracy, difference, differentiation
+triumph	triumph, transition, transformation, tragedy
+resign	resignation, restructuring, rebellion, resolution, reduction, retreat, revolt, recall
+testify	testimony, trial, testify, transcript, timeline, truth
+count	count, collection, corpus, category, column, comma, computation
+drink	drink, day, drunk, drinking, drought, disturbance, dui, disorder

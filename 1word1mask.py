@@ -1,5 +1,10 @@
 from transformers import RobertaTokenizer, RobertaForMaskedLM
-import argparse, torch
+import argparse, torch, random
+from typing import List, Tuple
+import csv 
+import os 
+
+TSV_FILE_PATH = "nominalization_pairs.tsv"
 
 # Template options
 TEMPLATE_OPTIONS = {
@@ -226,9 +231,9 @@ TEMPLATE_OPTIONS = {
         # "In English, the sentence that something can {w} something is as same as the sentence that something is very <mask>."
         # "In English, they can {w} something, which also means that something is very <mask>."
         # "In English, something or someone able to {w} something is defined as being <mask>."
-        "To <mask> someone or something is defined as the causation of them to {W}."
+        "To {w} someone or something is defined as the causation of them to be <mask> someone or something."
     ],
-
+    
     ##### Causative
     "causative_vintran": [
         #"In English, for someone or something to <mask> someone or something is defined as to cause it to {w}.",
@@ -324,6 +329,42 @@ model = RobertaForMaskedLM.from_pretrained("roberta-base")
 model.to(device)
 model.eval()  # inference mode
 
+def load_and_reorder_pairs(input_filename: str) -> List[Tuple[str, str]]:
+    reordered_pairs = []
+
+    try:
+        # Use 'r' for read mode and 'newline=""' to correctly handle line endings across OSs
+        with open(input_filename, 'r', newline='', encoding='utf-8') as f:
+            # Use csv.reader with tab (\t) as the delimiter
+            reader = csv.reader(f, delimiter='\t')
+            
+            # Skip the header row ("Nominalization", "Verb")
+            next(reader, None)
+            
+            # Iterate over each row in the file
+            for row in reader:
+                # Ensure the row has exactly two columns (Nominalization and Verb)
+                if len(row) == 2:
+                    nominalization = row[0].strip()
+                    verb = row[1].strip()
+                    
+                    # Store the reordered pair: (Verb, Nominalization)
+                    # This format is (Verb, Noun)
+                    reordered_pairs.append((verb, nominalization))
+                
+        print(f"INFO: Successfully loaded {len(reordered_pairs)} pairs from {input_filename}.")
+        return reordered_pairs
+
+    except FileNotFoundError:
+        print(f"WARNING: The file '{input_filename}' was not found. Few-shot examples will be empty.")
+        return []
+    except Exception as e:
+        print(f"WARNING: An unexpected error occurred while loading TSV: {e}. Few-shot examples will be empty.")
+        return []
+
+loaded_pairs = load_and_reorder_pairs(TSV_FILE_PATH)
+NOMINALIZATION_DEMOS = dict(loaded_pairs)
+
 argparser = argparse.ArgumentParser()
 
 # Positional input file and template option so you can run: python 1word1mask.py words.txt eventuality > out.txt
@@ -340,42 +381,78 @@ argparser.add_argument("-n", "--num", type=int, default=10,
 argparser.add_argument("-s", "--scores", action="store_true", default=False,
                        help="Include logit scores in output")
 
+argparser.add_argument("-k", "--k_shot", type=int, default=10,
+                       help="Number of few-shot examples (K) to prepend to the prompt.")
+
 args = argparser.parse_args()
 
-def predict_candidates(src_word, templates, top_k, choice, show_scores=False):
+
+
+
+def create_few_shot_prompt(src_word, templates, k_shot, choice):
+    available_demos = [(v, n) for v, n in NOMINALIZATION_DEMOS.items() if v != src_word]
+    
+    if k_shot > 0 and len(available_demos) > 0:
+        selected_demos = random.sample(available_demos, min(k_shot, len(available_demos)))
+    else:
+        selected_demos = []
+
+    full_prompt_components = []
+    
+    demo_template = templates[0] 
+    
+    for verb, noun in selected_demos:
+        # Create the prompt for the demonstration
+        demo_prompt = demo_template.replace("{w}", verb).replace(tokenizer.mask_token, noun)
+        full_prompt_components.append(demo_prompt)
+        
+    # Construct query
+    query_template = templates[0]
+    final_query = query_template.replace("{w}", src_word).replace("<mask>", tokenizer.mask_token)
+    
+    full_prompt_components.append(final_query)
+    
+    # Join components into the final prompt string
+    full_prompt = " ".join(full_prompt_components)
+    
+    return full_prompt
+
+def predict_candidates(src_word, templates, top_k, choice, k_shot, show_scores=False):
     agg_scores = {}
-    for t in templates:
-        sent = t.replace("{w}", src_word).replace("<mask>", tokenizer.mask_token)
-        model_input = tokenizer(sent, return_tensors="pt").to(device)
+    
+    full_few_shot_prompt = create_few_shot_prompt(src_word, templates, k_shot, choice)
+    
+    sent = full_few_shot_prompt 
+    model_input = tokenizer(sent, return_tensors="pt").to(device)
+    
+    # Find the position of the last <mask> token
+    mask_positions = (model_input.input_ids[0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]
+    if mask_positions.numel() == 0:
+        return []
+    
+    mask_idx = mask_positions[-1].item() 
+
+    with torch.no_grad():
+        logits = model(**model_input).logits
+    
+    mask_logits = logits[0, mask_idx]
+    vocab_size = mask_logits.size(0)
+    k = vocab_size if top_k <= 0 else min(top_k * 5, vocab_size)
+    
+    topk = torch.topk(mask_logits, k=k, dim=0)
+
+    for idx, val in zip(topk.indices.tolist(), topk.values.tolist()):
+        token = tokenizer.decode(idx).strip().lower()
         
-        mask_positions = (model_input.input_ids[0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]
-        if mask_positions.numel() == 0:
+        if not token.isalpha():
             continue
-        mask_idx = mask_positions[0].item()
 
-        with torch.no_grad():
-            logits = model(**model_input).logits
-        
-        mask_logits = logits[0, mask_idx]
-        vocab_size = mask_logits.size(0)
-        k = vocab_size if top_k <= 0 else min(top_k * 5, vocab_size)
-        
-        topk = torch.topk(mask_logits, k=k, dim=0)
+        if not token or not src_word or token[0] != src_word[0].lower():
+             continue
 
-        for idx, val in zip(topk.indices.tolist(), topk.values.tolist()):
-            token = tokenizer.decode(idx).strip().lower()
-            
-            if not token.isalpha():
-                continue
-
-            causative_choices = {"causative_vintran", "causative_vtran"}
-            if choice not in causative_choices:
-                if not token or not src_word or token[0] != src_word[0].lower():
-                    continue
-
-            prev = agg_scores.get(token)
-            if prev is None or val > prev:
-                agg_scores[token] = val
+        prev = agg_scores.get(token)
+        if prev is None or val > prev:
+            agg_scores[token] = val
 
     sorted_items = sorted(agg_scores.items(), key=lambda x: x[1], reverse=True)
     return sorted_items
@@ -398,7 +475,7 @@ words = read_lines_guess_encoding(args.input)
 out_lines = []
 
 for w in words:
-    candidates = predict_candidates(w, templates, args.num, args.template_option, show_scores=args.scores)
+    candidates = predict_candidates(w, templates, args.num, args.template_option, args.k_shot, show_scores=args.scores)
     if args.num > 0:
         candidates = candidates[:args.num]
     if args.scores:

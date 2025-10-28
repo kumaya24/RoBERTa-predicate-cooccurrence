@@ -175,9 +175,15 @@ argparser.add_argument(
 args = argparser.parse_args()
 pos = args.pos
 
+# Try to use GPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"INFO: Using device: {device}")
+
 tokenizer = AutoTokenizer.from_pretrained("roberta-base")
 model = RobertaForMaskedLM.from_pretrained("roberta-base")
 # lemmatizer = WordNetLemmatizer()
+model.to(device)
+model.eval()  # inference mode
 all_words = []
 all_scores = []
 
