@@ -10,7 +10,12 @@ Second, feed the output of the previous step into `table2scores.py` to compute t
 ```python table2scores.py < ratios.tsv > scores.tsv```
 
 ## Derivative words based on input
-```python 1word1mask.py <input.txt> <option> ```
+```python word1mask1.py <input.txt> <option> --ft ```
 
 eg. ```python 1word1mask.py word_list\vintrans_100.txt nom_vintran -o nominalization\nom_vintran.tsv```
+
+## To finetune the mode
+1. ```python pre-finetuning.py <type-option>```
+    -> output: <type-option>_soft_label_dataset.pt
+2. ```python run_ft.py <type-option> --epochs <num> --batch_size <num> --model <model-name> ```     
 
