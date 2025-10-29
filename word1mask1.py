@@ -29,7 +29,7 @@ argparser.add_argument("-o", "--output", default=None,
 argparser.add_argument("-s", "--scores", action="store_true", default=False,
                        help="Include logit scores in output")
 
-argparser.add_argument("-k", "--k_shot", type=int, default=10,
+argparser.add_argument("-k", "--k_shot", type=int, default=0,
                        help="Number of few-shot examples (K) to prepend to the prompt.")
 
 argparser.add_argument("-n", "--num", type=int, default=10,
@@ -46,7 +46,7 @@ def construct_model_path(args) -> str:
         baseline_name = args.model
         
         # NOTE: This string must EXACTLY match the output directory of run_ft.py
-        ft_path = f"{baseline_name.split('-')[0]}_{template_key}_{baseline_name}_finetuned"
+        ft_path = f"{baseline_name.split('-')[0]}_{template_key}_{baseline_name}_soft_finetuned"
         
         if os.path.isdir(ft_path):
              model_path = ft_path
@@ -117,43 +117,73 @@ def create_few_shot_prompt(src_word, templates, k_shot, choice):
     
     return full_prompt
 
+# --- [NEW function for word1mask1.py] ---
+
 def predict_candidates(src_word, templates, top_k, choice, k_shot, show_scores=False):
+    
+    # 1. Determine K (0 for FT model, user-specified for baseline)
+    k_to_use = 0 if args.ft else k_shot
+
+    # 2. Prepare few-shot demos (if needed)
+    demo_prompts = []
+    if k_to_use > 0:
+        available_demos = [(v, n) for v, n in NOMINALIZATION_DEMOS.items() if v != src_word]
+        if len(available_demos) > 0:
+            selected_demos = random.sample(available_demos, min(k_to_use, len(available_demos)))
+            
+            # Use the *first* template for all demos for consistency
+            demo_template = templates[0] 
+            for verb, noun in selected_demos:
+                demo_prompt = demo_template.replace("{w}", verb).replace(tokenizer.mask_token, noun)
+                demo_prompts.append(demo_prompt)
+    
+    demo_string = " ".join(demo_prompts)
+    
+    # 3. Aggregate scores across ALL templates
     agg_scores = {}
     
-    full_few_shot_prompt = create_few_shot_prompt(src_word, templates, k_shot, choice)
-    
-    sent = full_few_shot_prompt 
-    model_input = tokenizer(sent, return_tensors="pt").to(device)
-    
-    mask_positions = (model_input.input_ids[0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]
-    if mask_positions.numel() == 0:
-        return []
-    
-    mask_idx = mask_positions[-1].item() 
-
-    with torch.no_grad():
-        logits = model(**model_input).logits
-    
-    mask_logits = logits[0, mask_idx]
-    vocab_size = mask_logits.size(0)
-    k = vocab_size if top_k <= 0 else min(top_k * 5, vocab_size)
-    
-    topk = torch.topk(mask_logits, k=k, dim=0)
-
-    for idx, val in zip(topk.indices.tolist(), topk.values.tolist()):
-        token = tokenizer.decode(idx).strip().lower()
+    for query_template in templates:
         
-        if not token.isalpha():
+        # 4. Construct the full prompt for *this* template
+        final_query = query_template.replace("{w}", src_word).replace("<mask>", tokenizer.mask_token)
+        
+        # Combine demos (if any) with the current query
+        full_prompt_components = demo_prompts + [final_query]
+        sent = " ".join(full_prompt_components)
+        
+        model_input = tokenizer(sent, return_tensors="pt").to(device)
+        
+        mask_positions = (model_input.input_ids[0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]
+        if mask_positions.numel() == 0:
+            print(f"WARNING: No mask found in prompt: {sent}")
             continue
+        
+        # Always get the *last* mask token (the one from the query)
+        mask_idx = mask_positions[-1].item() 
 
-        if not token or not src_word or token[0] != src_word[0].lower():
-            continue
+        with torch.no_grad():
+            logits = model(**model_input).logits
+        
+        # Get logits at the mask position and convert to probabilities
+        mask_logits = logits[0, mask_idx]
+        mask_probs = torch.softmax(mask_logits, dim=0) # Use probs for aggregation
+        
+        # 5. Add this template's scores to the aggregate dictionary
+        for idx in range(mask_probs.size(0)):
+            token = tokenizer.decode(idx).strip().lower()
+            
+            # Simple filtering
+            if not token.isalpha() or len(token) < 2:
+                continue
+            if not token or not src_word or token[0] != src_word[0].lower():
+                continue
+                
+            score = mask_probs[idx].item()
+            agg_scores[token] = agg_scores.get(token, 0.0) + score # Sum probabilities
 
-        prev = agg_scores.get(token)
-        if prev is None or val > prev:
-            agg_scores[token] = val
-
+    # 6. Filter and sort the *final* aggregated scores
     sorted_items = sorted(agg_scores.items(), key=lambda x: x[1], reverse=True)
+    
     return sorted_items
 
 def read_lines_guess_encoding(path):

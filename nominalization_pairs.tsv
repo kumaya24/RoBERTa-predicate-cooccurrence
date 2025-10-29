@@ -26,7 +26,6 @@ activation	activate
 adaptation	adapt
 addition	add
 addressee	address
-addressee2	address
 adjournment	adjourn
 adjudication	adjudicate
 adjustment	adjust
@@ -92,12 +91,8 @@ approximation	approximate
 arbitration	arbitrate
 argument	argue
 arraignment	arraign
-arrangement1	arrange
-arrangement2	arrange
 arrival	arrive
 ascent	ascend
-aspiration1	aspire
-aspiration2	aspirate
 assassination	assassinate
 assembly	assemble
 assertion	assert
@@ -174,8 +169,6 @@ civilization	civilize
 claim	claim
 clarification	clarify
 classification	classify
-co-operation	co-operate
-co-optation	co-opt
 coercion	coerce
 cogeneration	cogenerate
 cohesion	cohere
@@ -295,8 +288,6 @@ declaration	declare
 decomposition	decompose
 decoration	decorate
 dedication	dedicate
-deduction1	deduct
-deduction2	deduce
 deferment	defer
 defiance	defy
 definition	define
@@ -316,7 +307,6 @@ depiction	depict
 depletion	deplete
 deployment	deploy
 deposition	depose
-deposition2	deposit
 depreciation	depreciate
 depression	depress
 derailment	derail
@@ -399,8 +389,6 @@ dominion	dominate
 donation	donate
 doubt	doubt
 downing	down
-draftee1	draft
-draftee2	draft
 dramatization	dramatize
 driver	drive
 drudgery	drudge
@@ -625,7 +613,6 @@ lender	lend
 lessee	lease
 liberalization	liberalize
 licensee	license
-lift-off	lift
 limitation	limit
 liquidation	liquidate
 list	list
@@ -665,8 +652,6 @@ modernization	modernize
 modification	modify
 modulation	modulate
 mortgagee	mortgage
-motion1	move
-motion2	motion
 motivation	motivate
 movement	move
 multiplication	multiply
@@ -787,9 +772,6 @@ raillery	rail
 rancher	ranch
 range	range
 ratification	ratify
-re-election	re-elect
-re-enactment	re-enact
-re-entry	re-enter
 reaction	react
 reader	read
 readjustment	readjust
@@ -820,8 +802,6 @@ redeployment	redeploy
 redevelopment	redevelop
 rediscovery	rediscover
 reduction	reduce
-referee1	referee
-referee2	refer
 referral	refer
 refinement	refine
 reflection	reflect
@@ -937,7 +917,6 @@ speaker	speak
 specialization	specialize
 specification	specify
 speculation	speculate
-spin-off	spin
 spinoff	spin
 spinout	spin
 stabilization	stabilize
@@ -969,7 +948,6 @@ survivor	survive
 suspension	suspend
 suspicion	suspect
 syndication	syndicate
-take-off	take
 takeoff	take
 takeout	take
 takeover	take
