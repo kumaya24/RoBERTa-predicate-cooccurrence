@@ -1,9 +1,16 @@
-from transformers import RobertaTokenizer, RobertaForMaskedLM
+from transformers import (
+    RobertaTokenizer, 
+    RobertaForMaskedLM,
+    T5Tokenizer,
+    T5ForConditionalGeneration
+)
 import argparse, torch, random
 from typing import List, Tuple, Dict
 import csv 
 import os 
 from nom_prompts import TEMPLATE_OPTIONS
+from collections import Counter
+import string
 
 TSV_FILE_PATH = "nominalization_pairs.tsv"
 
@@ -16,9 +23,8 @@ argparser.add_argument("input", help="Input file with one source word per line")
 argparser.add_argument("template_option", choices=list(TEMPLATE_OPTIONS.keys()),
                        help="Choose a template option (e.g. nom_vintran)")
 
-argparser.add_argument("--model", type=str, default="roberta-base",
-                       choices=["roberta-base"],
-                       help="The name of the baseline model (e.g., roberta-base).")
+argparser.add_argument("--model", type=str, choices=['roberta', 't5'], required=True,
+                       help="The model architecture to use.")
 
 argparser.add_argument("--ft", action="store_true", default=False,
                        help="If set, loads the fine-tuned version of the model.")
@@ -37,16 +43,15 @@ argparser.add_argument("-n", "--num", type=int, default=10,
 
 args = argparser.parse_args()
 
+model_name = 'roberta-base' if args.model == 'roberta' else 't5-base'
 
 def construct_model_path(args) -> str:
-    model_path = args.model 
+    model_path = model_name 
 
     if args.ft:
         template_key = args.template_option
-        baseline_name = args.model
         
-        # NOTE: This string must EXACTLY match the output directory of run_ft.py
-        ft_path = f"{baseline_name.split('-')[0]}_{template_key}_{baseline_name}_soft_finetuned"
+        ft_path = f"{args.template_option}_{model_name}_finetuned"
         
         if os.path.isdir(ft_path):
              model_path = ft_path
@@ -56,18 +61,24 @@ def construct_model_path(args) -> str:
              
     return model_path
 
-def load_mlm_model(model_name_or_path: str, baseline_name: str, device: torch.device):
-    tokenizer = RobertaTokenizer.from_pretrained(baseline_name)
-    
-    model = RobertaForMaskedLM.from_pretrained(model_name_or_path)
+def load_model(model_name_or_path: str, model_type: str, device: torch.device):
+    if model_type == 'roberta':
+        tokenizer = RobertaTokenizer.from_pretrained(model_name_or_path) # <--- FIX
+        model = RobertaForMaskedLM.from_pretrained(model_name_or_path)
+    elif model_type == 't5':
+        tokenizer = T5Tokenizer.from_pretrained(model_name_or_path) # <--- FIX
+        model = T5ForConditionalGeneration.from_pretrained(model_name_or_path)
+    else:
+        raise ValueError(f"Unknown model_type: {model_type}")
+        
     model.to(device)
     model.eval()
     
-    print(f"INFO: Model successfully loaded: {model_name_or_path}")
+    print(f"{model_type} model successfully loaded: {model_name_or_path}")
     return tokenizer, model
 
 MODEL_PATH_TO_USE = construct_model_path(args)
-tokenizer, model = load_mlm_model(MODEL_PATH_TO_USE, args.model, device)
+tokenizer, model = load_model(MODEL_PATH_TO_USE, args.model, device)
 
 def load_and_reorder_pairs(input_filename: str) -> List[Tuple[str, str]]:
     reordered_pairs = []
@@ -80,7 +91,7 @@ def load_and_reorder_pairs(input_filename: str) -> List[Tuple[str, str]]:
                     nominalization = row[0].strip()
                     verb = row[1].strip()
                     reordered_pairs.append((verb, nominalization))
-        print(f"INFO: Successfully loaded {len(reordered_pairs)} pairs from {input_filename}.")
+        print(f"Loaded {len(reordered_pairs)} pairs from {input_filename}.")
         return reordered_pairs
     except FileNotFoundError:
         print(f"WARNING: The file '{input_filename}' was not found. Few-shot examples will be empty.")
@@ -117,21 +128,16 @@ def create_few_shot_prompt(src_word, templates, k_shot, choice):
     
     return full_prompt
 
-# --- [NEW function for word1mask1.py] ---
-
-def predict_candidates(src_word, templates, top_k, choice, k_shot, show_scores=False):
+def predict_candidates_roberta(src_word, templates, top_k, k_shot, show_scores=False):
     
-    # 1. Determine K (0 for FT model, user-specified for baseline)
     k_to_use = 0 if args.ft else k_shot
 
-    # 2. Prepare few-shot demos (if needed)
     demo_prompts = []
     if k_to_use > 0:
         available_demos = [(v, n) for v, n in NOMINALIZATION_DEMOS.items() if v != src_word]
         if len(available_demos) > 0:
             selected_demos = random.sample(available_demos, min(k_to_use, len(available_demos)))
             
-            # Use the *first* template for all demos for consistency
             demo_template = templates[0] 
             for verb, noun in selected_demos:
                 demo_prompt = demo_template.replace("{w}", verb).replace(tokenizer.mask_token, noun)
@@ -139,15 +145,12 @@ def predict_candidates(src_word, templates, top_k, choice, k_shot, show_scores=F
     
     demo_string = " ".join(demo_prompts)
     
-    # 3. Aggregate scores across ALL templates
     agg_scores = {}
     
     for query_template in templates:
         
-        # 4. Construct the full prompt for *this* template
         final_query = query_template.replace("{w}", src_word).replace("<mask>", tokenizer.mask_token)
         
-        # Combine demos (if any) with the current query
         full_prompt_components = demo_prompts + [final_query]
         sent = " ".join(full_prompt_components)
         
@@ -158,33 +161,88 @@ def predict_candidates(src_word, templates, top_k, choice, k_shot, show_scores=F
             print(f"WARNING: No mask found in prompt: {sent}")
             continue
         
-        # Always get the *last* mask token (the one from the query)
         mask_idx = mask_positions[-1].item() 
 
         with torch.no_grad():
             logits = model(**model_input).logits
         
-        # Get logits at the mask position and convert to probabilities
         mask_logits = logits[0, mask_idx]
-        mask_probs = torch.softmax(mask_logits, dim=0) # Use probs for aggregation
+        mask_probs = torch.softmax(mask_logits, dim=0) 
         
-        # 5. Add this template's scores to the aggregate dictionary
         for idx in range(mask_probs.size(0)):
             token = tokenizer.decode(idx).strip().lower()
             
-            # Simple filtering
             if not token.isalpha() or len(token) < 2:
                 continue
             if not token or not src_word or token[0] != src_word[0].lower():
                 continue
                 
             score = mask_probs[idx].item()
-            agg_scores[token] = agg_scores.get(token, 0.0) + score # Sum probabilities
+            agg_scores[token] = agg_scores.get(token, 0.0) + score 
 
-    # 6. Filter and sort the *final* aggregated scores
     sorted_items = sorted(agg_scores.items(), key=lambda x: x[1], reverse=True)
     
     return sorted_items
+
+def predict_candidates_t5(src_word, templates, top_k, k_shot, show_scores=False):
+    
+    k_to_use = 0 if args.ft else k_shot
+    demo_prompts = []
+    
+    if k_to_use > 0:
+        available_demos = [(v, n) for v, n in NOMINALIZATION_DEMOS.items() if v != src_word]
+        if len(available_demos) > 0:
+            selected_demos = random.sample(available_demos, min(k_to_use, len(available_demos)))
+            demo_template = templates[0] 
+            for verb, noun in selected_demos:
+                demo_prompt = demo_template.replace("{w}", verb).replace("<mask>", noun)
+                demo_prompts.append(demo_prompt)
+    
+    all_generated_candidates = []
+    num_beams = max(10, top_k) 
+    
+    for query_template in templates:
+        final_query = query_template.replace("{w}", src_word).replace("<mask>", "<extra_id_0>")
+        
+        full_prompt_components = demo_prompts + [final_query]
+        sent = " ".join(full_prompt_components)
+        
+        model_input = tokenizer(sent, return_tensors="pt").to(device)
+        
+        with torch.no_grad():
+            outputs = model.generate(
+                **model_input,
+                num_beams=num_beams,
+                num_return_sequences=num_beams,
+                max_length=10 
+            )
+        
+        candidates = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+        
+        translator = str.maketrans('', '', string.punctuation)
+
+        for cand in candidates:
+            # 1. Clean punctuation and extra whitespace
+            cleaned_cand = cand.strip().lower().translate(translator)
+            
+            # 2. Split into a list of words
+            words = cleaned_cand.split()
+
+            # 3. Check if the list is NOT empty
+            if words: 
+                # Take the last word
+                final_word = words[-1]
+                
+                # 4. Now apply the filter
+                if final_word.isalpha() and len(final_word) > 1:
+                    all_generated_candidates.append(final_word)
+
+    candidate_counts = Counter(all_generated_candidates)
+    
+    sorted_items = sorted(candidate_counts.items(), key=lambda x: x[1], reverse=True)
+    
+    return sorted_items
+
 
 def read_lines_guess_encoding(path):
     raw = open(path, "rb").read()
@@ -198,18 +256,25 @@ def read_lines_guess_encoding(path):
     return [line.strip() for line in text.splitlines() if line.strip()]
 
 templates = TEMPLATE_OPTIONS[args.template_option]
-
 words = read_lines_guess_encoding(args.input)
 out_lines = []
 
 for w in words:
-    candidates = predict_candidates(w, templates, args.num, args.template_option, args.k_shot, show_scores=args.scores)
+    
+    if args.model == 'roberta':
+        candidates = predict_candidates_roberta(w, templates, args.num, args.k_shot, show_scores=args.scores)
+    else: # t5
+        candidates = predict_candidates_t5(w, templates, args.num, args.k_shot, show_scores=args.scores)
+
     if args.num > 0:
         candidates = candidates[:args.num]
+        
     if args.scores:
-        cand_str = ", ".join([f"{tok}({score:.4f})" for tok, score in candidates])
+        score_label = "score" if args.model == 'roberta' else "freq"
+        cand_str = ", ".join([f"{tok}({score_label}:{score:.4f})" for tok, score in candidates])
     else:
         cand_str = ", ".join([tok for tok, _ in candidates])
+        
     out_lines.append(f"{w}\t{cand_str}")
 
 if args.output:
