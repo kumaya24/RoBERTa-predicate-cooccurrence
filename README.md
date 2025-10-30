@@ -8,7 +8,7 @@ eg. ```python word1mask1.py word_list\vintrans_100.txt nom_vintran -o nominaliza
 ## To finetune the mode
 ### Roberta:
 1. ```python pre-finetuning.py <type-option>```
-    -> output: <type-option>_soft_label_dataset.pt
+    -> output: ```ft_datatset\<type-option>_dataset.pt```
 2. ```python run_ft.py <type-option> --epochs <num> --batch_size <num> --model roberta ```     
 
 ### T5
