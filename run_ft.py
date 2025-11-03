@@ -175,7 +175,7 @@ training_args = TrainingArguments(
     per_device_train_batch_size=args.batch_size,
     save_steps=500,
     logging_steps=100,
-    learning_rate=1e-5, # Kept the 1e-5 learning rate
+    learning_rate=1e-5, 
     do_train=True,
     report_to="none",
     weight_decay=0.0,
@@ -196,7 +196,6 @@ if args.model == 'roberta':
         model.config.mask_token_id = 50264 
         print(f"INFO: RoBERTa Model loaded on {DEVICE}")
 
-        # --- THIS WAS THE MISSING LINE ---
         tokenizer = RobertaTokenizer.from_pretrained(MODEL_NAME) 
 
     except FileNotFoundError:
