@@ -103,7 +103,9 @@ TEMPLATE_OPTIONS = {
         #"They are an <mask> because they {w} something.",
         #"They are the <mask> because they {w} something.",
         # "People who {w} something is identified as a <mask>."
-         "Person who do the action to {w} is identified as a <mask>."
+        # "Person who do the action to {w} is definded as a <mask>."
+        # "Person who does the action to {w} is identified as a <mask>."
+        # "People who {w} is defined as a <mask>."
         # "The person who performs the action of to {w} is identified as a <mask>."
         #"A <mask> is a person who {w} something.",
         #"An <mask> is a person who {w} something.",
@@ -124,10 +126,10 @@ TEMPLATE_OPTIONS = {
         # "<mask> is defined as the person who {w}."
         # "<mask> is the profession that {w} regularly.",
 
-        #"In English, a <mask> is defined as someone who will {w} regularly.",
-        #"In English, an <mask> is defined as someone who will {w} regularly.",
-        #"In English, the <mask> is defined as someone who will {w} regularly.",
-        # "In English, some <mask> is defined as someone who will {w} regularly."
+        "In English, a <mask> is defined as someone who will {w} regularly.",
+        "In English, an <mask> is defined as someone who will {w} regularly.",
+        "In English, the <mask> is defined as someone who will {w} regularly.",
+        "In English, some <mask> is defined as someone who will {w} regularly."
 
         #"A <mask> refers to a person who {w} regularly.",
         #"An <mask> refers to a person who {w} regularly.",
@@ -222,11 +224,13 @@ TEMPLATE_OPTIONS = {
         # "Very <mask> is defined as when something can {w} something."
         # "In English, the sentence that something can {w} something is as same as the sentence that something is very <mask>."
         # "In English, they can {w} something, which also means that something is very <mask>."
-        # "In English, something or someone able to {w} something is defined as being <mask>."
-        "To {w} someone or something is defined as the causation of them to be <mask> someone or something."
+        # "In English, someone able to {w} something and it is defined as being <mask>."
+        "In English, someone able to {w} something and it is defined as very <mask>."
+        
+        #"To {w} someone or something is defined as the causation of them to be <mask> someone or something."
     ],
     
-    ##### Causative
+    ##### Causative(unergative)
     "causative_vintran": [
         #"In English, for someone or something to <mask> someone or something is defined as to cause it to {w}.",
         # "Someone or something to <mask> someone or something causes the someone or something else to {w}."

@@ -15,7 +15,7 @@ from torch.utils.data import Dataset
 from typing import List, Dict
 import torch.utils.data.dataloader
 import csv
-
+from multiprocessing import freeze_support 
 from nom_prompts import TEMPLATE_OPTIONS 
 
 class SoftLabelDataset(Dataset):
@@ -103,8 +103,8 @@ class Seq2SeqDataset(Dataset):
             item['input_text'],
             max_length=self.max_len,
             padding="max_length",
-            truncation=True,
-            return_tensors="pt"
+            truncation=True
+            # No return_tensors="pt"
         )
         
         # Tokenize Target (Labels)
@@ -112,14 +112,14 @@ class Seq2SeqDataset(Dataset):
             item['target_text'],
             max_length=self.max_len, 
             padding="max_length",
-            truncation=True,
-            return_tensors="pt"
+            truncation=True
+            # No return_tensors="pt"
         )
 
         return {
-            'input_ids': tokenized_input['input_ids'].squeeze(0),
-            'attention_mask': tokenized_input['attention_mask'].squeeze(0),
-            'labels': tokenized_target['input_ids'].squeeze(0)
+            'input_ids': tokenized_input['input_ids'],      # No .squeeze(0)
+            'attention_mask': tokenized_input['attention_mask'],  # No .squeeze(0)
+            'labels': tokenized_target['input_ids']       # No .squeeze(0)
         }
 
 # T5 Data Loading Helper 
@@ -144,118 +144,125 @@ def load_and_reorder_pairs(input_filename: str) -> Dict[str, str]:
         print(f"WARNING: Error loading TSV: {e}. Using empty data.")
         return {}
 
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-DEFAULT_EPOCHS = 20
-DEFAULT_BATCH_SIZE = 16
-TSV_FILE_PATH = "nominalization_pairs.tsv" # For T5
+if __name__ == '__main__':
 
-parser = argparse.ArgumentParser(description="Fine-tune RoBERTa using Soft Labels (KL Divergence).")
+    freeze_support()
 
-parser.add_argument("template_option", choices=list(TEMPLATE_OPTIONS.keys()),
-                    help="Choose the template key used to generate the dataset (e.g., nom_vintran).")
-parser.add_argument("--model", type=str, choices=['roberta', 't5'], required=True,
-                    help="Model we are choosing to use (roberta-base).")
-parser.add_argument("--epochs", type=int, default=DEFAULT_EPOCHS, help="Number of training epochs.")
-parser.add_argument("--batch_size", type=int, default=DEFAULT_BATCH_SIZE, help="Training batch size per device.")
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+    DEFAULT_EPOCHS = 20
+    DEFAULT_BATCH_SIZE = 16
+    TSV_FILE_PATH = "nominalization_pairs.tsv" # For T5
 
-args = parser.parse_args()
+    parser = argparse.ArgumentParser(description="Fine-tune RoBERTa using Soft Labels (KL Divergence).")
 
-TEMPLATE_KEY_TO_USE = args.template_option 
-if args.model == 'roberta':
-    MODEL_NAME = 'roberta-base'
-else:
-    MODEL_NAME = 't5-base'
+    parser.add_argument("template_option", choices=list(TEMPLATE_OPTIONS.keys()),
+                        help="Choose the template key used to generate the dataset (e.g., nom_vintran).")
+    parser.add_argument("--model", type=str, choices=['roberta', 't5'], required=True,
+                        help="Model we are choosing to use (roberta-base).")
+    parser.add_argument("--epochs", type=int, default=DEFAULT_EPOCHS, help="Number of training epochs.")
+    parser.add_argument("--batch_size", type=int, default=DEFAULT_BATCH_SIZE, help="Training batch size per device.")
 
-DATASET_FILE_PATH = f"ft_dataset/{TEMPLATE_KEY_TO_USE}_dataset.pt"
-OUTPUT_DIR = f"{TEMPLATE_KEY_TO_USE}_{MODEL_NAME}_finetuned"
+    args = parser.parse_args()
 
-training_args = TrainingArguments(
+    TEMPLATE_KEY_TO_USE = args.template_option 
+    if args.model == 'roberta':
+        MODEL_NAME = 'roberta-base'
+    else:
+        MODEL_NAME = 'google/flan-t5-base'
+
+    DATASET_FILE_PATH = f"ft_dataset/{TEMPLATE_KEY_TO_USE}_dataset.pt"
+    OUTPUT_DIR = f"{TEMPLATE_KEY_TO_USE}_{MODEL_NAME}_finetuned"
+
+    training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     num_train_epochs=args.epochs,
     per_device_train_batch_size=args.batch_size,
+    gradient_accumulation_steps=4,              
     save_steps=500,
     logging_steps=100,
     learning_rate=1e-5, 
     do_train=True,
     report_to="none",
-    weight_decay=0.0,
+    weight_decay=0.01,
     use_cpu=False,
     no_cuda=False,
+    dataloader_num_workers=4
 )
 
-if args.model == 'roberta':
-    # Roberta
-    
-    DATASET_FILE_PATH = f"ft_dataset/{TEMPLATE_KEY_TO_USE}_dataset.pt" 
-    print(f"Loading RoBERTa data from: {DATASET_FILE_PATH}")
-    
-    try:
-        soft_data_dict = torch.load(DATASET_FILE_PATH, weights_only=False)
-        train_dataset = SoftLabelDataset(soft_data_dict)
-        model = RobertaForMaskedLM.from_pretrained(MODEL_NAME).to(DEVICE)
-        model.config.mask_token_id = 50264 
-        print(f"INFO: RoBERTa Model loaded on {DEVICE}")
+    if args.model == 'roberta':
+        # Roberta
+        
+        DATASET_FILE_PATH = f"ft_dataset/{TEMPLATE_KEY_TO_USE}_dataset.pt" 
+        print(f"Loading RoBERTa data from: {DATASET_FILE_PATH}")
+        
+        try:
+            soft_data_dict = torch.load(DATASET_FILE_PATH, weights_only=False)
+            train_dataset = SoftLabelDataset(soft_data_dict)
+            model = RobertaForMaskedLM.from_pretrained(MODEL_NAME).to(DEVICE)
+            model.config.mask_token_id = 50264 
+            print(f"INFO: RoBERTa Model loaded on {DEVICE}")
 
-        tokenizer = RobertaTokenizer.from_pretrained(MODEL_NAME) 
+            tokenizer = RobertaTokenizer.from_pretrained(MODEL_NAME) 
 
-    except FileNotFoundError:
-        print(f"ERROR: Soft-label dataset file not found at {DATASET_FILE_PATH}.")
-        print("Please run pre-finetuning.py first for the roberta model.")
-        exit()
+        except FileNotFoundError:
+            print(f"ERROR: Soft-label dataset file not found at {DATASET_FILE_PATH}.")
+            print("Please run pre-finetuning.py first for the roberta model.")
+            exit()
 
-    training_args.remove_unused_columns = False 
+        training_args.remove_unused_columns = False 
 
-    trainer = KLTrainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_dataset,
-        data_collator=soft_label_data_collator,
-        tokenizer=tokenizer
-    )
+        trainer = KLTrainer(
+            model=model,
+            args=training_args,
+            train_dataset=train_dataset,
+            data_collator=soft_label_data_collator,
+            tokenizer=tokenizer
+        )
 
-else: 
-    # T5
-    tokenizer = T5Tokenizer.from_pretrained(MODEL_NAME)
-    model = T5ForConditionalGeneration.from_pretrained(MODEL_NAME).to(DEVICE)
+    else: 
+        # T5
+        tokenizer = T5Tokenizer.from_pretrained(MODEL_NAME)
+        model = T5ForConditionalGeneration.from_pretrained(MODEL_NAME).to(DEVICE)
 
-    print(f"Loading raw pairs from: {TSV_FILE_PATH}")
-    nominalization_pairs = load_and_reorder_pairs(TSV_FILE_PATH)
-    templates = TEMPLATE_OPTIONS.get(TEMPLATE_KEY_TO_USE)
-    
-    if not templates:
-        print(f"ERROR: Template key '{TEMPLATE_KEY_TO_USE}' not found in nom_prompts.py")
-        exit()
+        print(f"Loading raw pairs from: {TSV_FILE_PATH}")
+        nominalization_pairs = load_and_reorder_pairs(TSV_FILE_PATH)
+        
+        templates = TEMPLATE_OPTIONS.get(TEMPLATE_KEY_TO_USE)
+        
+        if not templates:
+            print(f"ERROR: Template key '{TEMPLATE_KEY_TO_USE}' not found in nom_prompts.py")
+            exit()
 
-    # Create the T5-formatted dataset
-    seq2seq_data = []
-    for verb, target_noun in nominalization_pairs.items():
-        for template in templates:
-            input_text = template.replace("{w}", verb).replace("<mask>", "<extra_id_0>")
-            
-            target_text = target_noun
-            
-            seq2seq_data.append({
-                'input_text': input_text,
-                'target_text': target_text
-            })
-            
-    train_dataset = Seq2SeqDataset(seq2seq_data, tokenizer)
-    
-    # Seq2Seq collator
-    data_collator = DataCollatorForSeq2Seq(
-        tokenizer=tokenizer,
-        model=model
-    )
-    
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_dataset,
-        data_collator=data_collator,
-        tokenizer=tokenizer
-    )
+        # Create the T5-formatted dataset
+        seq2seq_data = []
+        for verb, target_noun in nominalization_pairs.items():
+            for template in templates:
+                input_text = template.replace("{w}", verb).replace("<mask>", "<extra_id_0>")
+                
+                target_text = target_noun
+                
+                seq2seq_data.append({
+                    'input_text': input_text,
+                    'target_text': target_text
+                })
+                
+        train_dataset = Seq2SeqDataset(seq2seq_data, tokenizer)
+        
+        # Seq2Seq collator
+        data_collator = DataCollatorForSeq2Seq(
+            tokenizer=tokenizer,
+            model=model
+        )
+        
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=train_dataset,
+            data_collator=data_collator,
+            tokenizer=tokenizer
+        )
 
-trainer.train()
+    trainer.train()
 
-trainer.save_model(OUTPUT_DIR)
-print(f"\n Model saved to '{OUTPUT_DIR}'.")
+    trainer.save_model(OUTPUT_DIR)
+    print(f"\n Model saved to '{OUTPUT_DIR}'.")

@@ -222,18 +222,12 @@ def predict_candidates_t5(src_word, templates, top_k, k_shot, show_scores=False)
         translator = str.maketrans('', '', string.punctuation)
 
         for cand in candidates:
-            # 1. Clean punctuation and extra whitespace
             cleaned_cand = cand.strip().lower().translate(translator)
-            
-            # 2. Split into a list of words
             words = cleaned_cand.split()
 
-            # 3. Check if the list is NOT empty
             if words: 
-                # Take the last word
                 final_word = words[-1]
                 
-                # 4. Now apply the filter
                 if final_word.isalpha() and len(final_word) > 1:
                     all_generated_candidates.append(final_word)
 
