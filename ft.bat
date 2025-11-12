@@ -11,10 +11,10 @@ REM ====================================================================
 REM --- CONFIGURATION: Set the lists of values you want to test ---
 
 REM Define the different task types
-set TYPE_OPTIONS=agent_vintran agent_vtran evt_vintran ect_vtran participleAdj_vintran participleAdj_vtran
+set TYPE_OPTIONS=agent_vintran agent_vtran evt_vintran evt_vtran participleAdj_vintran participleAdj_vtran
 
 REM Define the number of epochs to run
-set EPOCHS=10
+set EPOCHS=6
 
 REM Define the batch sizes
 set BATCH_SIZES=8

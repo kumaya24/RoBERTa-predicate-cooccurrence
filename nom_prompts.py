@@ -103,9 +103,12 @@ TEMPLATE_OPTIONS = {
         #"They are an <mask> because they {w} something.",
         #"They are the <mask> because they {w} something.",
         # "People who {w} something is identified as a <mask>."
-        # "Person who do the action to {w} is definded as a <mask>."
+        "A person who does the action to eat is defined as an eater. A person who does the action to advise is defined as an advisor. A person who does the action to announce is defined as an announcer. A person who does the action to create is defined as a creator. A person who does the action to respond is defined as a respondent. A person who does the action to box is defined as an boxer. A person who does the action to {w} is defined as a <mask>.",
+        
+        # "A person who does the action to {w} is defined as an <mask>."
         # "Person who does the action to {w} is identified as a <mask>."
-        # "People who {w} is defined as a <mask>."
+        #"People who {w} is defined as a <mask>."
+        # "In English, People whose characteristics is to {w} is defined as a <mask>."
         # "The person who performs the action of to {w} is identified as a <mask>."
         #"A <mask> is a person who {w} something.",
         #"An <mask> is a person who {w} something.",
@@ -126,10 +129,11 @@ TEMPLATE_OPTIONS = {
         # "<mask> is defined as the person who {w}."
         # "<mask> is the profession that {w} regularly.",
 
-        "In English, a <mask> is defined as someone who will {w} regularly.",
-        "In English, an <mask> is defined as someone who will {w} regularly.",
-        "In English, the <mask> is defined as someone who will {w} regularly.",
-        "In English, some <mask> is defined as someone who will {w} regularly."
+        #"In English, a <mask> is defined as someone who will {w} regularly.",
+        #"In English, an <mask> is defined as someone who will {w} regularly.",
+        #"In English, the <mask> is defined as someone who will {w} regularly.",
+        #"In English, some <mask> is defined as someone who will {w} regularly."
+        # "People who {w} regularly is technically as known as the <mask>."
 
         #"A <mask> refers to a person who {w} regularly.",
         #"An <mask> refers to a person who {w} regularly.",
